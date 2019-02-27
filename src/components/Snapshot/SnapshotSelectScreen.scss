@@ -1,0 +1,21 @@
+.snapshot-select-screen {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  animation-duration: 1s;
+  animation-name: fadein;
+
+  .logo {
+    width: 227px;
+  }
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+}

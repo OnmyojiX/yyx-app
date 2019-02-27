@@ -1,0 +1,14 @@
+$space: 8px;
+
+.yyx-space-h {
+  margin-right: $space;
+}
+
+table.yyx-prop-table {
+  tbody tr:first-child {
+    th,
+    td {
+      box-shadow: none;
+    }
+  }
+}
