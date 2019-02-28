@@ -1,5 +1,7 @@
 import { IAction, IDispatch } from "../../store";
 import { HttpClient } from "../http";
+import { Player, PlayerCurrency } from "../../interfaces";
+import { HeroActions } from "../hero";
 
 export interface ISnapshotInfo {
   version: string;
@@ -8,6 +10,8 @@ export interface ISnapshotInfo {
   hero_equips: number;
   hero_equip_presets: number;
   hero_book_shards: number;
+  player: Player;
+  currency: PlayerCurrency;
 }
 
 export interface IState {
@@ -45,9 +49,12 @@ export const SnapshotActions = {
     };
   },
   resetCurrent() {
-    return {
-      type: ActionType.SetCurrent,
-      payload: null
+    return (dispatch: IDispatch) => {
+      dispatch(HeroActions.clear());
+      dispatch({
+        type: ActionType.SetCurrent,
+        payload: null
+      });
     };
   },
   loadCurrent() {

@@ -4,7 +4,8 @@ import { connect } from "react-redux";
 import { Hero } from "../../interfaces";
 import { IYyxState, IDispatch } from "../../store";
 import { HeroActions } from "../../modules/hero";
-import { Spinner } from "@blueprintjs/core";
+import { Spinner, Callout } from "@blueprintjs/core";
+import { HeroGrid } from "./HeroGrid";
 
 const Render: SFC<{
   heroes: Hero[] | null;
@@ -28,21 +29,19 @@ const Render: SFC<{
     return <Spinner />;
   }
 
+  if (error) {
+    return (
+      <Callout title="读取式神数据失败" intent="danger">
+        {error.message}
+      </Callout>
+    );
+  }
+
   if (!props.heroes) {
     return null;
   }
 
-  return (
-    <ul>
-      {props.heroes.map(h => {
-        return (
-          <li style={{ float: "left" }} key={h.id}>
-            <img src={`/res/hero/${h.hero_id}.png`} />
-          </li>
-        );
-      })}
-    </ul>
-  );
+  return <HeroGrid items={props.heroes} />;
 };
 
 export const HeroPage = connect(

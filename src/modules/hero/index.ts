@@ -27,6 +27,12 @@ export function reducer(state = initialState, action: IAction<ActionType>) {
 }
 
 export const HeroActions = {
+  clear() {
+    return {
+      type: ActionType.Loaded,
+      payload: null
+    };
+  },
   load() {
     return async (dispatch: IDispatch<ActionType>) => {
       dispatch({

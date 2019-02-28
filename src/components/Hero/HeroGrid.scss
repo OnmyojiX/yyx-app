@@ -1,0 +1,101 @@
+$rarity-border-color: (
+  sp: #e74e4b,
+  ssr: #f8d26b,
+  sr: #bc86f6,
+  r: #79baf2,
+  n: #999999
+);
+
+.hero-grid {
+  .hero-grid-container {
+    overflow: hidden;
+
+    .hero-grid-item {
+      float: left;
+      width: 96px;
+      height: 96px;
+      border: 3px solid #999;
+      margin: 3px;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        border: 4px solid #999;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+      }
+
+      > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+
+      .level {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        width: 20px;
+        height: 20px;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+        &::before {
+          content: "";
+          position: absolute;
+          left: 10%;
+          top: 10%;
+          width: 80%;
+          height: 80%;
+          border: 1px solid #9d5b0b;
+          background: #4b322c;
+          transform: rotate(45deg);
+          z-index: -1;
+        }
+      }
+
+      .star-level {
+        position: absolute;
+        bottom: 0;
+        height: 16px;
+        width: 100%;
+        text-align: center;
+        padding: 2px 0 0 0;
+      }
+
+      .awake {
+        position: absolute;
+        bottom: 20px;
+        right: 4px;
+        background: #aa39c6;
+        color: #fff;
+      }
+
+      @each $rarity in map-keys($rarity-border-color) {
+        &.rarity-#{$rarity} {
+          $color: map-get($rarity-border-color, $rarity);
+
+          border-color: $color;
+
+          .star-level {
+            background: rgba($color, 0.6);
+          }
+
+          &::before {
+            border-color: $color;
+          }
+        }
+      }
+    }
+  }
+}
