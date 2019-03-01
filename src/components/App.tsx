@@ -5,34 +5,9 @@ import { connect } from "react-redux";
 import { IYyxState } from "../store";
 
 import { Main } from "./Main/Main";
-import { OverviewPage } from "./Overview/OverviewPage";
-import { HeroPage } from "./Hero/HeroPage";
 import { SnapshotSelectScreen } from "./Snapshot/SnapshotSelectScreen";
 
 import { SnapshotActions, ISnapshotInfo } from "../modules/snapshot";
-
-const routes = [
-  {
-    path: "/",
-    component: OverviewPage,
-    label: "概况"
-  },
-  {
-    path: "/hero",
-    component: HeroPage,
-    label: "式神"
-  },
-  {
-    path: "/hero-equip",
-    component: HeroPage,
-    label: "御魂"
-  },
-  {
-    path: "/about",
-    component: HeroPage,
-    label: "关于"
-  }
-];
 
 const AppRender: SFC<{
   snapshot: ISnapshotInfo | null;
@@ -46,7 +21,7 @@ const AppRender: SFC<{
   let main;
 
   if (props.snapshot) {
-    main = <Main routes={routes} />;
+    main = <Main />;
   } else {
     main = <SnapshotSelectScreen />;
   }

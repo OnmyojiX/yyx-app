@@ -6,6 +6,7 @@ import { IYyxState, IDispatch } from "../../store";
 import { HeroActions } from "../../modules/hero";
 import { Spinner, Callout } from "@blueprintjs/core";
 import { HeroGrid } from "./HeroGrid";
+import { HeroDetailOverlay } from "./HeroDetailOverlay";
 
 const Render: SFC<{
   heroes: Hero[] | null;
@@ -13,6 +14,7 @@ const Render: SFC<{
 }> = props => {
   const [error, setError] = useState<Error | null>(null);
   const [loading, setLoading] = useState(false);
+  const [activeHero, setActiveHero] = useState<Hero | null>(null);
   useEffect(() => {
     if (!props.heroes) {
       setLoading(true);
@@ -41,7 +43,18 @@ const Render: SFC<{
     return null;
   }
 
-  return <HeroGrid items={props.heroes} />;
+  return (
+    <>
+      <HeroDetailOverlay
+        hero={activeHero}
+        onClose={() => setActiveHero(null)}
+      />
+      <HeroGrid
+        items={props.heroes}
+        onClickHero={hero => setActiveHero(hero)}
+      />
+    </>
+  );
 };
 
 export const HeroPage = connect(

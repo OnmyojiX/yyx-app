@@ -21,17 +21,30 @@ import {
   withRouter
 } from "react-router-dom";
 import { YyxStore } from "../../store";
-import { SnapshotActions } from "../../modules/snapshot";
+import { SnapshotActions, ISnapshotInfo } from "../../modules/snapshot";
+import { OverviewPage } from "../Overview/OverviewPage";
+import { HeroPage } from "../Hero/HeroPage";
+import { SnapshotInfo } from "../Snapshot/SnapshotInfo";
 
-export interface MainProps {
-  routes: Array<{
-    path: string;
-    label: string;
-    component: SFC | ComponentClass;
-  }>;
-}
+const routes = [
+  {
+    path: "/",
+    component: OverviewPage,
+    renderLabel: () => "概况"
+  },
+  {
+    path: "/hero",
+    component: HeroPage,
+    renderLabel: (snapshot: ISnapshotInfo) => `式神 (${snapshot.heroes})`
+  },
+  {
+    path: "/equip",
+    component: HeroPage,
+    renderLabel: (snapshot: ISnapshotInfo) => `御魂 (${snapshot.hero_equips})`
+  }
+];
 
-const Render: SFC<MainProps & RouteComponentProps> = props => {
+const Render: SFC<RouteComponentProps> = props => {
   const path = props.location.pathname;
   return (
     <main>
@@ -41,17 +54,22 @@ const Render: SFC<MainProps & RouteComponentProps> = props => {
             <img className="logo" src={logo} />
           </a>
           <NavbarDivider />
-          <ButtonGroup>
-            {props.routes.map((route, i) => (
-              <Link key={i} to={route.path}>
-                <Button
-                  className={Classes.MINIMAL}
-                  active={path === route.path}
-                  text={route.label}
-                />
-              </Link>
-            ))}
-          </ButtonGroup>
+          <SnapshotInfo
+            render={info =>
+              info && (
+                <ButtonGroup>
+                  {routes.map((r, i) => (
+                    <Button
+                      key={i}
+                      onClick={() => props.history.push(r.path)}
+                      active={path === r.path}
+                      text={r.renderLabel(info)}
+                    />
+                  ))}
+                </ButtonGroup>
+              )
+            }
+          />
         </NavbarGroup>
         <NavbarGroup align={Alignment.RIGHT}>
           <span className="bp3-text-muted">{pkg.version}</span>
@@ -67,7 +85,7 @@ const Render: SFC<MainProps & RouteComponentProps> = props => {
         </NavbarGroup>
       </Navbar>
       <div className="yyx-container">
-        {props.routes.map((route, i) => (
+        {routes.map((route, i) => (
           <Route
             key={i}
             path={route.path}
@@ -82,7 +100,7 @@ const Render: SFC<MainProps & RouteComponentProps> = props => {
 
 const LayoutImpl = withRouter(Render);
 
-export const Main: SFC<MainProps> = props => {
+export const Main: SFC = props => {
   return (
     <Router>
       <LayoutImpl {...props} />

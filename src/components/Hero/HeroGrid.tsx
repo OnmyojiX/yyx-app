@@ -7,6 +7,7 @@ import { Stars, StarType } from "../Common/Star";
 
 export interface HeroGridProps {
   items: Hero[];
+  onClickHero: (hero: Hero) => void;
 }
 
 const getStarType = (h: Hero) => {
@@ -19,7 +20,7 @@ const getStarType = (h: Hero) => {
   }
 };
 
-const renderItem = (h: Hero) => {
+const renderItem = (props: HeroGridProps, h: Hero) => {
   return (
     <div
       className={classNames(
@@ -27,7 +28,7 @@ const renderItem = (h: Hero) => {
         `rarity-${h.rarity.toLowerCase()}`
       )}
       key={h.id}
-      onClick={() => console.log(h)}
+      onClick={() => props.onClickHero(h)}
     >
       <img src={`/res/hero/${h.hero_id}.png`} />
       <div className="level">{h.level === HERO_MAX_LEVEL ? "满" : h.level}</div>
@@ -42,7 +43,9 @@ const renderItem = (h: Hero) => {
 export const HeroGrid: SFC<HeroGridProps> = props => {
   return (
     <div className="hero-grid">
-      <div className="hero-grid-container">{props.items.map(renderItem)}</div>
+      <div className="hero-grid-container">
+        {props.items.map(i => renderItem(props, i))}
+      </div>
     </div>
   );
 };
