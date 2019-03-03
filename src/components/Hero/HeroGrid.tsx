@@ -1,50 +1,28 @@
 import React, { SFC } from "react";
 import "./HeroGrid.scss";
-import { Hero, HeroRarity } from "../../interfaces";
+import { IHero, HeroRarity } from "../../interfaces";
 import classNames from "classnames";
 import { HERO_MAX_LEVEL } from "../../constants";
 import { Stars, StarType } from "../Common/Star";
+import { HeroIcon } from "./HeroIcon";
 
 export interface HeroGridProps {
-  items: Hero[];
-  onClickHero: (hero: Hero) => void;
+  items: IHero[];
+  onClickHero: (hero: IHero) => void;
 }
-
-const getStarType = (h: Hero) => {
-  if (h.rarity === HeroRarity.N) {
-    return StarType.Blue;
-  } else if (h.rarity === HeroRarity.SP) {
-    return StarType.Purple;
-  } else {
-    return h.awake > 0 ? StarType.Purple : StarType.Orange;
-  }
-};
-
-const renderItem = (props: HeroGridProps, h: Hero) => {
-  return (
-    <div
-      className={classNames(
-        "hero-grid-item",
-        `rarity-${h.rarity.toLowerCase()}`
-      )}
-      key={h.id}
-      onClick={() => props.onClickHero(h)}
-    >
-      <img src={`/res/hero/${h.hero_id}.png`} />
-      <div className="level">{h.level === HERO_MAX_LEVEL ? "满" : h.level}</div>
-      <div className="star-level">
-        <Stars type={getStarType(h)} level={h.star} />
-      </div>
-      {h.awake > 0 && <div className="awake">觉</div>}
-    </div>
-  );
-};
 
 export const HeroGrid: SFC<HeroGridProps> = props => {
   return (
     <div className="hero-grid">
       <div className="hero-grid-container">
-        {props.items.map(i => renderItem(props, i))}
+        {props.items.map(i => (
+          <HeroIcon
+            key={i.id}
+            className="hero-grid-item"
+            hero={i}
+            onClickHero={props.onClickHero}
+          />
+        ))}
       </div>
     </div>
   );

@@ -42,5 +42,5 @@ for (let i = 0; i < 6; i++) {
 }
 
 export const Stars: SFC<StarProps & { level: number }> = props => {
-  return <>{Elements[props.type][props.level - 1]}</>;
+  return <span className="stars">{Elements[props.type][props.level - 1]}</span>;
 };

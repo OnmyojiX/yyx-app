@@ -1,22 +1,11 @@
 import { IAction, IDispatch } from "../../store";
 import { HttpClient } from "../http";
-import { Player, PlayerCurrency } from "../../interfaces";
+import { ISnapshot } from "../../interfaces";
 import { HeroActions } from "../hero";
-
-export interface ISnapshotInfo {
-  version: string;
-  timestamp: string;
-  heroes: number;
-  hero_equips: number;
-  hero_equip_presets: number;
-  hero_book_shards: number;
-  player: Player;
-  currency: PlayerCurrency;
-}
 
 export interface IState {
   currentNotSelected: boolean;
-  current: ISnapshotInfo | null;
+  current: ISnapshot | null;
 }
 
 const initialState: IState = {
@@ -50,7 +39,6 @@ export const SnapshotActions = {
   },
   resetCurrent() {
     return (dispatch: IDispatch) => {
-      dispatch(HeroActions.clear());
       dispatch({
         type: ActionType.SetCurrent,
         payload: null
@@ -61,9 +49,7 @@ export const SnapshotActions = {
     return async (dispatch: IDispatch<ActionType>) => {
       dispatch({
         type: ActionType.SetCurrent,
-        payload: await HttpClient.get("/api/snapshot-info").then(
-          res => res.data
-        )
+        payload: await HttpClient.get("/api/snapshot").then(res => res.data)
       });
     };
   }

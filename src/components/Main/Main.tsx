@@ -21,10 +21,11 @@ import {
   withRouter
 } from "react-router-dom";
 import { YyxStore } from "../../store";
-import { SnapshotActions, ISnapshotInfo } from "../../modules/snapshot";
+import { SnapshotActions } from "../../modules/snapshot";
 import { OverviewPage } from "../Overview/OverviewPage";
 import { HeroPage } from "../Hero/HeroPage";
 import { SnapshotInfo } from "../Snapshot/SnapshotInfo";
+import { ISnapshot } from "../../interfaces";
 
 const routes = [
   {
@@ -35,12 +36,14 @@ const routes = [
   {
     path: "/hero",
     component: HeroPage,
-    renderLabel: (snapshot: ISnapshotInfo) => `式神 (${snapshot.heroes})`
+    renderLabel: (snapshot: ISnapshot) =>
+      `式神 (${snapshot.data.heroes.length})`
   },
   {
     path: "/equip",
     component: HeroPage,
-    renderLabel: (snapshot: ISnapshotInfo) => `御魂 (${snapshot.hero_equips})`
+    renderLabel: (snapshot: ISnapshot) =>
+      `御魂 (${snapshot.data.hero_equips.length})`
   }
 ];
 
@@ -57,7 +60,7 @@ const Render: SFC<RouteComponentProps> = props => {
           <SnapshotInfo
             render={info =>
               info && (
-                <ButtonGroup>
+                <ButtonGroup large>
                   {routes.map((r, i) => (
                     <Button
                       key={i}

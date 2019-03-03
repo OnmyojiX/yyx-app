@@ -1,0 +1,74 @@
+.hero-detail {
+  .icon-name {
+    .icon {
+      flex: 0 0 auto;
+      margin-right: 16px;
+    }
+
+    .name {
+      flex: 1;
+      align-items: flex-start;
+
+      i {
+        margin: 0 4px 0 0;
+      }
+
+      .hero {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .attrs {
+    min-width: 280px;
+    margin-top: 16px;
+    justify-content: space-between;
+
+    i.attr-icon {
+      flex: 0 0 auto;
+
+      $scale: 0.6;
+
+      width: 50px * $scale;
+      height: 44px * $scale;
+
+      background-size: 100% 100%;
+
+      $images: (
+        attack:
+          url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAsCAMAAAAQPRtoAAAAYFBMVEVMaXGyl36yl3+yln+zlHuyl36xln6yl3+3nYfi29bj3diyl3zSwrjg2NLd1Myxl36/qZa6oo3ZzcWyln7VyL+okm3Fr6Cxl37MuKy2g4HEnpubTU2XRkafVlaqa2q9kY4MA0ojAAAAGHRSTlMAxf9cDvDbhf///yj///+o////RP8E/27AkpJSAAACKklEQVR4AXSV8XLCIAyHNXMTIiBlDGlL6/u/5cKIDBG/v3rXy1G+/JIeWo7whuPhDR/wlo9xxekT3vJ1GpacAYTEAVIAnEcVFwBQqM0rqOjVZVByBbCIVkw94NACXF8rvgHonZ8k9qgJHb387it+vgACysnjK1ZhIAM/XckNQGiMAQc4ITUZuL0KjqiFwREhYgT4PPV3n2R+NcQIIycy0Av26ITGBhVmYlEG8wf7TvSxCFZY8fO6psK2x6zFNlEr4TJZ5gO5r6lljpM0bdROJDiSYIfMnHqcVRibqJ2fBSs6YZ631LDne+r/qF1IsMpW/it2lOHpkD/RikRfqmCsgmMiZsSlvQriX89YNIfLce59yqzBtx+mkYiWo8bhwokFP5taM2nBDInmqN2KYFsq7okp/fDO6G3Dgi+ib4dyCCdYtxcozpekkJlKomuE+0PYhkxbE+hyytOg1DuvunZVv4xNO44uMfVjXJpHw3mtmVyaRhT2hAzliftSu5+TX0skFmIKyMRQu18zFmIt2Zf7cr8vS1g3RP2YspqxmmRKxH3N3dtKE0sxNafOck1ynZdovTEondNSakfPmnSwY8fz0k1lt5E4PY67yFPZzX6/9+K6LyzYdrNfNwyJbtH1Qbhuw9Q9ZkjciBgGe4yjFgIOYMG34U7Wwg2XJYdruPmVxZ5shcPVcy2ibWDsA+GH/5f6FzOK8M+8/Yv9jkBdSXKNzMpCUb1PbOuCMgAACFZTgqp6WvEAAAAASUVORK5CYII=),
+        max-hp:
+          url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAsCAMAAAAQPRtoAAAAYFBMVEVMaXGxl36yl3+yln6slXmxln6yl3+5oInh2tTj3diyl3yyl37SxLjd1c2xl3+9ppHBq5S2nITZz8Wxl36yln7HtKHWysDNvKzCrpu2kXqZaCi4mXGidj2pgU6dbjGwjF1WrnYiAAAAGnRSTlMA0v9lB+SF////KPX//7z/////pUT/////E6VkHkcAAAI4SURBVHgBdJXxersqDEC7bBukg4l0gIuK7/+WV9NwwR/2/NuP9uPkhN5a3uAFb7cXvMNL3q9PfHzCSz4/Lo98ASiNF2gF8HV14v4NYFDbHjQA3/dbzw/AgOhUx+hxAHj0J34BwKMZsMMM6AHgt7v7LjigVhF7BoNhF/3RCx41pgmfeGzwStuxE/33DZDQjhYPFM0WG0LCtBv4u7U8ABR/tJNoR/vqm79K/WPgDgAR/TEWvRDRikteUz2TJowAcD8LnviauNGOnWlnwQJrmQB+znFZFqwzUQr0RJ1EW06txsWCD01ptvQ/jQPHojm1GpcIXqkyn0TX1CQuEbzRk0wHsREdmtQeHNeUENkXs8R5CZnWxsBoObUaFwvmIyIrJRwyhZPokhrHxYIPEjFhcyFiptwMVEVJ7YjL1oL5+tl65bawZKKxHokKn6mxYKwF+2P43sxhdjhV0U3R8iuHYWEmyhHnebZ4XGzrgu4WhQNYyNu0OTZturXp19Hx/VMi8d0vJ8+FiygsMkvBSZnNE8DT58EIhk4sWsZSpy+NhTq2jVpW2TJurCk5cRFVdINB5J5SLVn2pRU9NjVbI4LrvtStPIsWXSttngXXrWx2PyosTMRERTv6EMy7378wLmFhzUSO1SkWXF6Y/h3TKNgUMJdeUrh4xyS1ELCiV8q2CO5fy5La6LFiglwsSVzXL7/Djqi0xHX9/zJMBVdQBgcW3CEPjdn5b2KoAJK4KK8rCdfIkhTV+8S2LigDAHFMTiXQEvMhAAAAAElFTkSuQmCC),
+        defense:
+          url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAsCAMAAAAQPRtoAAAAYFBMVEVMaXGyl36yl3+yln6sl3mxl36xln6yl3+2nYbe2NHj3dizl3vRxbna08qxl36+qZW5oYzWy8Gyln7EsaDLu6yOoX3Dx7aDmXG1vaeaqYpMcjZRdTtmhVJbfEZ1j2KmspcTV5dGAAAAE3RSTlMAxf9lCfLbhf///x7//6j///8+WH2WhgAAAkZJREFUeAGUlYlW4zAMRcFl88PBCd6Vpf//l4Pj6FQdp7NcdrCKdfukPkme1QOenx5wUQ+5nFe8vKqHvL2clrwr9aFxgv5Q6v2s4vNVKQM99MAo9fr51POllAXs2PExwSr11Vd8K6UGmBEdxmJQSn13vb8p5YBxQo81cCcGLnvv3gHQsmwCMHzoauDS9+6hPwYAIeJGygCch5cGuPdx/xNQCIIwA/tDjcIA9z7VCwCaFggyJaBeePrNwHMTbAAkShBEoohdi72L2qUJtvuRrmQFqvyBo8aCfRPMR4CYUUlE4RDtheh3FlyJK20ANFGtCURX4Cb6/S5cHElstWZeCmW90WLQcJ6jxuFqgpFzrJqXddZTopUKMOQ8NdEctUPwNB7N0lLqF52oFAqY0kxNu7dg0TVch2AUqmyJIjYq2OZEOwOa6Bo1DpexqCx0MKewhY2YAqBepEVNJjjSwbZSZUnUWFAZW6JlhBFuJ0zcu16pcR9o8W/4XgHMJm52jA0ba+NIBxlM4ZsC5jAmht4A3LsWQW6snMwv8ezX5N8ekpnoAN7JRdMy5jy4+wHMMFNDc8ZEkmsilpWLwjXnfA1bq5iX5LxMMs+Lt0CsnnPe1np2XpfrRrReB0xyXsRUtoGZaQD2ral3ZUk3wXdTeR9Ns0y4UTZACO42jPXo6TeM3GNV9Bne9XuMA+0cOmS4+p2836DH+X4ni81v0XEI/n70+jJa94OVfBgOl0BGzfww3cPh+o/XSvwaKHGRXCOzslBU7xPbuqAMAADoH1Agy0NRVgAAAABJRU5ErkJggg==),
+        speed:
+          url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAsCAMAAAAQPRtoAAAAXVBMVEVMaXGxl36yl3+yln6sl3myl36yl3+2nYbg2dTj3dizl3uxl37SxLnc1c2xl36/qpe6oo3XzMKyln7EsaCqtbvLu6y9wsSGm6h1kKAwX3zPz85UeI5khJc+aYOYqLJGSTe+AAAAE3RSTlMAzv9lCeeF////Hvj//6j///8+Elhc8wAAAgxJREFUeAF0y0EWwBAMQEE+RFDa+1+2275KZj/hK+KIwZFwJXvkgqtks1SQpoYmUK3RB0xt10knjG6UBVt1y/0nj25Y53jJKqPcykEYiqpSR8EVCFIAAoHsf5lDgEvrcn6fEsfH137f7YtPkoY2pKGz/fi99d4EWyJz0kI4GmhJton+3AUfgrymFxVcvMKVMnXOQ6hjE/3VBHtShyIid6eXElKhgfXkm+ivv72b/hNRSYPqrhSo877KMAPo/exjCWlScqo08HYz8DEES3q5UOaJJU8Tpov+4OFSS7DAM7ci8SNaIWoIl+9v+vNMDDX+iPYragiXtwTEPT8t3L9EI2oI1xAMwnzmYqIRNSZ4EVDmiagM0Uzwb1ydouMD0XqJnuGSxHnqFJ0QNXP2qI1wNcF626tniM4V8zwNjaj924qA2OvEJ0WUGYkeVWCYIRxECx7o0QvmuNdZorE22zru/VRXUuDLiaWXtOOyCo9TIY9kjrlg+mwwwKVarusqJTnyFtNfGRvjZ+S0eFqeRsZYkhEyIOpatrXLn3xfvCbGjVXL7xgF9oVtJUTzGm5OkW8lomn2GmPyEpHcLoyGARyAG8Ffgvc7JpisvA4M7th+La39FX1HkykYvfObvESL4GihPb/J3MC+N10w6x0gakZbazXjkPv/Czs0snFy/g+WuCivKwnXyJTX+4RbF5QBAMRYSNOICZCWAAAAAElFTkSuQmCC),
+        crit-rate:
+          url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAsCAMAAAAQPRtoAAAAYFBMVEVMaXGyl3+yl3+yln6sl3mxln6yl362nYbg2dTj3dizl3uyl37SxLnc1M69ppLAq5i5oYvXzMKyln7EsaHLu6x1UICagJ60obLSx8rIusJuR3qPcZVoP3WBX4m/r7uokahqzurhAAAAE3RSTlMAuf9lCdyM////HvX///////8+SFOxZAAAAjVJREFUeAF0wUESABEMRcHvgQRz/+vOVpWkW7dCoihRSVWFWifVmyIDpnnAJgwF1obj9r38wF56/WyVy5KEIAxFF7OQVEmjzfv9/385ETDaBXepdcfh5JDGs38AxDFlO+GzJPDF//iE/QNT8NmJL7+rs0uA44Q5nx3kgsBfO7sSsMi5Mb4h6PnsCvjGAbSxjlh5HwBAKlATAQR8tFcARseUjS3F1qiTxUr7UweCns9+trGU5BMlVw0YJSYCCFi0Y2JccpoqpmbAMMQibtAkF78B82ANVWqMN2g+VCPACtgAzHKsVCnaQIvYQRHoWy4lB6UYLFW8rgSaVBtyNSo9pp9fh+sruUCPlF01kqsD7qlXJXIGMQWvPenMh2oE+GBPpaTMWa0sB5dorC/QXa4OmCoebE0uYoXT8+NsqnW5CPCoYAmM8y5ol9ij2gFdtWHw/lsx4HPJiSpvo8dXlHhX7HWWa57BJz4J3c/S50iQbUoI1xuN7Nz0kcV1NKm0ucQYUgl+vpx06e/TsKjLI0yw9+NjrACa/jB/dqzeY6Hpk2M0fq5fFZvNeLrxxzEyeUjGU7ST/CAVmUz3hUC7VM1TqXmMkb3vC93KDtomn6kSi74B/95KUnO4H551wcMb8LxhxEVAR/cspcJyE/+cNgztMQarKDntMdqWUsIUAvy32skd9BShVjuZVBMwBQGvNj+pdggppfjJtq9/X2jR7JjzN/+DJC7S6kpQAJNRI1Nc7xNuXbAyUAYArLVOm7W44PwAAAAASUVORK5CYII=)
+      );
+
+      @each $ty in map-keys($images) {
+        &.#{$ty} {
+          background-image: map-get($images, $ty);
+        }
+      }
+    }
+
+    .rating {
+      flex: 0 0 auto;
+      margin: 0 2px 0 0;
+    }
+
+    .attr-value {
+      flex: 0 0 auto;
+
+      .plus-value {
+        color: #d96932;
+      }
+    }
+
+    .row {
+      width: 100%;
+    }
+  }
+}

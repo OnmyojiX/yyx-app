@@ -1,3 +1,23 @@
 .hero-detail-overlay {
   color: white;
+  position: relative;
+
+  .content {
+    position: fixed;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+
+    &.closing {
+      display: none;
+    }
+  }
+}
+
+.hero-detail-overlay-backdrop {
+  background-color: rgba(16, 22, 26, 0.9);
 }

@@ -1,12 +1,12 @@
 import { connect } from "react-redux";
-import { ISnapshotInfo } from "../../modules/snapshot";
 import { ReactElement, SFC } from "react";
 import { IYyxState } from "../../store";
+import { ISnapshot } from "../../interfaces";
 
 interface RenderProps {
-  current: ISnapshotInfo | null;
+  current: ISnapshot | null;
   notSelected: boolean;
-  render: (info: ISnapshotInfo | null) => ReactElement | null;
+  render: (info: ISnapshot | null) => ReactElement | null;
 }
 
 const Render: SFC<RenderProps> = (props: RenderProps) => {
@@ -14,7 +14,7 @@ const Render: SFC<RenderProps> = (props: RenderProps) => {
 };
 
 export interface SnapshotInfoProps {
-  render: (info: ISnapshotInfo | null) => ReactElement | null;
+  render: (info: ISnapshot | null) => ReactElement | null;
 }
 
 export const SnapshotInfo = connect(

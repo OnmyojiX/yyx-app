@@ -4,11 +4,38 @@ $space: 8px;
   margin-right: $space;
 }
 
+.yyx-space-v {
+  margin-bottom: $space;
+}
+
 table.yyx-prop-table {
   tbody tr:first-child {
     th,
     td {
       box-shadow: none;
     }
+  }
+}
+
+.yyx-hide {
+  display: none;
+}
+
+.yyx-layout {
+  &.row {
+    flex-direction: row;
+  }
+
+  &.column {
+    flex-direction: column;
+  }
+
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  > .item {
+    flex: 1;
   }
 }

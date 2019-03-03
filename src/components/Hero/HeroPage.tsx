@@ -1,20 +1,24 @@
 import React, { SFC, useEffect, useState } from "react";
 import "./HeroPage.scss";
 import { connect } from "react-redux";
-import { Hero } from "../../interfaces";
-import { IYyxState, IDispatch } from "../../store";
-import { HeroActions } from "../../modules/hero";
-import { Spinner, Callout } from "@blueprintjs/core";
+import { IHero } from "../../interfaces";
+import { IYyxState } from "../../store";
+import { Spinner, Callout, ButtonGroup, Button } from "@blueprintjs/core";
 import { HeroGrid } from "./HeroGrid";
 import { HeroDetailOverlay } from "./HeroDetailOverlay";
+import { HeroSelectors } from "../../modules/hero";
 
 const Render: SFC<{
-  heroes: Hero[] | null;
+  heroes: IHero[] | null;
   load: () => Promise<void>;
 }> = props => {
+  const hero = (props.heroes as IHero[]).find(
+    h => h.id === "57fbed9f9567c93d496f1262"
+  ) as IHero;
+
   const [error, setError] = useState<Error | null>(null);
   const [loading, setLoading] = useState(false);
-  const [activeHero, setActiveHero] = useState<Hero | null>(null);
+  const [activeHero, setActiveHero] = useState<IHero | null>(hero);
   useEffect(() => {
     if (!props.heroes) {
       setLoading(true);
@@ -57,11 +61,6 @@ const Render: SFC<{
   );
 };
 
-export const HeroPage = connect(
-  (state: IYyxState) => ({
-    heroes: state.hero.heros
-  }),
-  (dispatch: IDispatch) => ({
-    load: () => dispatch(HeroActions.load())
-  })
-)(Render);
+export const HeroPage = connect((state: IYyxState) => ({
+  heroes: HeroSelectors.selectAllSorted(state)
+}))(Render);

@@ -1,0 +1,14 @@
+i.rarity {
+  $scale: 0.2;
+
+  display: inline-block;
+  width: 144px * $scale;
+  height: 88px * $scale;
+  background-repeat: no-repeat;
+  @each $rarity in "sp", "ssr", "sr", "r", "n" {
+    &.rarity-#{$rarity} {
+      background-size: 100% 100%;
+      background-image: url(/res/rarity/#{$rarity}.png);
+    }
+  }
+}

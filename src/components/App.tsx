@@ -7,10 +7,12 @@ import { IYyxState } from "../store";
 import { Main } from "./Main/Main";
 import { SnapshotSelectScreen } from "./Snapshot/SnapshotSelectScreen";
 
-import { SnapshotActions, ISnapshotInfo } from "../modules/snapshot";
+import { SnapshotActions } from "../modules/snapshot";
+import { ISnapshot } from "../interfaces";
+import { Spinner } from "@blueprintjs/core";
 
 const AppRender: SFC<{
-  snapshot: ISnapshotInfo | null;
+  snapshot: ISnapshot | null;
   notSelected: boolean;
   load: () => void;
 }> = props => {
@@ -23,7 +25,11 @@ const AppRender: SFC<{
   if (props.snapshot) {
     main = <Main />;
   } else {
-    main = <SnapshotSelectScreen />;
+    if (props.notSelected) {
+      main = <SnapshotSelectScreen />;
+    } else {
+      main = <Spinner />;
+    }
   }
 
   return <>{main}</>;

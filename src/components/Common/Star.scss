@@ -20,3 +20,12 @@ i.star {
     }
   }
 }
+
+.stars {
+  i {
+    margin-left: -2px;
+  }
+  i:first-child {
+    margin-left: 0;
+  }
+}
