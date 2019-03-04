@@ -62,6 +62,8 @@ $rarity-border-color: (
   .star-level {
     position: absolute;
     bottom: 0;
+    left: 0;
+    line-height: 16px;
     height: 16px;
     width: 100%;
     text-align: center;
