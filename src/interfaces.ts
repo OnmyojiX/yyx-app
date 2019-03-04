@@ -99,6 +99,26 @@ export interface IHeroEquip {
   base_attr: HeroEquipAttr;
   random_attrs: HeroEquipAttr[];
   random_attr_rates: HeroEquipAttr[];
+  suit_data?: IHeroEquipSuitData;
+  equipped_by?: IHero;
+  included_in_presets?: IHeroEquipPreset[];
+}
+
+export interface IHeroEquipSuitData {
+  id: number;
+  name: string;
+  attr: [
+    IHeroEquipSuiteAttr[],
+    IHeroEquipSuiteAttr[],
+    IHeroEquipSuiteAttr[],
+    IHeroEquipSuiteAttr[]
+  ];
+  effect: [string[], string[], string[], string[]];
+}
+
+export interface IHeroEquipSuiteAttr {
+  type: HeroEquipAttrType;
+  value: number;
 }
 
 export interface HeroEquipAttr {

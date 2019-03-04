@@ -1,0 +1,69 @@
+.equip-detail {
+  width: 350px;
+  padding: 8px;
+  background: #d6c9b9;
+  box-shadow: inset 0 0 0 1px #3a200d, inset 0 0 0 2px #aa8559,
+    inset 0 0 2px 3px #261a0d;
+
+  header {
+    .icon {
+      flex: 0 0 auto;
+    }
+
+    .title {
+      font-size: 1.3em;
+    }
+  }
+
+  .attrs {
+    margin: 0 8px 0 8px;
+
+    .row {
+      line-height: 1.6em;
+
+      &.base-attr {
+        color: #d96932;
+      }
+
+      justify-content: space-between;
+      .name {
+        flex: 0 0 auto;
+      }
+
+      .value {
+        max-width: 200px;
+      }
+    }
+  }
+
+  .props {
+    border-top: 1px solid #a68d70;
+    margin: 8px 8px 0 8px;
+    padding: 8px 0;
+
+    .preset-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .row {
+      line-height: 1.6em;
+
+      .id {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 0.7em;
+      }
+
+      justify-content: space-between;
+      align-items: flex-start;
+      .name {
+        flex: 0 0 auto;
+      }
+
+      .value {
+        max-width: 200px;
+      }
+    }
+  }
+}

@@ -11,6 +11,7 @@ import { Rarity } from "../Common/Rarity";
 import classNames from "classnames";
 import { Rating } from "../Common/Rating";
 import { AttrValueType, formatAttrValue } from "../../utils";
+import { Divider } from "@blueprintjs/core";
 
 const renderIconName = (hero: IHero) => (
   <div className="icon-name yyx-layout row">
@@ -50,16 +51,18 @@ const renderAttrs = (hero: IHero, ratings: IHeroAttrRating) => (
           <span className="item label">{label}</span>
           <span className="item attr-value">
             {formatAttrValue(attr.base, type)}
-            <span className="plus-value">
-              +{formatAttrValue(attr.value - attr.base, type)}
-            </span>
+            {attr.value > attr.base && (
+              <span className="plus-value">
+                +{formatAttrValue(attr.value - attr.base, type)}
+              </span>
+            )}
           </span>
         </div>
       );
     })}
     <div className="yyx-layout row">
       <span className="item label">暴击伤害</span>
-      <span className="item attr-value yyx-space-v">
+      <span className="item attr-value">
         {formatAttrValue(
           1 + hero.attrs.crit_power.value,
           AttrValueType.Percentage
@@ -68,19 +71,35 @@ const renderAttrs = (hero: IHero, ratings: IHeroAttrRating) => (
     </div>
     <div className="yyx-layout row">
       <span className="item label">效果命中</span>
-      <span className="item attr-value yyx-space-v">
+      <span className="item attr-value">
         {formatAttrValue(
           1 + hero.attrs.effect_hit_rate - 1,
           AttrValueType.Percentage
         )}
       </span>
     </div>
-    <div className="yyx-layout row">
+    <div className="yyx-layout row yyx-space-v">
       <span className="item label">效果抵抗</span>
-      <span className="item attr-value yyx-space-v">
+      <span className="item attr-value">
         {formatAttrValue(
           1 + hero.attrs.effect_resist_rate - 1,
           AttrValueType.Percentage
+        )}
+      </span>
+    </div>
+    <div className="yyx-layout row">
+      <span className="item label">攻击 x 暴伤</span>
+      <span className="item attr-value">
+        {formatAttrValue(
+          hero.attrs.attack.value * (1 + hero.attrs.crit_power.value)
+        )}
+      </span>
+    </div>
+    <div className="yyx-layout row">
+      <span className="item label">生命 x 暴伤</span>
+      <span className="item attr-value">
+        {formatAttrValue(
+          hero.attrs.max_hp.value * (1 + hero.attrs.crit_power.value)
         )}
       </span>
     </div>

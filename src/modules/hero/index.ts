@@ -26,8 +26,32 @@ const selectAll = (state: IYyxState) =>
     return hero;
   });
 
-const selectMapByRarity = createSelector(
+const selectMapById = createSelector(
   selectAll,
+  heroes => {
+    if (!heroes) {
+      return null;
+    }
+    const groups = heroes.reduce((m, i) => {
+      m.set(i.id, i);
+      return m;
+    }, new Map<string, IHero>());
+    return groups;
+  }
+);
+
+const selectAllSorted = createSelector(
+  selectAll,
+  heroes => {
+    if (!heroes) {
+      return null;
+    }
+    return heroes.slice().sort(defaultSorter);
+  }
+);
+
+const selectMapByRarity = createSelector(
+  selectAllSorted,
   heroes => {
     if (!heroes) {
       return null;
@@ -45,16 +69,9 @@ const selectMapByRarity = createSelector(
   }
 );
 
-const selectAllSorted = createSelector(
-  selectAll,
-  heroes => {
-    if (!heroes) {
-      return null;
-    }
-    return heroes.slice().sort(defaultSorter);
-  }
-);
-
 export const HeroSelectors = {
-  selectAllSorted
+  selectAll,
+  selectAllSorted,
+  selectMapById,
+  selectMapByRarity
 };

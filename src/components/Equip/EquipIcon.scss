@@ -1,0 +1,61 @@
+.hero-equip-icon {
+  $size: 90px;
+  $icon-size: $size * 0.8;
+
+  position: relative;
+  width: $size;
+  height: $size;
+
+  .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    width: $icon-size;
+    height: $icon-size;
+
+    img {
+      position: absolute;
+      top: 10.5%;
+      left: 10.5%;
+      width: 79%;
+      height: 79%;
+      z-index: 0;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      background-image: url(/res/equip-border.png);
+      background-size: 100% 100%;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+    }
+
+    $border-rotate: (
+      1: 0,
+      2: -45,
+      3: -90,
+      4: 180,
+      5: 135,
+      6: 90
+    );
+
+    @each $pos in 1, 2, 3, 4, 5, 6 {
+      &.pos-#{$pos} {
+        &::before {
+          $rotate: map_get($border-rotate, $pos);
+          transform: rotate(#{$rotate}deg);
+        }
+      }
+    }
+  }
+}

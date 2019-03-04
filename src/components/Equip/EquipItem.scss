@@ -1,0 +1,103 @@
+.hero-equip-item {
+  $size: 90px;
+  $icon-size: $size * 0.8;
+
+  position: relative;
+  width: $size;
+  height: $size;
+  border: 1px solid #503415;
+  background: #ece3d8;
+
+  .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    width: $icon-size;
+    height: $icon-size;
+
+    img {
+      position: absolute;
+      top: 10.5%;
+      left: 10.5%;
+      width: 79%;
+      height: 79%;
+      z-index: 0;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      background-image: url(/res/equip-border.png);
+      background-size: 100% 100%;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+    }
+
+    $border-rotate: (
+      1: 0,
+      2: -45,
+      3: -90,
+      4: 180,
+      5: 135,
+      6: 90
+    );
+
+    @each $pos in 1, 2, 3, 4, 5, 6 {
+      &.pos-#{$pos} {
+        &::before {
+          $rotate: map_get($border-rotate, $pos);
+          transform: rotate(#{$rotate}deg);
+        }
+      }
+    }
+  }
+
+  label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    color: white;
+    padding: 0 8px 0 2px;
+    background: linear-gradient(
+      -90deg,
+      transparent,
+      rgba(0, 0, 0, 0.7) 44%,
+      rgba(0, 0, 0, 0.7)
+    );
+  }
+
+  .stars {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: 5px;
+    height: 16px;
+    width: 100%;
+    text-align: center;
+    padding: 2px 0 0 0;
+  }
+
+  .equipped {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    color: #fff;
+    background: #aa39c6;
+    padding: 0 2px;
+  }
+
+  &.clickable {
+    cursor: pointer;
+  }
+}

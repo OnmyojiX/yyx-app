@@ -1,5 +1,5 @@
 import { IHero, HeroRarity } from "../../interfaces";
-import { composeSorters } from "../../utils";
+import { composeSorters, sortDesc } from "../../utils";
 
 const RarityRank = [
   HeroRarity.SP,
@@ -19,14 +19,14 @@ const RarityRank = [
 
 export const sortByRarity = (a: IHero, b: IHero) =>
   RarityRank[b.rarity] - RarityRank[a.rarity];
-export const sortByHeroId = (a: IHero, b: IHero) => b.hero_id - a.hero_id;
-export const sortByLevel = (a: IHero, b: IHero) => b.level - a.level;
-export const sortByStar = (a: IHero, b: IHero) => b.star - a.star;
-export const sortByAwake = (a: IHero, b: IHero) => b.awake - a.awake;
+export const sortByHeroId = (a: IHero, b: IHero) => a.hero_id - b.hero_id;
+export const sortByLevel = (a: IHero, b: IHero) => a.level - b.level;
+export const sortByStar = (a: IHero, b: IHero) => a.star - b.star;
+export const sortByAwake = (a: IHero, b: IHero) => a.awake - b.awake;
 export const defaultSorter = composeSorters(
-  sortByStar,
+  sortDesc(sortByStar),
   sortByRarity,
-  sortByAwake,
-  sortByLevel,
-  sortByHeroId
+  sortDesc(sortByAwake),
+  sortDesc(sortByLevel),
+  sortDesc(sortByHeroId)
 );

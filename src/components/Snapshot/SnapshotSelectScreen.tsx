@@ -19,7 +19,7 @@ const SnapshotSelectScreenImpl: SFC<{
       setLoading(true);
       props
         .dispatch(SnapshotActions.select(files[0]))
-        .finally(() => setLoading(false))
+        // .finally(() => setLoading(false))
         .catch(err => {
           setError(err);
         });

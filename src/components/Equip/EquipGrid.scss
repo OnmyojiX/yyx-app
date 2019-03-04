@@ -1,0 +1,18 @@
+.hero-equip-grid {
+  .hero-equip-grid-container {
+    overflow: hidden;
+
+    .hero-equip-grid-item {
+      float: left;
+      margin: 3px;
+    }
+  }
+}
+
+.hero-equip-grid-popover {
+  padding: 0;
+
+  .bp3-popover.bp3-popover-content-sizing .bp3-popover-content {
+    padding: 0;
+  }
+}

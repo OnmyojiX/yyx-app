@@ -23,9 +23,11 @@ import {
 import { YyxStore } from "../../store";
 import { SnapshotActions } from "../../modules/snapshot";
 import { OverviewPage } from "../Overview/OverviewPage";
-import { HeroPage } from "../Hero/HeroPage";
 import { SnapshotInfo } from "../Snapshot/SnapshotInfo";
 import { ISnapshot } from "../../interfaces";
+
+import { HeroPage } from "../Hero/HeroPage";
+import { EquipPage } from "../Equip/EquipPage";
 
 const routes = [
   {
@@ -41,7 +43,7 @@ const routes = [
   },
   {
     path: "/equip",
-    component: HeroPage,
+    component: EquipPage,
     renderLabel: (snapshot: ISnapshot) =>
       `御魂 (${snapshot.data.hero_equips.length})`
   }
@@ -60,16 +62,20 @@ const Render: SFC<RouteComponentProps> = props => {
           <SnapshotInfo
             render={info =>
               info && (
-                <ButtonGroup large>
-                  {routes.map((r, i) => (
-                    <Button
-                      key={i}
-                      onClick={() => props.history.push(r.path)}
-                      active={path === r.path}
-                      text={r.renderLabel(info)}
-                    />
-                  ))}
-                </ButtonGroup>
+                <>
+                  <span>{info.data.player.name}</span>
+                  <NavbarDivider />
+                  <ButtonGroup large>
+                    {routes.map((r, i) => (
+                      <Button
+                        key={i}
+                        onClick={() => props.history.push(r.path)}
+                        active={path === r.path}
+                        text={r.renderLabel(info)}
+                      />
+                    ))}
+                  </ButtonGroup>
+                </>
               )
             }
           />

@@ -1,4 +1,4 @@
-import { IAction, IDispatch } from "../../store";
+import { IAction, IDispatch, IYyxState } from "../../store";
 import { HttpClient } from "../http";
 import { ISnapshot } from "../../interfaces";
 import { HeroActions } from "../hero";
@@ -29,6 +29,13 @@ export function reducer(state = initialState, action: IAction<ActionType>) {
   }
   return state;
 }
+
+const selectCurrentSnapshot = (state: IYyxState) =>
+  state.snapshot && state.snapshot.current;
+
+export const SnapshotSelectors = {
+  selectCurrentSnapshot
+};
 
 export const SnapshotActions = {
   select(file: File) {

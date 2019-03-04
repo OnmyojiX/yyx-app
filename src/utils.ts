@@ -1,3 +1,5 @@
+import { format } from "date-fns";
+
 export type Sorter<T> = (a: T, b: T) => number;
 
 export function composeSorters<T>(...sorters: Array<Sorter<T>>): Sorter<T> {
@@ -10,6 +12,10 @@ export function composeSorters<T>(...sorters: Array<Sorter<T>>): Sorter<T> {
     }
     return 0;
   };
+}
+
+export function sortDesc<T>(sorter: Sorter<T>): Sorter<T> {
+  return (a, b) => -sorter(a, b);
 }
 
 export enum AttrValueType {
@@ -27,4 +33,9 @@ export function formatAttrValue(
     case AttrValueType.Percentage:
       return `${(Math.round(v * 10000) / 100).toFixed(2)}%`;
   }
+}
+
+export function formatTimestamp(v: number) {
+  if (!v) return "很久以前";
+  return format(new Date().setTime(v * 1000), "YYYY-MM-DD HH:mm");
 }
