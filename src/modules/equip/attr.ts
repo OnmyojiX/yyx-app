@@ -15,12 +15,24 @@ const AttrNames = {
   [HeroEquipAttrType.EffectResistRate]: "效果抵抗"
 };
 
+const PercentageAttrs = [
+  HeroEquipAttrType.HpRate,
+  HeroEquipAttrType.DefenseRate,
+  HeroEquipAttrType.AttackRate,
+  HeroEquipAttrType.CritRate,
+  HeroEquipAttrType.CritPower,
+  HeroEquipAttrType.EffectHitRate,
+  HeroEquipAttrType.EffectResistRate
+];
+
 export const formatEquipAttr = (type: HeroEquipAttrType, value: number) => {
   return [
     AttrNames[type],
     formatAttrValue(
       value,
-      type.includes("Rate") ? AttrValueType.Percentage : AttrValueType.Float
+      PercentageAttrs.includes(type)
+        ? AttrValueType.Percentage
+        : AttrValueType.Float
     )
   ];
 };
