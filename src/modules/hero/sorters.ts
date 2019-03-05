@@ -1,21 +1,6 @@
 import { IHero, HeroRarity } from "../../interfaces";
 import { composeSorters, sortDesc } from "../../utils";
-
-const RarityRank = [
-  HeroRarity.SP,
-  HeroRarity.SSR,
-  HeroRarity.SR,
-  HeroRarity.R,
-  HeroRarity.N
-]
-  .reverse()
-  .reduce(
-    (m, r, i) => {
-      m[r] = i;
-      return m;
-    },
-    {} as { [key in HeroRarity]: number }
-  );
+import { RarityRank } from "./data";
 
 export const sortByRarity = (a: IHero, b: IHero) =>
   RarityRank[b.rarity] - RarityRank[a.rarity];

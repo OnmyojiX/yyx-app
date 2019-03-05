@@ -1,9 +1,9 @@
 import React, { SFC } from "react";
 import "./OverviewPage.scss";
 import { SnapshotInfo } from "../Snapshot/SnapshotInfo";
-import * as dateFns from "date-fns";
 import { Card } from "@blueprintjs/core";
 import { ISnapshot } from "../../interfaces";
+import { formatDate } from "../../utils";
 
 const render = (info: ISnapshot | null) => {
   if (!info) {
@@ -17,8 +17,12 @@ const render = (info: ISnapshot | null) => {
       <table className="bp3-html-table yyx-prop-table">
         <tbody>
           <tr>
+            <th>快照版本</th>
+            <td>{info.version}</td>
+          </tr>
+          <tr>
             <th>快照日期</th>
-            <td>{dateFns.format(info.timestamp, "YYYY-MM-DD HH:mm")}</td>
+            <td>{formatDate(info.timestamp)}</td>
           </tr>
           <tr>
             <th>玩家</th>

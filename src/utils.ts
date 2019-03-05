@@ -1,4 +1,4 @@
-import { format } from "date-fns";
+import moment from "moment";
 
 export type Sorter<T> = (a: T, b: T) => number;
 
@@ -35,7 +35,17 @@ export function formatAttrValue(
   }
 }
 
+const DATE_FORMAT = "YYYY-MM-DD HH:mm";
+
 export function formatTimestamp(v: number) {
   if (!v) return "很久以前";
-  return format(new Date().setTime(v * 1000), "YYYY-MM-DD HH:mm");
+  return moment(new Date().setTime(v * 1000))
+    .local()
+    .format(DATE_FORMAT);
+}
+
+export function formatDate(date: string | Date) {
+  return moment(date)
+    .local()
+    .format(DATE_FORMAT);
 }

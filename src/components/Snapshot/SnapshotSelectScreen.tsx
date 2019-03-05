@@ -21,6 +21,7 @@ const SnapshotSelectScreenImpl: SFC<{
         .dispatch(SnapshotActions.select(files[0]))
         // .finally(() => setLoading(false))
         .catch(err => {
+          setLoading(false);
           setError(err);
         });
     }

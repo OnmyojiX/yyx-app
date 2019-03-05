@@ -44,10 +44,25 @@ export const EquipDetail: SFC<{
           return (
             <div key={attr.type} className="yyx-layout row">
               <div className="name">{name}</div>
-              <div className="value">+{value}</div>
+              <div className="value">{value}</div>
             </div>
           );
         })}
+        {equip.single_attrs.length ? (
+          <div className="single-attrs bp3-text-muted">
+            {equip.single_attrs.map(attr => {
+              const [name, value] = formatEquipAttr(attr.type, attr.value);
+              return (
+                <div key={name} className="yyx-layout row">
+                  <div className="name">固有属性</div>
+                  <div className="value">
+                    {name} {value}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        ) : null}
       </div>
       <div className="props">
         <div className="yyx-layout row">

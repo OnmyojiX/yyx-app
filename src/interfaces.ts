@@ -53,6 +53,8 @@ export interface IHeroData {
     unawake: IHeroAttrRating;
     awake: IHeroAttrRating;
   };
+  rarity: HeroRarity;
+  skills: number[];
 }
 
 export enum Ratings {
@@ -99,6 +101,7 @@ export interface IHeroEquip {
   base_attr: HeroEquipAttr;
   random_attrs: HeroEquipAttr[];
   random_attr_rates: HeroEquipAttr[];
+  single_attrs: HeroEquipAttr[];
   suit_data?: IHeroEquipSuitData;
   equipped_by?: IHero;
   included_in_presets?: IHeroEquipPreset[];
@@ -150,6 +153,24 @@ export interface IHeroBookShard {
   shards: number;
   books: number;
   book_max_shards: number;
+  hero_data?: IHeroData;
+}
+
+export interface IRealmCard {
+  id: string;
+  item_id: number;
+  total_time: number;
+  attrs: {
+    exp: number;
+    bonus: number;
+  };
+  data?: IRealmCardData;
+}
+
+export interface IRealmCardData {
+  id: number;
+  name: string;
+  star: number;
 }
 
 export interface ISnapshot {
@@ -162,5 +183,6 @@ export interface ISnapshot {
     hero_equips: IHeroEquip[];
     hero_equip_presets: IHeroEquipPreset[];
     hero_book_shards: IHeroBookShard[];
+    realm_cards: IRealmCard[];
   };
 }

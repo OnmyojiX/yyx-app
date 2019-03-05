@@ -12,21 +12,6 @@ import { number, string } from "prop-types";
 import { HeroSelectors } from "../hero";
 import { SnapshotSelectors } from "../snapshot";
 
-export interface IState {}
-
-const initialState: IState = {};
-
-export enum ActionType {}
-
-export function reducer(state = initialState, action: IAction<ActionType>) {
-  const { type, payload } = action;
-  // switch (type) {
-  // }
-  return state;
-}
-
-export const EquipActions = {};
-
 const selectEquippedByMap = createSelector(
   HeroSelectors.selectAll,
   heroes => {

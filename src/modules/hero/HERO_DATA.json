@@ -2,811 +2,1135 @@
   {
     "id": 200,
     "name": "桃花妖",
-    "attr_rating": [["c", "b", "a", "d", "b"], ["c", "a", "s", "b", "b"]]
+    "attr_rating": [["c", "b", "a", "d", "b"], ["c", "a", "s", "b", "b"]],
+    "rarity": "SR",
+    "skills": [2001, 2002, 2003]
   },
   {
     "id": 201,
     "name": "雪女",
-    "attr_rating": [["a", "c", "c", "c", "a"], ["s", "b", "b", "a", "a"]]
+    "attr_rating": [["a", "c", "c", "c", "a"], ["s", "b", "b", "a", "a"]],
+    "rarity": "SR",
+    "skills": [2011, 2013]
   },
   {
     "id": 202,
     "name": "三尾狐",
-    "attr_rating": [["b", "c", "b", "d", "s"], ["a", "b", "a", "b", "s"]]
+    "attr_rating": [["b", "c", "b", "d", "s"], ["a", "b", "a", "b", "s"]],
+    "rarity": "R",
+    "skills": [2021, 2022, 2023]
   },
   {
     "id": 203,
     "name": "灯笼鬼",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]]
+    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [2031, 2032, 2033]
   },
   {
     "id": 205,
     "name": "座敷童子",
-    "attr_rating": [["d", "b", "b", "d", "a"], ["c", "a", "a", "b", "a"]]
+    "attr_rating": [["d", "b", "b", "d", "a"], ["c", "a", "a", "b", "a"]],
+    "rarity": "R",
+    "skills": [2051, 2054]
   },
   {
     "id": 206,
     "name": "鲤鱼精",
-    "attr_rating": [["b", "b", "c", "a", "b"], ["a", "a", "b", "s", "b"]]
+    "attr_rating": [["b", "b", "c", "a", "b"], ["a", "a", "b", "s", "b"]],
+    "rarity": "R",
+    "skills": [2061, 2062, 2063]
   },
   {
     "id": 207,
     "name": "九命猫",
-    "attr_rating": [["a", "d", "b", "c", "s"], ["s", "c", "a", "a", "s"]]
+    "attr_rating": [["a", "d", "b", "c", "s"], ["s", "c", "a", "a", "s"]],
+    "rarity": "R",
+    "skills": [2071, 2073]
   },
   {
     "id": 208,
     "name": "狸猫",
-    "attr_rating": [["d", "a", "c", "c", "a"], ["c", "s", "b", "a", "a"]]
+    "attr_rating": [["d", "a", "c", "c", "a"], ["c", "s", "b", "a", "a"]],
+    "rarity": "R",
+    "skills": [2081, 2082, 2083]
   },
   {
     "id": 209,
     "name": "河童",
-    "attr_rating": [["a", "c", "c", "b", "b"], ["s", "c", "b", "s", "b"]]
+    "attr_rating": [["a", "c", "c", "b", "b"], ["s", "c", "b", "s", "b"]],
+    "rarity": "R",
+    "skills": [2091, 2092, 2093]
   },
   {
     "id": 210,
     "name": "鬼使白",
-    "attr_rating": [["a", "c", "c", "a", "a"], ["s", "b", "b", "s", "a"]]
+    "attr_rating": [["a", "c", "c", "a", "a"], ["s", "b", "b", "s", "a"]],
+    "rarity": "SR",
+    "skills": [2101, 2102, 2103]
   },
   {
     "id": 211,
     "name": "鬼使黑",
-    "attr_rating": [["a", "c", "c", "d", "s"], ["s", "b", "b", "b", "s"]]
+    "attr_rating": [["a", "c", "c", "d", "s"], ["s", "b", "b", "b", "s"]],
+    "rarity": "SR",
+    "skills": [2111, 2112, 2113]
   },
   {
     "id": 212,
     "name": "童男",
-    "attr_rating": [["c", "a", "c", "d", "b"], ["b", "s", "b", "b", "b"]]
+    "attr_rating": [["c", "a", "c", "d", "b"], ["b", "s", "b", "b", "b"]],
+    "rarity": "R",
+    "skills": [2121, 2122, 2123]
   },
   {
     "id": 213,
     "name": "童女",
-    "attr_rating": [["c", "a", "c", "c", "b"], ["b", "s", "b", "a", "b"]]
+    "attr_rating": [["c", "a", "c", "c", "b"], ["b", "s", "b", "a", "b"]],
+    "rarity": "R",
+    "skills": [2131, 2132, 2133]
   },
   {
     "id": 214,
     "name": "饿鬼",
-    "attr_rating": [["b", "b", "c", "c", "a"], ["a", "a", "b", "a", "a"]]
+    "attr_rating": [["b", "b", "c", "c", "a"], ["a", "a", "b", "a", "a"]],
+    "rarity": "R",
+    "skills": [2141, 2142, 2143]
   },
   {
     "id": 215,
     "name": "孟婆",
-    "attr_rating": [["b", "c", "c", "a", "a"], ["a", "b", "b", "s", "a"]]
+    "attr_rating": [["b", "c", "c", "a", "a"], ["a", "b", "b", "s", "a"]],
+    "rarity": "SR",
+    "skills": [2151, 2153]
   },
   {
     "id": 216,
     "name": "巫蛊师",
-    "attr_rating": [["a", "c", "c", "c", "a"], ["s", "b", "b", "a", "a"]]
+    "attr_rating": [["a", "c", "c", "c", "a"], ["s", "b", "b", "a", "a"]],
+    "rarity": "R",
+    "skills": [2161, 2162, 2163]
   },
   {
     "id": 217,
     "name": "大天狗",
-    "attr_rating": [["a", "d", "c", "b", "s"], ["s", "c", "b", "s", "s"]]
+    "attr_rating": [["a", "d", "c", "b", "s"], ["s", "c", "b", "s", "s"]],
+    "rarity": "SSR",
+    "skills": [2171, 2172, 2173]
   },
   {
     "id": 218,
     "name": "鸦天狗",
-    "attr_rating": [["a", "c", "c", "b", "a"], ["s", "b", "b", "s", "a"]]
+    "attr_rating": [["a", "c", "c", "b", "a"], ["s", "b", "b", "s", "a"]],
+    "rarity": "R",
+    "skills": [2181, 2183]
   },
   {
     "id": 219,
     "name": "酒吞童子",
-    "attr_rating": [["a", "c", "d", "b", "s"], ["s", "b", "c", "s", "s"]]
+    "attr_rating": [["a", "c", "d", "b", "s"], ["s", "b", "c", "s", "s"]],
+    "rarity": "SSR",
+    "skills": [2191, 2192, 2193]
   },
   {
     "id": 220,
     "name": "犬神",
-    "attr_rating": [["a", "c", "c", "c", "s"], ["s", "b", "b", "a", "s"]]
+    "attr_rating": [["a", "c", "c", "c", "s"], ["s", "b", "b", "a", "s"]],
+    "rarity": "SR",
+    "skills": [2201, 2203]
   },
   {
     "id": 221,
     "name": "食发鬼",
-    "attr_rating": [["b", "c", "c", "a", "a"], ["a", "b", "b", "s", "a"]]
+    "attr_rating": [["b", "c", "c", "a", "a"], ["a", "b", "b", "s", "a"]],
+    "rarity": "R",
+    "skills": [2211, 2212, 2213]
   },
   {
     "id": 222,
     "name": "武士之灵",
-    "attr_rating": [["a", "c", "c", "b", "a"], ["s", "b", "b", "s", "a"]]
+    "attr_rating": [["a", "c", "c", "b", "a"], ["s", "b", "b", "s", "a"]],
+    "rarity": "R",
+    "skills": [2221, 2223]
   },
   {
     "id": 223,
     "name": "骨女",
-    "attr_rating": [["b", "d", "b", "c", "s"], ["s", "c", "a", "a", "s"]]
+    "attr_rating": [["b", "d", "b", "c", "s"], ["s", "c", "a", "a", "s"]],
+    "rarity": "SR",
+    "skills": [2231, 2232, 2233]
   },
   {
     "id": 224,
     "name": "雨女",
-    "attr_rating": [["d", "b", "b", "d", "b"], ["c", "a", "a", "b", "b"]]
+    "attr_rating": [["d", "b", "b", "d", "b"], ["c", "a", "a", "b", "b"]],
+    "rarity": "R",
+    "skills": [2241, 2243]
   },
   {
     "id": 225,
     "name": "跳跳弟弟",
-    "attr_rating": [["a", "c", "c", "d", "a"], ["s", "b", "b", "b", "a"]]
+    "attr_rating": [["a", "c", "c", "d", "a"], ["s", "b", "b", "b", "a"]],
+    "rarity": "R",
+    "skills": [2251, 2253]
   },
   {
     "id": 226,
     "name": "跳跳妹妹",
-    "attr_rating": [["a", "c", "c", "c", "s"], ["s", "b", "b", "a", "s"]]
+    "attr_rating": [["a", "c", "c", "c", "s"], ["s", "b", "b", "a", "s"]],
+    "rarity": "R",
+    "skills": [2261, 2262, 2263]
   },
   {
     "id": 227,
     "name": "兵俑",
-    "attr_rating": [["c", "a", "c", "a", "b"], ["c", "s", "b", "s", "b"]]
+    "attr_rating": [["c", "a", "c", "a", "b"], ["c", "s", "b", "s", "b"]],
+    "rarity": "R",
+    "skills": [2271, 2272, 2273]
   },
   {
     "id": 228,
     "name": "丑时之女",
-    "attr_rating": [["b", "c", "c", "a", "s"], ["a", "b", "b", "s", "s"]]
+    "attr_rating": [["b", "c", "c", "a", "s"], ["a", "b", "b", "s", "s"]],
+    "rarity": "R",
+    "skills": [2281, 2282, 2283]
   },
   {
     "id": 230,
     "name": "独眼小僧",
-    "attr_rating": [["c", "b", "b", "a", "a"], ["b", "a", "a", "s", "a"]]
+    "attr_rating": [["c", "b", "b", "a", "a"], ["b", "a", "a", "s", "a"]],
+    "rarity": "R",
+    "skills": [2301, 2303]
   },
   {
     "id": 231,
     "name": "鬼女红叶",
-    "attr_rating": [["a", "c", "c", "b", "a"], ["s", "b", "b", "s", "a"]]
+    "attr_rating": [["a", "c", "c", "b", "a"], ["s", "b", "b", "s", "a"]],
+    "rarity": "SR",
+    "skills": [2311, 2312, 2313]
   },
   {
     "id": 232,
     "name": "铁鼠",
-    "attr_rating": [["b", "c", "c", "a", "a"], ["a", "b", "b", "s", "a"]]
+    "attr_rating": [["b", "c", "c", "a", "a"], ["a", "b", "b", "s", "a"]],
+    "rarity": "R",
+    "skills": [2321, 2323]
   },
   {
     "id": 233,
     "name": "跳跳哥哥",
-    "attr_rating": [["a", "c", "c", "a", "b"], ["s", "b", "b", "s", "b"]]
+    "attr_rating": [["a", "c", "c", "a", "b"], ["s", "b", "b", "s", "b"]],
+    "rarity": "SR",
+    "skills": [2331, 2333]
   },
   {
     "id": 234,
     "name": "椒图",
-    "attr_rating": [["d", "b", "b", "a", "b"], ["c", "a", "a", "s", "b"]]
+    "attr_rating": [["d", "b", "b", "a", "b"], ["c", "a", "a", "s", "b"]],
+    "rarity": "R",
+    "skills": [2341, 2343, 2342]
   },
   {
     "id": 236,
     "name": "管狐",
-    "attr_rating": [["a", "c", "c", "c", "s"], ["s", "b", "b", "a", "s"]]
+    "attr_rating": [["a", "c", "c", "c", "s"], ["s", "b", "b", "a", "s"]],
+    "rarity": "R",
+    "skills": [2361, 2363]
   },
   {
     "id": 237,
     "name": "山兔",
-    "attr_rating": [["b", "c", "c", "a", "a"], ["a", "b", "b", "s", "a"]]
+    "attr_rating": [["b", "c", "c", "a", "a"], ["a", "b", "b", "s", "a"]],
+    "rarity": "R",
+    "skills": [2371, 2373]
   },
   {
     "id": 238,
     "name": "萤草",
-    "attr_rating": [["b", "b", "b", "d", "s"], ["a", "a", "a", "b", "s"]]
+    "attr_rating": [["b", "b", "b", "d", "s"], ["a", "a", "a", "b", "s"]],
+    "rarity": "R",
+    "skills": [2381, 2382, 2383]
   },
   {
     "id": 241,
     "name": "蝴蝶精",
-    "attr_rating": [["c", "b", "b", "a", "b"], ["b", "a", "a", "s", "b"]]
+    "attr_rating": [["c", "b", "b", "a", "b"], ["b", "a", "a", "s", "b"]],
+    "rarity": "R",
+    "skills": [2411, 2413]
   },
   {
     "id": 242,
     "name": "傀儡师",
-    "attr_rating": [["b", "b", "c", "c", "b"], ["a", "a", "b", "a", "b"]]
+    "attr_rating": [["b", "b", "c", "c", "b"], ["a", "a", "b", "a", "b"]],
+    "rarity": "SR",
+    "skills": [2421, 2423]
   },
   {
     "id": 243,
     "name": "山童",
-    "attr_rating": [["a", "c", "c", "a", "a"], ["s", "c", "b", "s", "a"]]
+    "attr_rating": [["a", "c", "c", "a", "a"], ["s", "c", "b", "s", "a"]],
+    "rarity": "R",
+    "skills": [2431, 2432, 2433]
   },
   {
     "id": 244,
     "name": "首无",
-    "attr_rating": [["b", "c", "c", "b", "s"], ["a", "b", "b", "s", "s"]]
+    "attr_rating": [["b", "c", "c", "b", "s"], ["a", "b", "b", "s", "s"]],
+    "rarity": "R",
+    "skills": [2441, 2443]
   },
   {
     "id": 245,
     "name": "提灯小僧",
-    "attr_rating": [["b", "b", "b", "b", "b"], ["a", "a", "a", "s", "b"]]
+    "attr_rating": [["b", "b", "b", "b", "b"], ["a", "a", "a", "s", "b"]],
+    "rarity": "N",
+    "skills": [2451, 2453]
   },
   {
     "id": 246,
     "name": "赤舌",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]]
+    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [2461, 2462, 2463]
   },
   {
     "id": 247,
     "name": "海坊主",
-    "attr_rating": [["a", "c", "c", "c", "b"], ["s", "c", "b", "a", "b"]]
+    "attr_rating": [["a", "c", "c", "c", "b"], ["s", "c", "b", "a", "b"]],
+    "rarity": "SR",
+    "skills": [2471, 2472, 2473]
   },
   {
     "id": 248,
     "name": "荒川之主",
-    "attr_rating": [["a", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]]
+    "attr_rating": [["a", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]],
+    "rarity": "SSR",
+    "skills": [2481, 2482, 2483]
   },
   {
     "id": 249,
     "name": "觉",
-    "attr_rating": [["c", "b", "b", "c", "b"], ["b", "a", "a", "a", "b"]]
+    "attr_rating": [["c", "b", "b", "c", "b"], ["b", "a", "a", "a", "b"]],
+    "rarity": "R",
+    "skills": [2491, 2493]
   },
   {
     "id": 250,
     "name": "青蛙瓷器",
-    "attr_rating": [["a", "c", "c", "c", "s"], ["s", "b", "b", "a", "s"]]
+    "attr_rating": [["a", "c", "c", "c", "s"], ["s", "b", "b", "a", "s"]],
+    "rarity": "R",
+    "skills": [2501, 2503]
   },
   {
     "id": 251,
     "name": "判官",
-    "attr_rating": [["a", "c", "c", "a", "b"], ["s", "b", "b", "s", "b"]]
+    "attr_rating": [["a", "c", "c", "a", "b"], ["s", "b", "b", "s", "b"]],
+    "rarity": "SR",
+    "skills": [2511, 2513]
   },
   {
     "id": 252,
     "name": "凤凰火",
-    "attr_rating": [["b", "b", "b", "c", "s"], ["a", "a", "a", "a", "s"]]
+    "attr_rating": [["b", "b", "b", "c", "s"], ["a", "a", "a", "a", "s"]],
+    "rarity": "SR",
+    "skills": [2521, 2523]
   },
   {
     "id": 253,
     "name": "吸血姬",
-    "attr_rating": [["a", "c", "c", "a", "s"], ["s", "b", "b", "s", "s"]]
+    "attr_rating": [["a", "c", "c", "a", "s"], ["s", "b", "b", "s", "s"]],
+    "rarity": "SR",
+    "skills": [2531, 2532, 2533]
   },
   {
     "id": 254,
     "name": "妖狐",
-    "attr_rating": [["a", "c", "c", "a", "s"], ["s", "b", "b", "s", "s"]]
+    "attr_rating": [["a", "c", "c", "a", "s"], ["s", "b", "b", "s", "s"]],
+    "rarity": "SR",
+    "skills": [2541, 2542, 2543]
   },
   {
     "id": 255,
     "name": "阎魔",
-    "attr_rating": [["c", "b", "b", "a", "b"], ["b", "a", "a", "s", "b"]]
+    "attr_rating": [["c", "b", "b", "a", "b"], ["b", "a", "a", "s", "b"]],
+    "rarity": "SSR",
+    "skills": [2551, 2552, 2553]
   },
   {
     "id": 256,
     "name": "妖琴师",
-    "attr_rating": [["c", "a", "c", "s", "b"], ["b", "s", "b", "s", "b"]]
+    "attr_rating": [["c", "a", "c", "s", "b"], ["b", "s", "b", "s", "b"]],
+    "rarity": "SR",
+    "skills": [2561, 2562, 2563]
   },
   {
     "id": 257,
     "name": "食梦貘",
-    "attr_rating": [["c", "b", "b", "a", "b"], ["b", "a", "a", "s", "b"]]
+    "attr_rating": [["c", "b", "b", "a", "b"], ["b", "a", "a", "s", "b"]],
+    "rarity": "SR",
+    "skills": [2571, 2572, 2573]
   },
   {
     "id": 258,
     "name": "两面佛",
-    "attr_rating": [["a", "c", "c", "c", "s"], ["s", "b", "b", "a", "s"]]
+    "attr_rating": [["a", "c", "c", "c", "s"], ["s", "b", "b", "a", "s"]],
+    "rarity": "SSR",
+    "skills": [2581, 2582, 2583]
   },
   {
     "id": 259,
     "name": "小鹿男",
-    "attr_rating": [["b", "c", "c", "s", "s"], ["a", "b", "b", "s", "s"]]
+    "attr_rating": [["b", "c", "c", "s", "s"], ["a", "b", "b", "s", "s"]],
+    "rarity": "SSR",
+    "skills": [2591, 2593]
   },
   {
     "id": 260,
     "name": "清姬",
-    "attr_rating": [["c", "b", "b", "c", "b"], ["b", "a", "a", "a", "b"]]
+    "attr_rating": [["c", "b", "b", "c", "b"], ["b", "a", "a", "a", "b"]],
+    "rarity": "SR",
+    "skills": [2601, 2602, 2603]
   },
   {
     "id": 261,
     "name": "镰鼬",
-    "attr_rating": [["b", "b", "c", "a", "b"], ["a", "a", "b", "s", "b"]]
+    "attr_rating": [["b", "b", "c", "a", "b"], ["a", "a", "b", "s", "b"]],
+    "rarity": "SR",
+    "skills": [2611, 2613]
   },
   {
     "id": 262,
     "name": "姑获鸟",
-    "attr_rating": [["a", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]]
+    "attr_rating": [["a", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]],
+    "rarity": "SR",
+    "skills": [2621, 2622, 2623]
   },
   {
     "id": 263,
     "name": "二口女",
-    "attr_rating": [["c", "b", "b", "a", "b"], ["b", "a", "a", "s", "b"]]
+    "attr_rating": [["c", "b", "b", "a", "b"], ["b", "a", "a", "s", "b"]],
+    "rarity": "SR",
+    "skills": [2631, 2632, 2633]
   },
   {
     "id": 264,
     "name": "白狼",
-    "attr_rating": [["a", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]]
+    "attr_rating": [["a", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]],
+    "rarity": "SR",
+    "skills": [2641, 2642, 2643]
   },
   {
     "id": 265,
     "name": "茨木童子",
-    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]]
+    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]],
+    "rarity": "SSR",
+    "skills": [2651, 2652, 2653]
   },
   {
     "id": 266,
     "name": "青行灯",
-    "attr_rating": [["c", "b", "b", "a", "a"], ["b", "a", "a", "s", "a"]]
+    "attr_rating": [["c", "b", "b", "a", "a"], ["b", "a", "a", "s", "a"]],
+    "rarity": "SSR",
+    "skills": [2661, 2662, 2663]
   },
   {
     "id": 267,
     "name": "樱花妖",
-    "attr_rating": [["c", "s", "c", "d", "c"], ["c", "s", "b", "c", "c"]]
+    "attr_rating": [["c", "s", "c", "d", "c"], ["c", "s", "b", "c", "c"]],
+    "rarity": "SR",
+    "skills": [2671, 2672, 2673]
   },
   {
     "id": 268,
     "name": "惠比寿",
-    "attr_rating": [["d", "a", "c", "c", "s"], ["c", "s", "b", "a", "s"]]
+    "attr_rating": [["d", "a", "c", "c", "s"], ["c", "s", "b", "a", "s"]],
+    "rarity": "SR",
+    "skills": [2681, 2683]
   },
   {
     "id": 269,
     "name": "妖刀姬",
-    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "c", "b", "s", "s"]]
+    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "c", "b", "s", "s"]],
+    "rarity": "SSR",
+    "skills": [2691, 2693]
   },
   {
     "id": 270,
     "name": "络新妇",
-    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]]
+    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]],
+    "rarity": "SR",
+    "skills": [2701, 2702, 2703]
   },
   {
     "id": 271,
     "name": "般若",
-    "attr_rating": [["a", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]]
+    "attr_rating": [["a", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]],
+    "rarity": "SR",
+    "skills": [2711, 2712, 2713]
   },
   {
     "id": 272,
     "name": "一目连",
-    "attr_rating": [["c", "s", "c", "a", "b"], ["c", "s", "c", "s", "b"]]
+    "attr_rating": [["c", "s", "c", "a", "b"], ["c", "s", "c", "s", "b"]],
+    "rarity": "SSR",
+    "skills": [2721, 2722, 2723]
   },
   {
     "id": 273,
     "name": "青坊主",
-    "attr_rating": [["c", "a", "c", "a", "b"], ["c", "s", "b", "s", "b"]]
+    "attr_rating": [["c", "a", "c", "a", "b"], ["c", "s", "b", "s", "b"]],
+    "rarity": "SR",
+    "skills": [2731, 2732, 2733]
   },
   {
     "id": 274,
     "name": "古笼火",
-    "attr_rating": [["c", "a", "c", "a", "b"], ["b", "s", "b", "s", "b"]]
+    "attr_rating": [["c", "a", "c", "a", "b"], ["b", "s", "b", "s", "b"]],
+    "rarity": "R",
+    "skills": [2741, 2742, 2743]
   },
   {
     "id": 275,
     "name": "万年竹",
-    "attr_rating": [["s", "c", "c", "a", "b"], ["s", "c", "c", "s", "b"]]
+    "attr_rating": [["s", "c", "c", "a", "b"], ["s", "c", "c", "s", "b"]],
+    "rarity": "SR",
+    "skills": [2751, 2752, 2753]
   },
   {
     "id": 276,
     "name": "夜叉",
-    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "c", "c", "s", "s"]]
+    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "c", "c", "s", "s"]],
+    "rarity": "SR",
+    "skills": [2761, 2763]
   },
   {
     "id": 277,
     "name": "黑童子",
-    "attr_rating": [["s", "d", "d", "c", "a"], ["s", "c", "c", "a", "a"]]
+    "attr_rating": [["s", "d", "d", "c", "a"], ["s", "c", "c", "a", "a"]],
+    "rarity": "SR",
+    "skills": [2771, 2772, 2773]
   },
   {
     "id": 278,
     "name": "白童子",
-    "attr_rating": [["s", "c", "c", "b", "b"], ["s", "b", "c", "s", "b"]]
+    "attr_rating": [["s", "c", "c", "b", "b"], ["s", "b", "c", "s", "b"]],
+    "rarity": "SR",
+    "skills": [2781, 2783]
   },
   {
     "id": 279,
     "name": "花鸟卷",
-    "attr_rating": [["d", "s", "c", "b", "b"], ["c", "s", "b", "s", "b"]]
+    "attr_rating": [["d", "s", "c", "b", "b"], ["c", "s", "b", "s", "b"]],
+    "rarity": "SSR",
+    "skills": [2791, 2793]
   },
   {
     "id": 280,
     "name": "辉夜姬",
-    "attr_rating": [["c", "s", "c", "c", "b"], ["c", "s", "b", "a", "b"]]
+    "attr_rating": [["c", "s", "c", "c", "b"], ["c", "s", "b", "a", "b"]],
+    "rarity": "SSR",
+    "skills": [2801, 2802, 2803]
   },
   {
     "id": 281,
     "name": "烟烟罗",
-    "attr_rating": [["s", "c", "c", "b", "b"], ["s", "b", "c", "s", "b"]]
+    "attr_rating": [["s", "c", "c", "b", "b"], ["s", "b", "c", "s", "b"]],
+    "rarity": "SR",
+    "skills": [2811, 2812, 2813]
   },
   {
     "id": 282,
     "name": "金鱼姬",
-    "attr_rating": [["c", "s", "c", "a", "b"], ["c", "s", "b", "s", "b"]]
+    "attr_rating": [["c", "s", "c", "a", "b"], ["c", "s", "b", "s", "b"]],
+    "rarity": "SR",
+    "skills": [2821, 2823, 2822]
   },
   {
     "id": 283,
     "name": "荒",
-    "attr_rating": [["s", "c", "a", "d", "s"], ["s", "b", "s", "b", "s"]]
+    "attr_rating": [["s", "c", "a", "d", "s"], ["s", "b", "s", "b", "s"]],
+    "rarity": "SSR",
+    "skills": [2831, 2832, 2833]
   },
   {
     "id": 285,
     "name": "鸩",
-    "attr_rating": [["a", "b", "d", "a", "b"], ["s", "a", "c", "s", "b"]]
+    "attr_rating": [["a", "b", "d", "a", "b"], ["s", "a", "c", "s", "b"]],
+    "rarity": "SR",
+    "skills": [2851, 2852, 2853]
   },
   {
     "id": 286,
     "name": "以津真天",
-    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "c", "b", "s", "s"]]
+    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "c", "b", "s", "s"]],
+    "rarity": "SR",
+    "skills": [2861, 2862, 2863]
   },
   {
     "id": 287,
     "name": "匣中少女",
-    "attr_rating": [["c", "s", "c", "a", "c"], ["b", "s", "c", "s", "c"]]
+    "attr_rating": [["c", "s", "c", "a", "c"], ["b", "s", "c", "s", "c"]],
+    "rarity": "SR",
+    "skills": [2871, 2872, 2873]
   },
   {
     "id": 288,
     "name": "彼岸花",
-    "attr_rating": [["a", "b", "c", "c", "a"], ["s", "a", "c", "a", "a"]]
+    "attr_rating": [["a", "b", "c", "c", "a"], ["s", "a", "c", "a", "a"]],
+    "rarity": "SSR",
+    "skills": [2881, 2882, 2883]
   },
   {
     "id": 289,
     "name": "兔丸",
-    "attr_rating": [["c", "a", "c", "a", "c"], ["b", "s", "b", "s", "c"]]
+    "attr_rating": [["c", "a", "c", "a", "c"], ["b", "s", "b", "s", "c"]],
+    "rarity": "R",
+    "skills": [2891, 2892, 2893]
   },
   {
     "id": 290,
     "name": "小松丸",
-    "attr_rating": [["b", "c", "c", "a", "b"], ["a", "b", "b", "s", "b"]]
+    "attr_rating": [["b", "c", "c", "a", "b"], ["a", "b", "b", "s", "b"]],
+    "rarity": "SR",
+    "skills": [2901, 2902, 2903]
   },
   {
     "id": 291,
     "name": "书翁",
-    "attr_rating": [["b", "b", "b", "c", "a"], ["a", "a", "a", "a", "a"]]
+    "attr_rating": [["b", "b", "b", "c", "a"], ["a", "a", "a", "a", "a"]],
+    "rarity": "SR",
+    "skills": [2911, 2912, 2913]
   },
   {
     "id": 292,
     "name": "雪童子",
-    "attr_rating": [["s", "c", "c", "s", "a"], ["s", "c", "c", "s", "a"]]
+    "attr_rating": [["s", "c", "c", "s", "a"], ["s", "c", "c", "s", "a"]],
+    "rarity": "SSR",
+    "skills": [2921, 2922, 2923]
   },
   {
     "id": 293,
     "name": "百目鬼",
-    "attr_rating": [["b", "d", "a", "a", "c"], ["a", "c", "s", "s", "c"]]
+    "attr_rating": [["b", "d", "a", "a", "c"], ["a", "c", "s", "s", "c"]],
+    "rarity": "SR",
+    "skills": [2931, 2932, 2933]
   },
   {
     "id": 294,
     "name": "奴良陆生",
-    "attr_rating": [["a", "b", "d", "b", "s"], ["s", "a", "c", "s", "s"]]
+    "attr_rating": [["a", "b", "d", "b", "s"], ["s", "a", "c", "s", "s"]],
+    "rarity": "SSR",
+    "skills": [2941, 2942, 2943]
   },
   {
     "id": 295,
     "name": "追月神",
-    "attr_rating": [["d", "a", "b", "c", "b"], ["c", "s", "a", "a", "b"]]
+    "attr_rating": [["d", "a", "b", "c", "b"], ["c", "s", "a", "a", "b"]],
+    "rarity": "SR",
+    "skills": [2951, 2953]
   },
   {
     "id": 296,
     "name": "山风",
-    "attr_rating": [["s", "b", "c", "a", "d"], ["s", "a", "c", "s", "d"]]
+    "attr_rating": [["s", "b", "c", "a", "d"], ["s", "a", "c", "s", "d"]],
+    "rarity": "SSR",
+    "skills": [2961, 2962, 2963]
   },
   {
     "id": 297,
     "name": "日和坊",
-    "attr_rating": [["c", "s", "c", "b", "b"], ["c", "s", "c", "s", "b"]]
+    "attr_rating": [["c", "s", "c", "b", "b"], ["c", "s", "c", "s", "b"]],
+    "rarity": "SR",
+    "skills": [2971, 2972, 2973]
   },
   {
     "id": 298,
     "name": "薰",
-    "attr_rating": [["d", "s", "c", "b", "c"], ["c", "s", "b", "s", "c"]]
+    "attr_rating": [["d", "s", "c", "b", "c"], ["c", "s", "b", "s", "c"]],
+    "rarity": "SR",
+    "skills": [2981, 2983]
   },
   {
     "id": 300,
     "name": "玉藻前",
-    "attr_rating": [["s", "a", "d", "b", "s"], ["s", "s", "c", "s", "s"]]
+    "attr_rating": [["s", "a", "d", "b", "s"], ["s", "s", "c", "s", "s"]],
+    "rarity": "SSR",
+    "skills": [3001, 3002, 3003]
   },
   {
     "id": 301,
     "name": "数珠",
-    "attr_rating": [["d", "c", "b", "b", "c"], ["c", "b", "s", "s", "c"]]
+    "attr_rating": [["d", "c", "b", "b", "c"], ["c", "b", "s", "s", "c"]],
+    "rarity": "R",
+    "skills": [3011, 3012, 3013]
   },
   {
     "id": 302,
     "name": "小袖之手",
-    "attr_rating": [["a", "c", "c", "a", "a"], ["s", "b", "b", "s", "a"]]
+    "attr_rating": [["a", "c", "c", "a", "a"], ["s", "b", "b", "s", "a"]],
+    "rarity": "R",
+    "skills": [3021, 3022, 3023]
   },
   {
     "id": 303,
     "name": "弈",
-    "attr_rating": [["a", "d", "b", "c", "a"], ["s", "c", "a", "a", "a"]]
+    "attr_rating": [["a", "d", "b", "c", "a"], ["s", "c", "a", "a", "a"]],
+    "rarity": "SR",
+    "skills": [3031, 3032, 3033]
   },
   {
     "id": 304,
     "name": "御馔津",
-    "attr_rating": [["a", "a", "b", "a", "b"], ["s", "s", "a", "s", "b"]]
+    "attr_rating": [["a", "a", "b", "a", "b"], ["s", "s", "a", "s", "b"]],
+    "rarity": "SSR",
+    "skills": [3041, 3042, 3043]
   },
   {
     "id": 305,
     "name": "卖药郎",
-    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "b", "c", "s", "s"]]
+    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "b", "c", "s", "s"]],
+    "rarity": "SSR",
+    "skills": [3051, 3052, 3053]
   },
   {
     "id": 306,
     "name": "虫师",
-    "attr_rating": [["c", "s", "c", "a", "c"], ["c", "s", "c", "s", "c"]]
+    "attr_rating": [["c", "s", "c", "a", "c"], ["c", "s", "c", "s", "c"]],
+    "rarity": "R",
+    "skills": [3061, 3062, 3063]
   },
   {
     "id": 307,
     "name": "猫掌柜",
-    "attr_rating": [["a", "c", "c", "a", "s"], ["s", "b", "b", "s", "s"]]
+    "attr_rating": [["a", "c", "c", "a", "s"], ["s", "b", "b", "s", "s"]],
+    "rarity": "SR",
+    "skills": [3071, 3072, 3073]
   },
   {
     "id": 308,
     "name": "鬼灯",
-    "attr_rating": [["a", "d", "b", "b", "s"], ["s", "c", "a", "s", "s"]]
+    "attr_rating": [["a", "d", "b", "b", "s"], ["s", "c", "a", "s", "s"]],
+    "rarity": "SSR",
+    "skills": [3081, 3082, 3083]
   },
   {
     "id": 309,
     "name": "阿香",
-    "attr_rating": [["a", "c", "c", "b", "b"], ["s", "b", "b", "s", "b"]]
+    "attr_rating": [["a", "c", "c", "b", "b"], ["s", "b", "b", "s", "b"]],
+    "rarity": "SR",
+    "skills": [3091, 3092, 3093]
   },
   {
     "id": 310,
     "name": "蜜桃&芥子",
-    "attr_rating": [["d", "a", "a", "a", "b"], ["d", "a", "s", "s", "b"]]
+    "attr_rating": [["d", "a", "a", "a", "b"], ["d", "a", "s", "s", "b"]],
+    "rarity": "R",
+    "skills": [3101, 3103]
   },
   {
     "id": 311,
     "name": "面灵气",
-    "attr_rating": [["s", "c", "c", "a", "a"], ["s", "c", "b", "s", "a"]]
+    "attr_rating": [["s", "c", "c", "a", "a"], ["s", "c", "b", "s", "a"]],
+    "rarity": "SSR",
+    "skills": [3111, 3112, 3113]
   },
   {
     "id": 312,
     "name": "鬼切",
-    "attr_rating": [["s", "c", "d", "a", "s"], ["s", "b", "c", "s", "s"]]
+    "attr_rating": [["s", "c", "d", "a", "s"], ["s", "b", "c", "s", "s"]],
+    "rarity": "SSR",
+    "skills": [3121, 3122, 3123]
   },
   {
     "id": 313,
     "name": "犬夜叉",
-    "attr_rating": [["a", "b", "c", "b", "s"], ["s", "a", "c", "s", "s"]]
+    "attr_rating": [["a", "b", "c", "b", "s"], ["s", "a", "c", "s", "s"]],
+    "rarity": "SSR",
+    "skills": [3131, 3132, 3133]
   },
   {
     "id": 314,
     "name": "杀生丸",
-    "attr_rating": [["s", "c", "c", "a", "s"], ["s", "c", "c", "s", "s"]]
+    "attr_rating": [["s", "c", "c", "a", "s"], ["s", "c", "c", "s", "s"]],
+    "rarity": "SSR",
+    "skills": [3141, 3142, 3143]
   },
   {
     "id": 315,
     "name": "少羽大天狗",
-    "attr_rating": [["s", "d", "d", "s", "s"], ["s", "c", "c", "s", "s"]]
+    "attr_rating": [["s", "d", "d", "s", "s"], ["s", "c", "c", "s", "s"]],
+    "rarity": "SP",
+    "skills": [3151, 3152, 3153]
   },
   {
     "id": 316,
     "name": "白藏主",
-    "attr_rating": [["d", "s", "b", "b", "b"], ["d", "s", "a", "s", "b"]]
+    "attr_rating": [["d", "s", "b", "b", "b"], ["d", "s", "a", "s", "b"]],
+    "rarity": "SSR",
+    "skills": [3161, 3162, 3163]
   },
   {
     "id": 317,
     "name": "人面树",
-    "attr_rating": [["d", "a", "a", "d", "a"], ["d", "s", "s", "c", "a"]]
+    "attr_rating": [["d", "a", "a", "d", "a"], ["d", "s", "s", "c", "a"]],
+    "rarity": "SR",
+    "skills": [3171, 3172, 3173]
   },
   {
     "id": 318,
     "name": "於菊虫",
-    "attr_rating": [["b", "b", "d", "c", "b"], ["s", "a", "c", "a", "b"]]
+    "attr_rating": [["b", "b", "d", "c", "b"], ["s", "a", "c", "a", "b"]],
+    "rarity": "SR",
+    "skills": [3181, 3182, 3183]
   },
   {
     "id": 319,
     "name": "桔梗",
-    "attr_rating": [["a", "c", "c", "a", "s"], ["s", "b", "b", "s", "s"]]
+    "attr_rating": [["a", "c", "c", "a", "s"], ["s", "b", "b", "s", "s"]],
+    "rarity": "SSR",
+    "skills": [3191, 3192, 3193]
   },
   {
     "id": 320,
     "name": "一反木绵",
-    "attr_rating": [["b", "b", "c", "a", "b"], ["a", "a", "b", "s", "b"]]
+    "attr_rating": [["b", "b", "c", "a", "b"], ["a", "a", "b", "s", "b"]],
+    "rarity": "SR",
+    "skills": [3201, 3202, 3203]
   },
   {
     "id": 321,
     "name": "入殓师",
-    "attr_rating": [["a", "d", "b", "d", "s"], ["s", "c", "a", "b", "s"]]
+    "attr_rating": [["a", "d", "b", "d", "s"], ["s", "c", "a", "b", "s"]],
+    "rarity": "SR",
+    "skills": [3211, 3212, 3213]
   },
   {
     "id": 322,
     "name": "炼狱茨木童子",
-    "attr_rating": [["s", "c", "d", "b", "s"], ["s", "b", "c", "s", "s"]]
+    "attr_rating": [["s", "c", "d", "b", "s"], ["s", "b", "c", "s", "s"]],
+    "rarity": "SP",
+    "skills": [3221, 3222, 3223]
   },
   {
     "id": 323,
     "name": "天井下",
-    "attr_rating": [["d", "b", "a", "c", "b"], ["c", "a", "s", "a", "b"]]
+    "attr_rating": [["d", "b", "a", "c", "b"], ["c", "a", "s", "a", "b"]],
+    "rarity": "R",
+    "skills": [3231, 3232, 3233]
   },
   {
     "id": 324,
     "name": "化鲸",
-    "attr_rating": [["b", "a", "d", "b", "b"], ["a", "s", "c", "s", "b"]]
+    "attr_rating": [["b", "a", "d", "b", "b"], ["a", "s", "c", "s", "b"]],
+    "rarity": "SR",
+    "skills": [3241, 3242, 3243]
   },
   {
     "id": 325,
     "name": "八岐大蛇",
-    "attr_rating": [["s", "b", "b", "a", "s"], ["ss", "a", "a", "s", "s"]]
+    "attr_rating": [["s", "b", "b", "a", "s"], ["ss", "a", "a", "s", "s"]],
+    "rarity": "SSR",
+    "skills": [3251, 3252, 3253]
   },
   {
     "id": 326,
     "name": "稻荷神御馔津",
-    "attr_rating": [["a", "b", "b", "c", "s"], ["s", "a", "s", "a", "s"]]
+    "attr_rating": [["a", "b", "b", "c", "s"], ["s", "a", "s", "a", "s"]],
+    "rarity": "SP",
+    "skills": [3261, 3262, 3263]
   },
   {
     "id": 327,
     "name": "苍风一目连",
-    "attr_rating": [["s", "b", "d", "s", "s"], ["s", "a", "d", "s", "s"]]
+    "attr_rating": [["s", "b", "d", "s", "s"], ["s", "a", "d", "s", "s"]],
+    "rarity": "SP",
+    "skills": [3271, 3272, 3273]
   },
   {
     "id": 400,
     "name": "盗墓小鬼",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]]
+    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4001]
   },
   {
     "id": 401,
     "name": "寄生魂",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]]
+    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4011]
   },
   {
     "id": 403,
     "name": "唐纸伞妖",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]]
+    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4031, 4032]
   },
   {
     "id": 404,
     "name": "天邪鬼绿",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]]
+    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4041, 4042]
   },
   {
     "id": 405,
     "name": "天邪鬼赤",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]]
+    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4051, 4052]
   },
   {
     "id": 406,
     "name": "天邪鬼黄",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]]
+    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4061, 4062]
   },
   {
     "id": 407,
     "name": "天邪鬼青",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]]
+    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4071, 4072]
   },
   {
     "id": 408,
     "name": "帚神",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]]
+    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4081, 4082]
   },
   {
     "id": 409,
     "name": "涂壁",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]]
+    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4091, 4092]
   },
   {
     "id": 410,
     "name": "招福达摩",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]]
+    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4101]
   },
   {
     "id": 411,
     "name": "御行达摩",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]]
+    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4101]
   },
   {
     "id": 412,
     "name": "奉为达摩",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]]
+    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4101]
   },
   {
     "id": 413,
     "name": "大吉达摩",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]]
+    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4101]
   },
   {
     "id": 414,
     "name": "大天狗呱",
-    "attr_rating": [["b", "c", "b", "b", "d"], ["a", "b", "a", "s", "d"]]
+    "attr_rating": [["b", "c", "b", "b", "d"], ["a", "b", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4141, 4142]
   },
   {
     "id": 415,
     "name": "酒吞呱",
-    "attr_rating": [["b", "c", "b", "c", "d"], ["a", "b", "a", "a", "d"]]
+    "attr_rating": [["b", "c", "b", "c", "d"], ["a", "b", "a", "a", "d"]],
+    "rarity": "N",
+    "skills": [4151, 4152]
   },
   {
     "id": 416,
     "name": "荒川呱",
-    "attr_rating": [["b", "b", "c", "b", "d"], ["a", "a", "b", "s", "d"]]
+    "attr_rating": [["b", "b", "c", "b", "d"], ["a", "a", "b", "s", "d"]],
+    "rarity": "N",
+    "skills": [4161, 4162]
   },
   {
     "id": 417,
     "name": "阎魔呱",
-    "attr_rating": [["c", "b", "b", "b", "d"], ["b", "a", "a", "s", "d"]]
+    "attr_rating": [["c", "b", "b", "b", "d"], ["b", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4171, 4172]
   },
   {
     "id": 418,
     "name": "两面佛呱",
-    "attr_rating": [["b", "b", "c", "b", "d"], ["a", "a", "b", "s", "d"]]
+    "attr_rating": [["b", "b", "c", "b", "d"], ["a", "a", "b", "s", "d"]],
+    "rarity": "N",
+    "skills": [4181, 4182]
   },
   {
     "id": 419,
     "name": "小鹿男呱",
-    "attr_rating": [["c", "b", "b", "b", "d"], ["b", "a", "a", "s", "d"]]
+    "attr_rating": [["c", "b", "b", "b", "d"], ["b", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4191, 4192]
   },
   {
     "id": 420,
     "name": "茨木呱",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]]
+    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4201, 4202]
   },
   {
     "id": 421,
     "name": "青行灯呱",
-    "attr_rating": [["c", "b", "b", "b", "d"], ["b", "a", "a", "s", "d"]]
+    "attr_rating": [["c", "b", "b", "b", "d"], ["b", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4211, 4212]
   },
   {
     "id": 422,
     "name": "妖刀姬呱",
-    "attr_rating": [["b", "b", "c", "c", "d"], ["a", "a", "b", "a", "d"]]
+    "attr_rating": [["b", "b", "c", "c", "d"], ["a", "a", "b", "a", "d"]],
+    "rarity": "N",
+    "skills": [4221, 4222]
   },
   {
     "id": 423,
     "name": "一目连呱",
-    "attr_rating": [["c", "b", "b", "b", "d"], ["b", "a", "a", "s", "d"]]
+    "attr_rating": [["c", "b", "b", "b", "d"], ["b", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4231, 4232]
   },
   {
     "id": 424,
     "name": "花鸟卷呱",
-    "attr_rating": [["c", "b", "b", "b", "d"], ["b", "a", "a", "s", "d"]]
+    "attr_rating": [["c", "b", "b", "b", "d"], ["b", "a", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4241, 4242]
   },
   {
     "id": 425,
     "name": "辉夜姬呱",
-    "attr_rating": [["c", "b", "b", "c", "d"], ["b", "a", "a", "a", "d"]]
+    "attr_rating": [["c", "b", "b", "c", "d"], ["b", "a", "a", "a", "d"]],
+    "rarity": "N",
+    "skills": [4251, 4252]
   },
   {
     "id": 426,
     "name": "荒呱",
-    "attr_rating": [["b", "b", "c", "c", "d"], ["a", "a", "b", "a", "d"]]
+    "attr_rating": [["b", "b", "c", "c", "d"], ["a", "a", "b", "a", "d"]],
+    "rarity": "N",
+    "skills": [4261, 4262]
   },
   {
     "id": 427,
     "name": "彼岸花呱",
-    "attr_rating": [["b", "c", "b", "b", "d"], ["a", "b", "a", "s", "d"]]
+    "attr_rating": [["b", "c", "b", "b", "d"], ["a", "b", "a", "s", "d"]],
+    "rarity": "N",
+    "skills": [4271, 4272]
   },
   {
     "id": 514,
     "name": "大天狗呱",
-    "attr_rating": [["a", "b", "b", "c", "s"], ["a", "b", "a", "a", "s"]]
+    "attr_rating": [["a", "b", "b", "c", "s"], ["a", "b", "a", "a", "s"]],
+    "rarity": "N",
+    "skills": [5141, 5142]
   },
   {
     "id": 515,
     "name": "酒吞呱",
-    "attr_rating": [["s", "b", "b", "b", "s"], ["s", "b", "b", "s", "s"]]
+    "attr_rating": [["s", "b", "b", "b", "s"], ["s", "b", "b", "s", "s"]],
+    "rarity": "N",
+    "skills": [5151, 5152]
   },
   {
     "id": 516,
     "name": "荒川呱",
-    "attr_rating": [["a", "b", "b", "b", "ss"], ["a", "a", "b", "s", "ss"]]
+    "attr_rating": [["a", "b", "b", "b", "ss"], ["a", "a", "b", "s", "ss"]],
+    "rarity": "N",
+    "skills": [5161, 5162]
   },
   {
     "id": 517,
     "name": "阎魔呱",
-    "attr_rating": [["b", "a", "a", "s", "s"], ["b", "a", "a", "s", "s"]]
+    "attr_rating": [["b", "a", "a", "s", "s"], ["b", "a", "a", "s", "s"]],
+    "rarity": "N",
+    "skills": [5171, 5172]
   },
   {
     "id": 518,
     "name": "两面佛呱",
-    "attr_rating": [["a", "a", "a", "b", "s"], ["a", "a", "a", "s", "s"]]
+    "attr_rating": [["a", "a", "a", "b", "s"], ["a", "a", "a", "s", "s"]],
+    "rarity": "N",
+    "skills": [5181, 5182]
   },
   {
     "id": 519,
     "name": "小鹿男呱",
-    "attr_rating": [["b", "a", "a", "a", "s"], ["b", "a", "a", "s", "s"]]
+    "attr_rating": [["b", "a", "a", "a", "s"], ["b", "a", "a", "s", "s"]],
+    "rarity": "N",
+    "skills": [5191, 5192]
   },
   {
     "id": 520,
     "name": "茨木呱",
-    "attr_rating": [["a", "b", "b", "b", "ss"], ["a", "b", "b", "s", "ss"]]
+    "attr_rating": [["a", "b", "b", "b", "ss"], ["a", "b", "b", "s", "ss"]],
+    "rarity": "N",
+    "skills": [5201, 5202]
   },
   {
     "id": 521,
     "name": "青行灯呱",
-    "attr_rating": [["b", "a", "a", "a", "s"], ["b", "a", "a", "s", "s"]]
+    "attr_rating": [["b", "a", "a", "a", "s"], ["b", "a", "a", "s", "s"]],
+    "rarity": "N",
+    "skills": [5211, 5212]
   },
   {
     "id": 522,
     "name": "妖刀姬呱",
-    "attr_rating": [["s", "b", "b", "c", "ss"], ["s", "b", "b", "a", "ss"]]
+    "attr_rating": [["s", "b", "b", "c", "ss"], ["s", "b", "b", "a", "ss"]],
+    "rarity": "N",
+    "skills": [5221, 5222]
   },
   {
     "id": 523,
     "name": "一目连呱",
-    "attr_rating": [["b", "s", "b", "a", "s"], ["b", "s", "b", "s", "s"]]
+    "attr_rating": [["b", "s", "b", "a", "s"], ["b", "s", "b", "s", "s"]],
+    "rarity": "N",
+    "skills": [5231, 5232]
   },
   {
     "id": 524,
     "name": "花鸟卷呱",
-    "attr_rating": [["c", "s", "b", "b", "s"], ["c", "s", "b", "s", "s"]]
+    "attr_rating": [["c", "s", "b", "b", "s"], ["c", "s", "b", "s", "s"]],
+    "rarity": "N",
+    "skills": [5241, 5242]
   },
   {
     "id": 525,
     "name": "辉夜姬呱",
-    "attr_rating": [["c", "s", "b", "c", "s"], ["c", "s", "b", "a", "s"]]
+    "attr_rating": [["c", "s", "b", "c", "s"], ["c", "s", "b", "a", "s"]],
+    "rarity": "N",
+    "skills": [5251, 5252]
   },
   {
     "id": 526,
     "name": "荒呱",
-    "attr_rating": [["s", "b", "a", "c", "ss"], ["s", "b", "a", "a", "ss"]]
+    "attr_rating": [["s", "b", "a", "c", "ss"], ["s", "b", "a", "a", "ss"]],
+    "rarity": "N",
+    "skills": [5261, 5262]
   },
   {
     "id": 527,
     "name": "彼岸花呱",
-    "attr_rating": [["a", "a", "b", "c", "s"], ["a", "a", "b", "a", "s"]]
+    "attr_rating": [["a", "a", "b", "c", "s"], ["a", "a", "b", "a", "s"]],
+    "rarity": "N",
+    "skills": [5271, 5272]
   }
 ]
