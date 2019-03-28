@@ -45,9 +45,10 @@ const renderAttrs = (hero: IHero, ratings: IHeroAttrRating) => (
       return (
         <div key={key} className="yyx-layout row">
           <i className={classNames("attr-icon item yyx-space-h", className)} />
-          <span className="item rating">
-            <Rating rating={ratings[key as keyof IHeroAttrRating]} />
-          </span>
+          <Rating
+            className="item rating"
+            rating={ratings[key as keyof IHeroAttrRating]}
+          />
           <span className="item label">{label}</span>
           <span className="item attr-value">
             {formatAttrValue(attr.base, type)}
