@@ -28,7 +28,11 @@ const AppRender: SFC<{
     if (props.notSelected) {
       main = <SnapshotSelectScreen />;
     } else {
-      main = <Spinner />;
+      main = (
+        <div style={{ marginTop: "20%" }}>
+          <Spinner />
+        </div>
+      );
     }
   }
 

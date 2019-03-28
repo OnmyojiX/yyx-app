@@ -1,6 +1,6 @@
 import { IHeroAttrRating, IHeroData, HeroRarity } from "../../interfaces";
 
-const DATA = require("./HERO_DATA.json");
+export const DATA = require("./HERO_DATA.json");
 
 const mapAttrRating = (list: string[]) => {
   return {

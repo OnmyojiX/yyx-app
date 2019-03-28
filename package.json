@@ -1,9 +1,10 @@
 {
   "name": "yyx-app",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@blueprintjs/core": "^3.13.0",
+    "@blueprintjs/select": "^3.7.0",
     "@types/axios": "^0.14.0",
     "@types/classnames": "^2.2.7",
     "@types/jest": "24.0.6",
@@ -22,7 +23,7 @@
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-redux": "^6.0.1",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.5",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",

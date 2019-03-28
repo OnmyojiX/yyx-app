@@ -32,7 +32,10 @@ const selectSorted = createSelector(
       return null;
     }
 
-    return items.slice().sort(defaultSorter);
+    return items
+      .slice()
+      .filter(i => i.shards > 0 || i.books > 0)
+      .sort(defaultSorter);
   }
 );
 

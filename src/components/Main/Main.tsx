@@ -66,7 +66,7 @@ const Render: SFC<RouteComponentProps> = props => {
   const path = props.location.pathname;
   return (
     <main>
-      <Navbar fixedToTop>
+      <Navbar>
         <NavbarGroup align={Alignment.LEFT}>
           <a className="navbar-left">
             <img className="logo" src={logo} />

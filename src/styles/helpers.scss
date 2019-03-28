@@ -20,22 +20,3 @@ table.yyx-prop-table {
 .yyx-hide {
   display: none;
 }
-
-.yyx-layout {
-  &.row {
-    flex-direction: row;
-  }
-
-  &.column {
-    flex-direction: column;
-  }
-
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  > .item {
-    flex: 1;
-  }
-}

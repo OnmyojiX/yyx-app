@@ -1,4 +1,10 @@
-import { createStore, combineReducers, applyMiddleware, compose } from "redux";
+import {
+  createStore,
+  combineReducers,
+  applyMiddleware,
+  compose,
+  Dispatch
+} from "redux";
 import thunk, { ThunkDispatch, ThunkAction } from "redux-thunk";
 
 import * as error from "./modules/error";

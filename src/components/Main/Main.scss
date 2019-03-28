@@ -1,10 +1,10 @@
-body {
-  padding-top: 50px;
-}
-
 main {
   .logo {
     width: 27px;
     height: 27px;
   }
+
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
 }

@@ -56,6 +56,47 @@ $rarity-border-color: (
       background: #4b322c;
       transform: rotate(45deg);
       z-index: -1;
+      border-left-color: transparent;
+      border-bottom-color: transparent;
+    }
+  }
+
+  .children-count {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+
+    span {
+      position: absolute;
+      display: inline-block;
+      width: 20px;
+      top: 0;
+      right: 0;
+      transform: rotate(45deg);
+      transform-origin: 50% 50%;
+      z-index: 1;
+      font-weight: bold;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: 0;
+      top: 0;
+      right: 0;
+      width: 0;
+      height: 0;
+      overflow: hidden;
+      border: 16px solid #96745b;
+      border-left-color: transparent;
+      border-bottom-color: transparent;
     }
   }
 
@@ -95,6 +136,14 @@ $rarity-border-color: (
 
       &::before {
         border-color: $color;
+      }
+
+      .children-count {
+        &::before {
+          border-color: $color;
+          border-left-color: transparent;
+          border-bottom-color: transparent;
+        }
       }
     }
   }

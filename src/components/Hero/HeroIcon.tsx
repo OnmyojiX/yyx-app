@@ -5,7 +5,7 @@ import classNames from "classnames";
 import { HERO_MAX_LEVEL } from "../../constants";
 import { Stars, StarType } from "../Common/Star";
 
-const getStarType = (h: IHero) => {
+const getStarType = (h: { rarity: HeroRarity; awake: number }) => {
   if (h.rarity === HeroRarity.N) {
     return StarType.Blue;
   } else if (h.rarity === HeroRarity.SP) {
@@ -15,10 +15,20 @@ const getStarType = (h: IHero) => {
   }
 };
 
+export interface IHeroIconItem {
+  id?: string;
+  hero_id: number;
+  level: number;
+  star: number;
+  rarity: HeroRarity;
+  awake: number;
+}
+
 export const HeroIcon: SFC<{
-  hero: IHero;
+  hero: IHeroIconItem;
   className?: string;
-  onClickHero?: (hero: IHero) => void;
+  onClickHero?: (item: IHeroIconItem) => void;
+  childHeros?: IHero[];
 }> = props => {
   const h = props.hero;
   return (
@@ -26,7 +36,7 @@ export const HeroIcon: SFC<{
       className={classNames(
         "hero-icon",
         `rarity-${h.rarity.toLowerCase()}`,
-        props.onClickHero && "clickable",
+        !props.childHeros && props.onClickHero && "clickable",
         props.className
       )}
       key={h.id}
@@ -34,6 +44,11 @@ export const HeroIcon: SFC<{
     >
       <img className={props.className} src={`/res/hero/${h.hero_id}.png`} />
       <div className="level">{h.level === HERO_MAX_LEVEL ? "满" : h.level}</div>
+      {props.childHeros && (
+        <div className="children-count">
+          <span>{props.childHeros.length}</span>
+        </div>
+      )}
       <div className="star-level">
         <Stars type={getStarType(h)} level={h.star} />
       </div>

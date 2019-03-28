@@ -1,6 +1,7 @@
 import moment from "moment";
 
 export type Sorter<T> = (a: T, b: T) => number;
+export type Filter<T> = (v: T) => boolean;
 
 export function composeSorters<T>(...sorters: Array<Sorter<T>>): Sorter<T> {
   return (a, b) => {
@@ -11,6 +12,18 @@ export function composeSorters<T>(...sorters: Array<Sorter<T>>): Sorter<T> {
       }
     }
     return 0;
+  };
+}
+
+export function composeFilters<T>(...filters: Array<Filter<T>>): Filter<T> {
+  return v => {
+    for (let filter of filters) {
+      const r = filter(v);
+      if (!r) {
+        return false;
+      }
+    }
+    return true;
   };
 }
 
