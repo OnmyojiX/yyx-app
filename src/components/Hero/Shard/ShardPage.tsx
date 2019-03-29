@@ -1,9 +1,9 @@
 import React, { SFC, useState } from "react";
 import { connect } from "react-redux";
-import { IYyxState } from "../../store";
-import { ShardSelectors } from "../../modules/shard";
-import { IHeroBookShard } from "../../interfaces";
-import { Rarity } from "../Common/Rarity";
+import { IYyxState } from "../../../store";
+import { ShardSelectors } from "../../../modules/shard";
+import { IHeroBookShard } from "../../../interfaces";
+import { Rarity } from "../../Common/Rarity";
 
 const Render: SFC<{
   items: IHeroBookShard[] | null;
@@ -17,9 +17,9 @@ const Render: SFC<{
       <table className="bp3-html-table bp3-html-table-striped">
         <thead>
           <tr>
-            <th>稀有度</th>
             <th>式神</th>
-            <th>碎片</th>
+            <th>拥有碎片</th>
+            <th>所需碎片</th>
           </tr>
         </thead>
         <tbody>
@@ -27,13 +27,18 @@ const Render: SFC<{
             i =>
               i.hero_data && (
                 <tr key={i.hero_id}>
-                  <td>
-                    <Rarity rarity={i.hero_data.rarity} />
+                  <td
+                    className="yyx-layout row"
+                    style={{ justifyContent: "flex-start" }}
+                  >
+                    <Rarity
+                      rarity={i.hero_data.rarity}
+                      className="yyx-space-h"
+                    />
+                    {i.hero_data.name}
                   </td>
-                  <td>{i.hero_data.name}</td>
-                  <td>
-                    {i.shards} / {i.book_max_shards}
-                  </td>
+                  <td>{i.shards}</td>
+                  <td>{i.book_max_shards}</td>
                 </tr>
               )
           )}

@@ -12,18 +12,23 @@ const mapAttrRating = (list: string[]) => {
   } as IHeroAttrRating;
 };
 
-const DataMap: Map<number, IHeroData> = DATA.reduce(
+export const ALL_HERO_DATA: IHeroData[] = DATA.map((i: any) => {
+  return {
+    id: i.id,
+    name: i.name,
+    attr_rating: {
+      unawake: mapAttrRating(i.attr_rating[0]),
+      awake: mapAttrRating(i.attr_rating[1])
+    },
+    rarity: i.rarity,
+    skills: i.skills,
+    awake_skill: i.awake_skill
+  };
+});
+
+const DataMap: Map<number, IHeroData> = ALL_HERO_DATA.reduce(
   (m: Map<number, IHeroData>, i: any) => {
-    m.set(i.id, {
-      id: i.id,
-      name: i.name,
-      attr_rating: {
-        unawake: mapAttrRating(i.attr_rating[0]),
-        awake: mapAttrRating(i.attr_rating[1])
-      },
-      rarity: i.rarity,
-      skills: i.skills
-    });
+    m.set(i.id, i);
     return m;
   },
   new Map()

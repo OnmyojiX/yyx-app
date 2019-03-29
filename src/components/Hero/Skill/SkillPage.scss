@@ -1,0 +1,32 @@
+.skill-table {
+  tbody {
+    td {
+      vertical-align: middle;
+    }
+  }
+
+  .big {
+    font-size: 24px;
+  }
+
+  .levels {
+    display: flex;
+    flex-direction: row;
+    > span {
+      flex: 0 0 10px;
+      font-weight: bold;
+
+      &::before {
+        content: "/";
+        color: #ccc;
+        padding: 0 8px;
+      }
+    }
+
+    span:first-child {
+      &::before {
+        display: none;
+      }
+    }
+  }
+}

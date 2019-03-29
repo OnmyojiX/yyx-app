@@ -62,3 +62,13 @@ export function formatDate(date: string | Date) {
     .local()
     .format(DATE_FORMAT);
 }
+
+export function computeOnce<T>(f: () => T): () => T {
+  let value: T | null = null;
+  return () => {
+    if (!value) {
+      value = f();
+    }
+    return value;
+  };
+}

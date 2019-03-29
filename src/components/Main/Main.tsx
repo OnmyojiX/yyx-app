@@ -29,7 +29,6 @@ import { ISnapshot } from "../../interfaces";
 import { HeroPage } from "../Hero/HeroPage";
 import { EquipPage } from "../Equip/EquipPage";
 import { RealmCardPage } from "../RealmCard/RealmCardPage";
-import { ShardPage } from "../Shard/ShardPage";
 
 const routes = [
   {
@@ -48,11 +47,6 @@ const routes = [
     component: EquipPage,
     renderLabel: (snapshot: ISnapshot) =>
       `御魂 (${snapshot.data.hero_equips.length})`
-  },
-  {
-    path: "/shard",
-    component: ShardPage,
-    renderLabel: (snapshot: ISnapshot) => `碎片`
   },
   {
     path: "/realm-card",

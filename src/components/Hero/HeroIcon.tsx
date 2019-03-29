@@ -1,6 +1,6 @@
 import React, { SFC } from "react";
 import "./HeroIcon.scss";
-import { IHero, HeroRarity } from "../../interfaces";
+import { IHero, HeroRarity, IHeroData } from "../../interfaces";
 import classNames from "classnames";
 import { HERO_MAX_LEVEL } from "../../constants";
 import { Stars, StarType } from "../Common/Star";
@@ -42,7 +42,7 @@ export const HeroIcon: SFC<{
       key={h.id}
       onClick={() => props.onClickHero && props.onClickHero(h)}
     >
-      <img className={props.className} src={`/res/hero/${h.hero_id}.png`} />
+      <img src={`/res/hero/${h.hero_id}.png`} />
       <div className="level">{h.level === HERO_MAX_LEVEL ? "满" : h.level}</div>
       {props.childHeros && (
         <div className="children-count">
@@ -53,6 +53,25 @@ export const HeroIcon: SFC<{
         <Stars type={getStarType(h)} level={h.star} />
       </div>
       {h.awake > 0 && <div className="awake">觉</div>}
+    </div>
+  );
+};
+
+export const HeroDataIcon: SFC<{
+  data: IHeroData;
+  className?: string;
+}> = props => {
+  return (
+    <div
+      className={classNames(
+        "hero-icon",
+        `rarity-${props.data.rarity.toLowerCase()}`,
+        props.className
+      )}
+      key={props.data.id}
+    >
+      <img src={`/res/hero/${props.data.id}.png`} />
+      <div className="name">{props.data.name}</div>
     </div>
   );
 };

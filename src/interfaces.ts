@@ -55,6 +55,7 @@ export interface IHeroData {
   };
   rarity: HeroRarity;
   skills: number[];
+  awake_skill: number | null;
 }
 
 export enum Ratings {

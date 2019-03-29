@@ -98,6 +98,25 @@ const selectAllSorted = createSelector(
   }
 );
 
+const selectMapByHeroId = createSelector(
+  selectAllSorted,
+  heroes => {
+    if (!heroes) {
+      return null;
+    }
+    const groups = heroes.reduce((m, i) => {
+      let list = m.get(i.hero_id);
+      if (!list) {
+        list = [];
+        m.set(i.hero_id, list);
+      }
+      list.push(i);
+      return m;
+    }, new Map<number, IHero[]>());
+    return groups;
+  }
+);
+
 export interface IHeroFolded {
   hero_id: number;
   level: number;
@@ -107,6 +126,12 @@ export interface IHeroFolded {
   heroes: IHero[];
   data: IHeroData;
 }
+
+const FORCE_FOLD_HERO_IDS = [
+  205, // 座敷童子
+  232, // 铁鼠
+  237 // 山兔
+];
 
 const selectAllFolded = createSelector(
   selectAllSorted,
@@ -119,8 +144,7 @@ const selectAllFolded = createSelector(
 
     let groups = heroes.reduce((m, i) => {
       if (
-        /*铁鼠*/
-        i.hero_id !== 232 &&
+        !FORCE_FOLD_HERO_IDS.includes(i.hero_id) &&
         (i.awake ||
           RarityRank[i.rarity] > RarityRank[HeroRarity.SR] ||
           i.lock ||
@@ -235,6 +259,7 @@ export const HeroSelectors = {
   selectAllSorted,
   selectAllFolded,
   selectMapById,
+  selectMapByHeroId,
   selectListOptions,
   selectList
 };
