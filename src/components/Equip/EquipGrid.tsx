@@ -10,7 +10,7 @@ import { EquipDetail } from "./EquipDetail";
 
 export interface EquipGridProps {
   items: IHeroEquip[];
-  onClickEquip: (equip: IHeroEquip) => void;
+  onClickEquip?: (equip: IHeroEquip) => void;
 }
 
 export const EquipGrid: SFC<EquipGridProps> = props => {

@@ -1,4 +1,8 @@
-import { HeroEquipAttrType } from "../../interfaces";
+import {
+  HeroEquipAttrType,
+  IHeroEquipSuitData,
+  IHeroEquip
+} from "../../interfaces";
 import { formatAttrValue, AttrValueType } from "../../utils";
 
 const AttrNames = {
@@ -25,6 +29,41 @@ const PercentageAttrs = [
   HeroEquipAttrType.EffectResistRate
 ];
 
+export const HeroEquipPosAttrBaseTypes = new Map<number, HeroEquipAttrType[]>([
+  [1, [HeroEquipAttrType.Attack]],
+  [
+    2,
+    [
+      HeroEquipAttrType.AttackRate,
+      HeroEquipAttrType.DefenseRate,
+      HeroEquipAttrType.HpRate,
+      HeroEquipAttrType.Speed
+    ]
+  ],
+  [3, [HeroEquipAttrType.Defense]],
+  [
+    4,
+    [
+      HeroEquipAttrType.AttackRate,
+      HeroEquipAttrType.DefenseRate,
+      HeroEquipAttrType.HpRate,
+      HeroEquipAttrType.EffectHitRate,
+      HeroEquipAttrType.EffectResistRate
+    ]
+  ],
+  [5, [HeroEquipAttrType.Hp]],
+  [
+    6,
+    [
+      HeroEquipAttrType.AttackRate,
+      HeroEquipAttrType.DefenseRate,
+      HeroEquipAttrType.HpRate,
+      HeroEquipAttrType.CritRate,
+      HeroEquipAttrType.CritPower
+    ]
+  ]
+]);
+
 export const formatEquipAttr = (type: HeroEquipAttrType, value: number) => {
   return [
     AttrNames[type],
@@ -35,4 +74,24 @@ export const formatEquipAttr = (type: HeroEquipAttrType, value: number) => {
         : AttrValueType.Float
     )
   ];
+};
+
+export const getEquipAttrName = (type: HeroEquipAttrType) => AttrNames[type];
+
+export const getEquipSuitAttrName = (suit: IHeroEquipSuitData) => {
+  const attr2 = suit.attr[1].length && suit.attr[1][0];
+  return attr2 ? getEquipAttrName(attr2.type) : "单件属性";
+};
+
+export const getEquipRandomAttrValue = (
+  equip: IHeroEquip,
+  type: HeroEquipAttrType
+) => {
+  if (!equip.random_attr_map) {
+    equip.random_attr_map = new Map(equip.random_attrs.map(attr => [
+      attr.type,
+      attr.value
+    ]) as [HeroEquipAttrType, number][]);
+  }
+  return equip.random_attr_map.get(type) || null;
 };

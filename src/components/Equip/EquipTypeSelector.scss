@@ -1,0 +1,79 @@
+ul.equip-type-dialog-type-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  li {
+    display: flex;
+    border-radius: 2px;
+    border: 1px solid #aa8559;
+    padding: 0 8px;
+    margin: 4px;
+    height: 66px;
+    width: 145px;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+
+    &:hover {
+      background: rgb(236, 227, 216);
+    }
+
+    &.selected {
+      background: darken($color: rgb(236, 227, 216), $amount: 5);
+
+      .tick {
+        visibility: visible;
+      }
+
+      // .content {
+      // }
+    }
+
+    .content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .description {
+        margin-left: 8px;
+        .name {
+          line-height: 24px;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .tick {
+      visibility: hidden;
+      position: absolute;
+      right: -4px;
+      bottom: -4px;
+      background: #1f4b99;
+      color: #fff;
+      width: 16px;
+      height: 16px;
+      display: flex;
+    }
+  }
+}
+
+.equip-type-selector-button {
+  ul.icon-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 276px;
+    > li {
+      margin-right: 4px;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+}

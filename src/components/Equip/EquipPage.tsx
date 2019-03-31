@@ -1,30 +1,35 @@
-import React, { SFC, useState } from "react";
+import React, { SFC } from "react";
 import "./EquipPage.scss";
-import { connect } from "react-redux";
-import { IHeroEquip } from "../../interfaces";
-import { IYyxState } from "../../store";
-import { EquipSelectors } from "../../modules/equip";
-import { EquipGrid } from "./EquipGrid";
+import { SubNavLink, SubNav } from "../Common/SubNav";
+import { EquipList } from "./EquipList";
+import { Route } from "react-router";
 
-const Render: SFC<{
-  equips: IHeroEquip[] | null;
-}> = props => {
-  const [activeEquip, setActiveEquip] = useState<IHeroEquip | null>(null);
-
-  if (!props.equips) {
-    return null;
+const SubPages: (SubNavLink & { component: any })[] = [
+  {
+    label: "御魂列表",
+    to: "/equip",
+    component: EquipList
   }
+];
 
+export const EquipPage: SFC = props => {
   return (
     <>
-      <EquipGrid
-        items={props.equips}
-        onClickEquip={equip => setActiveEquip(equip)}
-      />
+      <div className="yyx-layout row">
+        <div className="item yyx-nav-left">
+          <SubNav links={SubPages} />
+        </div>
+        <div className="item yyx-content">
+          {SubPages.map(page => (
+            <Route
+              key={page.to}
+              path={page.to}
+              exact={page.to === "/equip"}
+              component={page.component}
+            />
+          ))}
+        </div>
+      </div>
     </>
   );
 };
-
-export const EquipPage = connect((state: IYyxState) => ({
-  equips: EquipSelectors.selectDisplay(state)
-}))(Render);

@@ -73,6 +73,7 @@ const renderStarOption: ItemRenderer<number> = (option, params) => {
 
 const Render: SFC<{
   heroes: (IHero | IHeroFolded)[] | null;
+  count: number;
   mapById: Map<string, IHero> | null;
   dispatch: IDispatch;
 }> = props => {
@@ -106,7 +107,7 @@ const Render: SFC<{
         hero={activeHero}
         onClose={() => setActiveHero(null)}
       />
-      <Card className="yyx-space-v yyx-layout row yyx-options">
+      <Card className="yyx-space-v yyx-layout wrap row yyx-options">
         <div className="item">
           <InputGroup
             leftIcon="filter"
@@ -141,7 +142,7 @@ const Render: SFC<{
             <Button>星级: {star ? `${star}星` : "全部"}</Button>
           </StarSelect>
         </div>
-        <div style={{ flex: 1 }} />
+        <div style={{ flex: 1 }}>数量: {props.count}</div>
         <div className="item">
           <Switch
             checked={fold}
@@ -164,5 +165,6 @@ const Render: SFC<{
 
 export const HeroList = connect((state: IYyxState) => ({
   heroes: HeroSelectors.selectList(state),
+  count: HeroSelectors.selectCount(state),
   mapById: HeroSelectors.selectMapById(state)
 }))(Render);

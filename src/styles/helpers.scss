@@ -9,11 +9,15 @@ $space: 8px;
 }
 
 table.yyx-prop-table {
-  tbody tr:first-child {
-    th,
+  tbody > tr:first-child {
     td {
       box-shadow: none;
     }
+  }
+
+  tbody > tr > td:first-child {
+    font-weight: bold;
+    width: 100px;
   }
 }
 

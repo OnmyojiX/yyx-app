@@ -1,0 +1,77 @@
+$background: #ebf1f5;
+$background-active: #ced9e0;
+$size: 32px;
+
+.equip-position {
+  position: relative;
+  display: inline-block;
+  border-radius: 100%;
+  background: $background;
+  width: $size;
+  height: $size;
+
+  &.clickable {
+    cursor: pointer;
+  }
+
+  &.active {
+    background: $background-active;
+
+    &:before {
+      background: $background-active;
+    }
+
+    .equip-position-text {
+      font-weight: bold;
+    }
+  }
+
+  .content {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    .equip-position-text {
+      text-align: center;
+      line-height: $size;
+      user-select: none;
+    }
+  }
+
+  border-top-left-radius: 0;
+
+  &:before {
+    content: "";
+    background: $background;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    border-radius: 100%;
+  }
+
+  @each $pos in (1, 2, 3, 4, 5, 6) {
+    $deg: ($pos - 1) * 45deg;
+
+    @if $pos < 4 {
+      $deg: ($pos - 1) * 45deg;
+    } @else {
+      $deg: ($pos - 1) * 45deg + 45deg;
+    }
+
+    &.pos-#{$pos} {
+      transform-origin: center;
+      transform: rotate(-$deg);
+
+      .content {
+        transform-origin: center;
+        transform: rotate($deg);
+      }
+    }
+  }
+}

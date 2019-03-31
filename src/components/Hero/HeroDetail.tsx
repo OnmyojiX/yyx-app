@@ -10,7 +10,7 @@ import { HeroIcon } from "./HeroIcon";
 import { Rarity } from "../Common/Rarity";
 import classNames from "classnames";
 import { Rating } from "../Common/Rating";
-import { AttrValueType, formatAttrValue } from "../../utils";
+import { AttrValueType, formatAttrValue, formatTimestamp } from "../../utils";
 import { Divider } from "@blueprintjs/core";
 
 const renderIconName = (hero: IHero) => (
@@ -102,6 +102,12 @@ const renderAttrs = (hero: IHero, ratings: IHeroAttrRating) => (
         {formatAttrValue(
           hero.attrs.max_hp.value * (1 + hero.attrs.crit_power.value)
         )}
+      </span>
+    </div>
+    <div className="yyx-layout row">
+      <span className="item label">获取时间</span>
+      <span className="item attr-value">
+        {formatTimestamp(hero.timestamp_from_id)}
       </span>
     </div>
   </div>

@@ -5,6 +5,7 @@ import { EquipIcon } from "./EquipIcon";
 import { Stars, StarType } from "../Common/Star";
 import { formatEquipAttr } from "../../modules/equip/attr";
 import { formatTimestamp } from "../../utils";
+import { getEquipScoreData } from "../../modules/equip/score";
 
 export const EquipDetail: SFC<{
   equip: IHeroEquip;
@@ -16,6 +17,8 @@ export const EquipDetail: SFC<{
     equip.base_attr.type,
     equip.base_attr.value
   );
+
+  const scoreData = getEquipScoreData(equip);
 
   return (
     <div className="equip-detail">
@@ -70,8 +73,20 @@ export const EquipDetail: SFC<{
           <div className="value id">{equip.id}</div>
         </div>
         <div className="yyx-layout row">
+          <a
+            href="http://nga.178.com/read.php?tid=15853326"
+            target="_blank"
+            className="name"
+          >
+            副属性评分
+          </a>
+          <div className="value">{scoreData ? scoreData.score : "无"}</div>
+        </div>
+        <div className="yyx-layout row">
           <div className="name">获取时间</div>
-          <div className="value">{formatTimestamp(equip.born)}</div>
+          <div className="value">
+            {formatTimestamp(equip.timestamp_from_id)}
+          </div>
         </div>
         {equip.equipped_by && (
           <div className="yyx-layout row">

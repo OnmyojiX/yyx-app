@@ -1,9 +1,11 @@
 .hero-equip-grid {
   .hero-equip-grid-container {
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     .hero-equip-grid-item {
-      float: left;
       margin: 3px;
     }
   }

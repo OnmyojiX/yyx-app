@@ -3,7 +3,7 @@ import { IHero, HeroRarity, IHeroData } from "../../interfaces";
 import { createSelector } from "reselect";
 import { defaultSorter } from "./sorters";
 import { getHeroData, DATA, RarityRank } from "./data";
-import { Sorter, composeFilters } from "../../utils";
+import { Sorter, combineFilters, getTimestampFromObjectId } from "../../utils";
 
 export type HeroFilter = (item: IHeroFilterable) => boolean;
 
@@ -39,7 +39,7 @@ const initialState: IState = {
 export type RarityOption = "*" | HeroRarity | "M";
 
 export enum ActionType {
-  SetListOptions = "SetListOptions"
+  SetListOptions = "Hero.SetListOptions"
 }
 
 export const HeroActions = {
@@ -71,6 +71,7 @@ const selectAll = (state: IYyxState) =>
   state.snapshot.current &&
   state.snapshot.current.data.heroes.map(hero => {
     hero.data = getHeroData(hero.hero_id);
+    hero.timestamp_from_id = getTimestampFromObjectId(hero.id);
     return hero;
   });
 
@@ -239,7 +240,7 @@ const selectList = createSelector(
       opts.rarity === "*" ? null : createRarityFilter(opts.rarity),
       opts.star && createStarFilter(opts.star)
     ].filter(v => !!v) as HeroFilter[];
-    const filter = filters.length && composeFilters(...filters);
+    const filter = filters.length && combineFilters(...filters);
     if (opts.fold) {
       if (!folded) {
         return null;
@@ -254,6 +255,24 @@ const selectList = createSelector(
   }
 );
 
+const selectCount = createSelector(
+  selectList,
+  list => {
+    if (!list) {
+      return 0;
+    }
+    return list
+      .map(i => {
+        if ("heroes" in i) {
+          return i.heroes.length;
+        } else {
+          return 1;
+        }
+      })
+      .reduce((l, r) => l + r, 0);
+  }
+);
+
 export const HeroSelectors = {
   selectAll,
   selectAllSorted,
@@ -261,5 +280,6 @@ export const HeroSelectors = {
   selectMapById,
   selectMapByHeroId,
   selectListOptions,
-  selectList
+  selectList,
+  selectCount
 };

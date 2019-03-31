@@ -90,6 +90,10 @@ const Render: SFC<RouteComponentProps> = props => {
         <NavbarGroup align={Alignment.RIGHT}>
           <span className="bp3-text-muted">{pkg.version}</span>
           <NavbarDivider />
+          <a href="http://nga.178.com/read.php?tid=16557282" target="_blank">
+            检查更新
+          </a>
+          <NavbarDivider />
           <Button
             icon="folder-open"
             onClick={() => {

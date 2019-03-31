@@ -1,0 +1,13 @@
+.equip-list-options {
+  .equip-position {
+    margin: 0 8px;
+
+    &.pos-1 {
+      margin-left: 0;
+    }
+  }
+}
+
+.equip-list-loading {
+  opacity: 0.5;
+}

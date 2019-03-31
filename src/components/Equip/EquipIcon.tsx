@@ -11,8 +11,15 @@ export const EquipIcon: SFC<{
   return (
     <div className={classNames("hero-equip-icon", className)}>
       <div className={classNames("icon", `pos-${pos + 1}`)}>
-        <img src={`/res/suit/${suit_id}.png`} />
+        <EquipTypeIcon id={suit_id} />
       </div>
     </div>
   );
+};
+
+export const EquipTypeIcon: SFC<{ id: number; size?: number }> = ({
+  id,
+  size = 80
+}) => {
+  return <img src={`/res/suit/${id}.png`} width={size} height={size} />;
 };

@@ -15,8 +15,10 @@ export const EquipItem: SFC<{
       className={classNames(
         "hero-equip-item",
         className,
-        props.onClickEquip && "clickable"
+        props.onClickEquip && "clickable",
+        equip.garbage && "trashed"
       )}
+      onClick={() => props.onClickEquip && props.onClickEquip(equip)}
     >
       {equip.level > 0 && <label>+{equip.level}</label>}
       {equip.equipped_by && <div className="equipped">装备</div>}

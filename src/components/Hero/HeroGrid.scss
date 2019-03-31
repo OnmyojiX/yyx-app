@@ -1,9 +1,11 @@
 .hero-grid {
   .hero-grid-container {
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
-    .hero-grid-item {
-      float: left;
-    }
+    // .hero-grid-item {
+    // }
   }
 }

@@ -8,6 +8,11 @@
   border: 1px solid #503415;
   background: #ece3d8;
 
+  &.trashed {
+    background: #ced9e0;
+    border-color: #5c7080;
+  }
+
   .icon {
     position: absolute;
     top: 0;

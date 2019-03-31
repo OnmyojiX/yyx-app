@@ -1,7 +1,7 @@
 import { createSelector } from "reselect";
 import { IHeroBookShard } from "../../interfaces";
 import { SnapshotSelectors } from "../snapshot";
-import { sortDesc, composeSorters } from "../../utils";
+import { sortDesc, combineSorters } from "../../utils";
 import { getHeroData, RarityRank } from "../hero/data";
 
 const selectAll = createSelector(
@@ -20,7 +20,7 @@ const selectAll = createSelector(
 const getRarityRank = (s: IHeroBookShard) =>
   s.hero_data ? RarityRank[s.hero_data.rarity] : 999;
 
-const defaultSorter = composeSorters<IHeroBookShard>(
+const defaultSorter = combineSorters<IHeroBookShard>(
   sortDesc((a, b) => getRarityRank(a) - getRarityRank(b)),
   sortDesc((a, b) => a.hero_id - b.hero_id)
 );

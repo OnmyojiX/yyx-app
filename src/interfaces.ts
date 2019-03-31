@@ -1,3 +1,5 @@
+import { number } from "prop-types";
+
 export interface IPlayer {
   id: number;
   name: string;
@@ -26,6 +28,7 @@ export interface IHero {
   skills: HeroSkill[];
   attrs: IHeroAttrs;
   data?: IHeroData;
+  timestamp_from_id?: number;
 }
 
 export interface IHeroAttrs {
@@ -98,14 +101,16 @@ export interface IHeroEquip {
   born: number;
   lock: boolean;
   garbage: boolean;
-  attrs: HeroEquipAttr[];
-  base_attr: HeroEquipAttr;
-  random_attrs: HeroEquipAttr[];
-  random_attr_rates: HeroEquipAttr[];
-  single_attrs: HeroEquipAttr[];
+  attrs: IHeroEquipAttr[];
+  base_attr: IHeroEquipAttr;
+  random_attrs: IHeroEquipAttr[];
+  random_attr_rates: IHeroEquipAttr[];
+  single_attrs: IHeroEquipAttr[];
   suit_data?: IHeroEquipSuitData;
   equipped_by?: IHero;
   included_in_presets?: IHeroEquipPreset[];
+  timestamp_from_id?: number;
+  random_attr_map?: Map<HeroEquipAttrType, number>;
 }
 
 export interface IHeroEquipSuitData {
@@ -125,7 +130,7 @@ export interface IHeroEquipSuiteAttr {
   value: number;
 }
 
-export interface HeroEquipAttr {
+export interface IHeroEquipAttr {
   type: HeroEquipAttrType;
   value: number;
 }

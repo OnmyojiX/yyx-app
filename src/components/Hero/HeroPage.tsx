@@ -30,7 +30,7 @@ export const HeroPage: SFC = props => {
         <div className="item yyx-nav-left">
           <SubNav links={SubPages} />
         </div>
-        <div className="item yyx-content">
+        <div className="item yyx-content yyx-content-scroll">
           {SubPages.map(page => (
             <Route
               key={page.to}

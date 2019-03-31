@@ -11,6 +11,42 @@ import { getEquipSuiteData } from "./data";
 import { number, string } from "prop-types";
 import { HeroSelectors } from "../hero";
 import { SnapshotSelectors } from "../snapshot";
+import { getTimestampFromObjectId, Filter, combineFilters } from "../../utils";
+import { getEquipScoreData } from "./score";
+
+export interface IState {
+  listOptions: IEquipListOptions | null;
+}
+
+const initialState: IState = {
+  listOptions: null
+};
+
+export enum ActionType {
+  SetListOptions = "Equip.etListOptions"
+}
+
+export const EquipActions = {
+  setListOptions(opts: IEquipListOptions) {
+    return {
+      type: ActionType.SetListOptions,
+      payload: opts
+    };
+  }
+};
+
+export function reducer(state = initialState, action: IAction<ActionType>) {
+  const { type, payload } = action;
+  switch (type) {
+    case ActionType.SetListOptions: {
+      return {
+        ...state,
+        listOptions: payload
+      };
+    }
+  }
+  return state;
+}
 
 const selectEquippedByMap = createSelector(
   HeroSelectors.selectAll,
@@ -70,6 +106,7 @@ const selectAll = createSelector(
       equip.suit_data = getEquipSuiteData(equip.suit_id);
       equip.equipped_by = equippedBy.get(equip.id);
       equip.included_in_presets = inPresets.get(equip.id);
+      equip.timestamp_from_id = getTimestampFromObjectId(equip.id);
       return equip;
     });
   }
@@ -130,15 +167,111 @@ const selectMaps = createSelector(
   }
 );
 
+export enum EquipLevelFilter {
+  Any,
+  Zero,
+  Max
+}
+
+export enum EquipEquippedFilter {
+  Any,
+  Equipped,
+  NotEquipped
+}
+
+export interface IEquipListOptions {
+  types: number[] | null;
+  positions: number[];
+  stars: number[];
+  baseAttrs: HeroEquipAttrType[] | null;
+  trashed: boolean | null;
+  level: EquipLevelFilter;
+  equipped: EquipEquippedFilter;
+  creationTimeFrom: Date | null;
+  creationTimeTo: Date | null;
+  scores: number[];
+}
+
 const selectDisplay = createSelector(
   selectAllSorted,
-  equips => {
+  (state: IYyxState) => state.equip.listOptions,
+  (equips, opts) => {
+    if (!opts) {
+      return null;
+    }
+
     if (!equips) {
       return null;
     }
-    return equips.filter(
-      e => !e.garbage && (e.quality === 6 || e.level === 15)
-    );
+
+    const filters: Array<Filter<IHeroEquip>> = [];
+
+    if (opts.types) {
+      filters.push(i => !!(opts.types && opts.types.includes(i.suit_id)));
+    }
+
+    if (opts.positions && opts.positions.length) {
+      filters.push(
+        i => !!(opts.positions && opts.positions.includes(i.pos + 1))
+      );
+    }
+
+    if (opts.stars && opts.stars.length) {
+      filters.push(i => !!(opts.stars && opts.stars.includes(i.quality)));
+    }
+
+    if (opts.baseAttrs && opts.baseAttrs.length) {
+      filters.push(
+        i => !!(opts.baseAttrs && opts.baseAttrs.includes(i.base_attr.type))
+      );
+    }
+
+    if (opts.level !== EquipLevelFilter.Any) {
+      if (opts.level === EquipLevelFilter.Zero) {
+        filters.push(i => i.level === 0);
+      } else {
+        filters.push(i => i.level === 15);
+      }
+    }
+
+    if (opts.equipped !== EquipEquippedFilter.Any) {
+      if (opts.equipped === EquipEquippedFilter.Equipped) {
+        filters.push(i => !!i.equipped_by);
+      } else {
+        filters.push(i => !i.equipped_by);
+      }
+    }
+
+    if (opts.trashed !== null) {
+      filters.push(i => i.garbage === opts.trashed);
+    }
+
+    if (opts.scores.length) {
+      filters.push(i => {
+        const scoreData = getEquipScoreData(i);
+        if (!scoreData) {
+          return false;
+        } else {
+          return opts.scores.includes(scoreData.score);
+        }
+      });
+    }
+
+    if (opts.creationTimeFrom) {
+      const t = opts.creationTimeFrom.getTime() / 1000;
+      filters.push(i => getTimestampFromObjectId(i.id) >= t);
+    }
+
+    if (opts.creationTimeTo) {
+      const t = opts.creationTimeTo.getTime() / 1000;
+      filters.push(i => getTimestampFromObjectId(i.id) < t);
+    }
+
+    if (filters.length) {
+      return equips.filter(combineFilters(...filters));
+    }
+
+    return equips.filter(e => !e.garbage && (e.quality === 6 && e.level > 0));
   }
 );
 
