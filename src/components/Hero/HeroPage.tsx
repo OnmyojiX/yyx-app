@@ -25,22 +25,20 @@ const SubPages: (SubNavLink & { component: any })[] = [
 
 export const HeroPage: SFC = props => {
   return (
-    <>
-      <div className="yyx-layout row">
-        <div className="item yyx-nav-left">
-          <SubNav links={SubPages} />
-        </div>
-        <div className="item yyx-content yyx-content-scroll">
-          {SubPages.map(page => (
-            <Route
-              key={page.to}
-              path={page.to}
-              exact={page.to === "/hero"}
-              component={page.component}
-            />
-          ))}
-        </div>
+    <div className="yyx-full-height yyx-layout row">
+      <div className="item yyx-nav-left">
+        <SubNav links={SubPages} />
       </div>
-    </>
+      <div className="item yyx-content yyx-content-scroll">
+        {SubPages.map(page => (
+          <Route
+            key={page.to}
+            path={page.to}
+            exact={page.to === "/hero"}
+            component={page.component}
+          />
+        ))}
+      </div>
+    </div>
   );
 };

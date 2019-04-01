@@ -206,7 +206,7 @@ const selectDisplay = createSelector(
 
     const filters: Array<Filter<IHeroEquip>> = [];
 
-    if (opts.types) {
+    if (opts.types && opts.types.length) {
       filters.push(i => !!(opts.types && opts.types.includes(i.suit_id)));
     }
 
@@ -271,7 +271,7 @@ const selectDisplay = createSelector(
       return equips.filter(combineFilters(...filters));
     }
 
-    return equips.filter(e => !e.garbage && (e.quality === 6 && e.level > 0));
+    return equips;
   }
 );
 

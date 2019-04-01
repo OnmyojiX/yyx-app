@@ -14,22 +14,20 @@ const SubPages: (SubNavLink & { component: any })[] = [
 
 export const EquipPage: SFC = props => {
   return (
-    <>
-      <div className="yyx-layout row">
-        <div className="item yyx-nav-left">
-          <SubNav links={SubPages} />
-        </div>
-        <div className="item yyx-content">
-          {SubPages.map(page => (
-            <Route
-              key={page.to}
-              path={page.to}
-              exact={page.to === "/equip"}
-              component={page.component}
-            />
-          ))}
-        </div>
+    <div className="yyx-full-height yyx-layout row">
+      <div className="item yyx-nav-left">
+        <SubNav links={SubPages} />
       </div>
-    </>
+      <div className="item yyx-content">
+        {SubPages.map(page => (
+          <Route
+            key={page.to}
+            path={page.to}
+            exact={page.to === "/equip"}
+            component={page.component}
+          />
+        ))}
+      </div>
+    </div>
   );
 };

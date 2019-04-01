@@ -157,7 +157,7 @@ const Render: SFC<{
   }
 
   return (
-    <div className="yyx-layout row">
+    <div className="yyx-full-height yyx-layout row">
       <Card className="yyx-nav-left item yyx-options equip-list-options">
         <div className="yyx-layout row item">
           <label className="item">类型: </label>
