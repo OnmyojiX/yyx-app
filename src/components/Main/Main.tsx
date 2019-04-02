@@ -1,7 +1,6 @@
 import React, { SFC, ComponentClass } from "react";
 import "./Main.scss";
 import logo from "../../assets/logo.svg";
-import pkg from "../../../package.json";
 
 import {
   Alignment,
@@ -10,7 +9,8 @@ import {
   Navbar,
   NavbarDivider,
   NavbarGroup,
-  ButtonGroup
+  ButtonGroup,
+  Popover
 } from "@blueprintjs/core";
 
 import {
@@ -29,6 +29,8 @@ import { ISnapshot } from "../../interfaces";
 import { HeroPage } from "../Hero/HeroPage";
 import { EquipPage } from "../Equip/EquipPage";
 import { RealmCardPage } from "../RealmCard/RealmCardPage";
+import { UpdateInfo } from "../Update/UpdateInfo";
+import { About } from "../About/About";
 
 const routes = [
   {
@@ -92,11 +94,12 @@ const Render: SFC<RouteComponentProps> = props => {
           />
         </NavbarGroup>
         <NavbarGroup align={Alignment.RIGHT}>
-          <span className="bp3-text-muted">{pkg.version}</span>
+          <UpdateInfo />
           <NavbarDivider />
-          <a href="http://nga.178.com/read.php?tid=16557282" target="_blank">
-            检查更新
-          </a>
+          <Popover>
+            <Button minimal>关于</Button>
+            <About />
+          </Popover>
           <NavbarDivider />
           <Button
             icon="folder-open"

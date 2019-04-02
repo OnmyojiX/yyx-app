@@ -1,0 +1,19 @@
+.release-info {
+  padding: 16px;
+  position: relative;
+
+  h2,
+  h5 {
+    padding: 0;
+    margin: 0;
+  }
+
+  ul.asset-list {
+    margin: 8px 0 0 0;
+    padding: 0;
+    list-style: none;
+    > li {
+      padding: 4px 0;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.about {
+  .logo {
+    flex: 0 0 auto;
+    margin: 0 16px 0 16px;
+    text-align: center;
+  }
+
+  .content {
+    font-size: 0.8em;
+    width: 200px;
+    max-width: 200px;
+    dl {
+      display: flex;
+      flex-wrap: wrap;
+      dt {
+        flex: 0 0 50px;
+        padding: 0;
+        margin: 0;
+      }
+
+      dd {
+        flex: 0 0 150px;
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+    .important {
+      color: #a82255;
+    }
+  }
+}
