@@ -36,7 +36,7 @@ export const EquipItem: SFC<{
           <Stars type={StarType.Orange} level={equip.quality} />
         </div>
         <div className={classNames("icon", `pos-${equip.pos + 1}`)}>
-          <img src={`/static/res/suit/${equip.suit_id}.png`} />
+          <img src={`/res/suit/${equip.suit_id}.png`} />
         </div>
       </div>
     </Popover>

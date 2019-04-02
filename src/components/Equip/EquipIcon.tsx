@@ -25,7 +25,7 @@ export const EquipTypeIcon: SFC<{
   return (
     <img
       className={className}
-      src={`/static/res/suit/${id}.png`}
+      src={`/res/suit/${id}.png`}
       width={size}
       height={size}
     />
