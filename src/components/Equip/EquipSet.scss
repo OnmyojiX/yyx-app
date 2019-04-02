@@ -1,0 +1,43 @@
+$space: 32px;
+
+.equip-set {
+  width: 280px;
+  height: 260px;
+  position: relative;
+
+  .equip-set-item {
+    position: absolute;
+
+    &.pos-1 {
+      top: 0;
+      left: $space;
+    }
+
+    &.pos-2 {
+      top: 50%;
+      transform: translate(0, -50%);
+      left: 0;
+    }
+
+    &.pos-3 {
+      bottom: 0;
+      left: $space;
+    }
+
+    &.pos-4 {
+      bottom: 0;
+      right: $space;
+    }
+
+    &.pos-5 {
+      top: 50%;
+      right: 0;
+      transform: translate(0, -50%);
+    }
+
+    &.pos-6 {
+      top: 0;
+      right: $space;
+    }
+  }
+}

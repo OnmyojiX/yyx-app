@@ -86,6 +86,16 @@ const Render: SFC<{
   const [term, setTerm] = useState("");
   const debouncedTerm = useDebounce(term, 300);
 
+  // useEffect(() => {
+  //   if (props.heroes) {
+  //     setActiveHero(
+  //       (props.heroes.find(
+  //         i => "id" in i && i.id === "5c3b92123938a33e4fa654e1"
+  //       ) as IHero) || null
+  //     );
+  //   }
+  // }, [props.heroes]);
+
   useEffect(() => {
     dispatch(
       HeroActions.setListOptions({
@@ -154,10 +164,13 @@ const Render: SFC<{
       </Card>
       <HeroGrid
         items={props.heroes}
-        onClickHero={item =>
+        onClickHero={item => {
           item.id &&
-          setActiveHero((props.mapById && props.mapById.get(item.id)) || null)
-        }
+            setActiveHero(
+              (props.mapById && props.mapById.get(item.id)) || null
+            );
+          console.log(item);
+        }}
       />
     </>
   );

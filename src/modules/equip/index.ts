@@ -8,7 +8,6 @@ import {
 } from "../../interfaces";
 import { defaultSorter } from "./sorters";
 import { getEquipSuiteData } from "./data";
-import { number, string } from "prop-types";
 import { HeroSelectors } from "../hero";
 import { SnapshotSelectors } from "../snapshot";
 import { getTimestampFromObjectId, Filter, combineFilters } from "../../utils";
@@ -129,6 +128,7 @@ const selectMaps = createSelector(
       return null;
     }
 
+    const idMap = new Map<string, IHeroEquip>();
     const qualityMap = new Map<number, IHeroEquip[]>();
     const levelMap = new Map<number, IHeroEquip[]>();
     const suitMap = new Map<number, IHeroEquip[]>();
@@ -151,6 +151,7 @@ const selectMaps = createSelector(
     }
 
     for (let e of equips) {
+      idMap.set(e.id, e);
       push(qualityMap, e, e => e.quality);
       push(levelMap, e, e => e.level);
       push(suitMap, e, e => e.suit_id);
@@ -159,6 +160,7 @@ const selectMaps = createSelector(
     }
 
     return {
+      id: idMap,
       quality: qualityMap,
       level: levelMap,
       suit: suitMap,
@@ -180,6 +182,7 @@ export enum EquipEquippedFilter {
 }
 
 export interface IEquipListOptions {
+  id: string;
   types: number[] | null;
   positions: number[];
   stars: number[];
@@ -202,6 +205,10 @@ const selectDisplay = createSelector(
 
     if (!equips) {
       return null;
+    }
+
+    if (opts.id) {
+      return equips.filter(e => e.id === opts.id);
     }
 
     const filters: Array<Filter<IHeroEquip>> = [];

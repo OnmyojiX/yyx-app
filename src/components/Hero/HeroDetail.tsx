@@ -12,6 +12,8 @@ import classNames from "classnames";
 import { Rating } from "../Common/Rating";
 import { AttrValueType, formatAttrValue, formatTimestamp } from "../../utils";
 import { Divider } from "@blueprintjs/core";
+import { EquipSet } from "../Equip/EquipSet";
+import { Equips } from "../Equip/Equips";
 
 const renderIconName = (hero: IHero) => (
   <div className="icon-name yyx-layout row">
@@ -128,9 +130,17 @@ export const HeroDetail: SFC<{
       : hero.data.attr_rating.unawake;
 
   return (
-    <div className="hero-detail">
-      {renderIconName(hero)}
-      {renderAttrs(hero, ratings)}
+    <div className="hero-detail yyx-layout row">
+      <div className="item">
+        {renderIconName(hero)}
+        {renderAttrs(hero, ratings)}
+      </div>
+      <div className="item equips">
+        <Equips
+          ids={hero.equips}
+          render={equips => <EquipSet equips={equips} />}
+        />
+      </div>
     </div>
   );
 };

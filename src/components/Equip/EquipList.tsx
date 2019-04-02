@@ -1,4 +1,4 @@
-import React, { SFC, useState, useEffect } from "react";
+import React, { SFC, useState, useEffect, EventHandler } from "react";
 import "./EquipList.scss";
 import { connect } from "react-redux";
 import { IHeroEquip, HeroEquipAttrType } from "../../interfaces";
@@ -11,7 +11,13 @@ import {
   EquipEquippedFilter
 } from "../../modules/equip";
 import { EquipGrid } from "./EquipGrid";
-import { Card, Button, Divider, ButtonGroup } from "@blueprintjs/core";
+import {
+  Card,
+  Button,
+  Divider,
+  ButtonGroup,
+  InputGroup
+} from "@blueprintjs/core";
 import { EquipTypeMultiSelector } from "./EquipTypeSelector";
 import { EquipPosition } from "./EquipPosition";
 import {
@@ -118,6 +124,7 @@ const renderScores = (
 };
 
 const DefaultListOptions: IEquipListOptions = {
+  id: "",
   types: null,
   positions: [],
   stars: [6],
@@ -159,6 +166,20 @@ const Render: SFC<{
   return (
     <div className="yyx-full-height yyx-layout row">
       <Card className="yyx-nav-left item yyx-options equip-list-options">
+        <div className="item">
+          <InputGroup
+            leftIcon="filter"
+            placeholder="搜索御魂ID"
+            value={options.id}
+            onChange={(e: any) =>
+              setOptions({
+                ...options,
+                id: e.target.value
+              })
+            }
+          />
+        </div>
+        <Divider className="item" />
         <div className="yyx-layout row item">
           <label className="item">类型: </label>
           <EquipTypeMultiSelector
@@ -388,6 +409,7 @@ const Render: SFC<{
         <Divider className="item" />
         <div className="item">数量: {props.equips.length}</div>
       </Card>
+      <Divider />
       <div
         className={classNames(
           "yyx-content yyx-content-scroll",

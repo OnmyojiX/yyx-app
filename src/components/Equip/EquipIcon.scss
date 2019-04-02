@@ -5,6 +5,7 @@
   position: relative;
   width: $size;
   height: $size;
+  user-select: none;
 
   .icon {
     position: absolute;

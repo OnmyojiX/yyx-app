@@ -7,6 +7,40 @@
   height: $size;
   border: 1px solid #503415;
   background: #ece3d8;
+  user-select: none;
+
+  &.minimal {
+    background: none;
+    border: none;
+
+    .icon {
+      width: $size;
+      height: $size;
+    }
+
+    .equipped {
+      display: none;
+    }
+
+    label {
+      top: 12px;
+      left: 50%;
+      transform: translate(-50%, 0);
+      text-align: center;
+      background: linear-gradient(
+        -90deg,
+        transparent,
+        rgba(0, 0, 0, 0.7) 20%,
+        rgba(0, 0, 0, 0.7) 80%,
+        transparent
+      );
+    }
+
+    &.trashed {
+      background: none;
+      border-color: none;
+    }
+  }
 
   &.trashed {
     background: #ced9e0;
@@ -104,5 +138,13 @@
 
   &.clickable {
     cursor: pointer;
+  }
+}
+
+.hero-equip-item-popover {
+  padding: 0;
+
+  .bp3-popover.bp3-popover-content-sizing .bp3-popover-content {
+    padding: 0;
   }
 }

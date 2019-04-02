@@ -77,7 +77,11 @@ const Render: SFC<RouteComponentProps> = props => {
                       <Button
                         key={i}
                         onClick={() => props.history.push(r.path)}
-                        active={path === r.path}
+                        active={
+                          r.path === "/"
+                            ? path === "/"
+                            : path.startsWith(r.path)
+                        }
                         text={r.renderLabel(info)}
                       />
                     ))}
