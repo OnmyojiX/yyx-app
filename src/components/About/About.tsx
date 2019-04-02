@@ -6,7 +6,7 @@ import pkg from "../../../package.json";
 
 export const About: SFC = props => {
   return (
-    <div className="about yyx-padding">
+    <div className="about">
       <div className="yyx-layout row">
         <div className="item logo">
           <img width={100} height={100} src={logo} />
