@@ -1,7 +1,7 @@
 import React, { SFC, useState, useEffect, EventHandler } from "react";
 import "./EquipList.scss";
 import { connect } from "react-redux";
-import { IHeroEquip, HeroEquipAttrType } from "../../interfaces";
+import { IHeroEquip, HeroEquipAttrType, ISnapshot } from "../../interfaces";
 import { IYyxState, IDispatch } from "../../store";
 import {
   EquipSelectors,
@@ -16,7 +16,8 @@ import {
   Button,
   Divider,
   ButtonGroup,
-  InputGroup
+  InputGroup,
+  Callout
 } from "@blueprintjs/core";
 import { EquipTypeMultiSelector } from "./EquipTypeSelector";
 import { EquipPosition } from "./EquipPosition";
@@ -28,6 +29,9 @@ import { useDebounce } from "../../hooks/debounce";
 import classNames from "classnames";
 import { DateInput } from "@blueprintjs/datetime";
 import { formatDate, parseDate } from "../../utils";
+import { SnapshotInfo } from "../Snapshot/SnapshotInfo";
+import { exportJson } from "../../modules/equip/export";
+import { equipsToOcr2 } from "../../modules/equip/ocr2";
 
 const renderPositions = (
   value: number[],
@@ -146,6 +150,8 @@ const Render: SFC<{
   );
   const debouncedOptions = useDebounce(options, 500);
   const [loading, setLoading] = useState(false);
+  const [exporting, setExporting] = useState(false);
+  const [exported, setExported] = useState("");
 
   useEffect(() => {
     if (debouncedOptions) {
@@ -408,6 +414,39 @@ const Render: SFC<{
         </div>
         <Divider className="item" />
         <div className="item">数量: {props.equips.length}</div>
+        <div className="item">
+          <SnapshotInfo
+            render={info => (
+              <Button
+                intent={"primary"}
+                disabled={exporting}
+                onClick={async () => {
+                  if (info) {
+                    setExporting(true);
+                    const path = await exportOcr2Json(
+                      info,
+                      props.equips as IHeroEquip[]
+                    );
+                    setExported(path);
+                    setExporting(false);
+                  }
+                }}
+              >
+                导出JSON (御魂导出器)
+              </Button>
+            )}
+          />
+          <br />
+          <br />
+          {exported && (
+            <Callout intent={"success"}>
+              导出成功: <br />
+              <a href={`/export-files/${exported}`} target="_blank">
+                {exported}
+              </a>
+            </Callout>
+          )}
+        </div>
       </Card>
       <Divider />
       <div
@@ -427,6 +466,16 @@ const Render: SFC<{
     </div>
   );
 };
+
+async function exportOcr2Json(
+  snapshotInfo: ISnapshot,
+  equips: IHeroEquip[]
+): Promise<string> {
+  const filename = `${snapshotInfo.data.player.name}_${
+    snapshotInfo.data.player.id
+  }_${formatDate(new Date(), "YYYYMMDD_HHmm")}.json`;
+  return exportJson(filename, equipsToOcr2(equips));
+}
 
 export const EquipList = connect((state: IYyxState) => ({
   equips: EquipSelectors.selectDisplay(state)

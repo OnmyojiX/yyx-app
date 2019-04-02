@@ -4,7 +4,8 @@ import {
   IHeroEquip,
   HeroEquipAttrType,
   IHeroEquipPreset,
-  IHero
+  IHero,
+  IHeroEquipSuitData
 } from "../../interfaces";
 import { defaultSorter } from "./sorters";
 import { getEquipSuiteData } from "./data";
@@ -282,9 +283,86 @@ const selectDisplay = createSelector(
   }
 );
 
+export type IEquipPresetItem = IHeroEquipPreset & IEquipSetInfo;
+
+export interface IEquipSetInfo {
+  equips: IHeroEquip[];
+  suits: IHeroEquipSuitData[];
+  attrMap: Map<HeroEquipAttrType, number>;
+}
+
+export const computeEquipSetInfo = (equips: IHeroEquip[]) => {
+  const suitCount = new Map<number, number>();
+  const attrMap = new Map<HeroEquipAttrType, number>();
+  const suits = [];
+  suitCount.clear();
+  for (const equip of equips) {
+    for (const attr of equip.attrs) {
+      const v = attrMap.get(attr.type) || 0;
+      attrMap.set(attr.type, v + attr.value);
+    }
+
+    {
+      const v = attrMap.get(equip.base_attr.type) || 0;
+      attrMap.set(equip.base_attr.type, v + equip.base_attr.value);
+    }
+
+    for (let attr of equip.single_attrs) {
+      const v = attrMap.get(attr.type) || 0;
+      attrMap.set(attr.type, v + attr.value);
+    }
+
+    const c = suitCount.get(equip.suit_id) || 0;
+    suitCount.set(equip.suit_id, c + 1);
+  }
+  for (let [suitId, count] of suitCount.entries()) {
+    if (count >= 2) {
+      const data = getEquipSuiteData(suitId);
+      if (data) {
+        if (data.effect[1].length) {
+          suits.push(data);
+        }
+        if (data.attr[1].length) {
+          for (let attr of data.attr[1]) {
+            const v = attrMap.get(attr.type) || 0;
+            attrMap.set(attr.type, v + attr.value);
+          }
+        }
+        if (data.effect[3].length && count >= 4) {
+          suits.push(data);
+        }
+      } else {
+        console.warn(`unknown equip suit id: ${suitId}`);
+      }
+    }
+  }
+  return {
+    suits,
+    equips,
+    attrMap
+  } as IEquipSetInfo;
+};
+
+const selectPresetItems = createSelector(
+  selectPresets,
+  selectMaps,
+  (presets, maps) => {
+    if (!presets || !maps) {
+      return null;
+    }
+    return presets.map(p => {
+      const equips = p.items.map(id => maps.id.get(id) as IHeroEquip);
+      return {
+        ...p,
+        ...computeEquipSetInfo(equips)
+      } as IEquipPresetItem;
+    });
+  }
+);
+
 export const EquipSelectors = {
   selectAllSorted,
   selectMaps,
   selectDisplay,
-  selectPresets
+  selectPresetItems
 };

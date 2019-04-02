@@ -64,6 +64,22 @@ export const HeroEquipPosAttrBaseTypes = new Map<number, HeroEquipAttrType[]>([
   ]
 ]);
 
+export const formatEquipAttrValue = (
+  type: HeroEquipAttrType,
+  value: number,
+  plus?: boolean
+) => {
+  return (
+    (plus && value ? "+" : "") +
+    formatAttrValue(
+      value,
+      PercentageAttrs.includes(type)
+        ? AttrValueType.Percentage
+        : AttrValueType.Float
+    )
+  );
+};
+
 export const formatEquipAttr = (type: HeroEquipAttrType, value: number) => {
   return [
     AttrNames[type],

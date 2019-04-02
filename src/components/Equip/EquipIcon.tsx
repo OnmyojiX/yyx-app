@@ -17,9 +17,17 @@ export const EquipIcon: SFC<{
   );
 };
 
-export const EquipTypeIcon: SFC<{ id: number; size?: number }> = ({
-  id,
-  size = 80
-}) => {
-  return <img src={`/res/suit/${id}.png`} width={size} height={size} />;
+export const EquipTypeIcon: SFC<{
+  id: number;
+  size?: number;
+  className?: string;
+}> = ({ id, size = 80, className }) => {
+  return (
+    <img
+      className={className}
+      src={`/static/res/suit/${id}.png`}
+      width={size}
+      height={size}
+    />
+  );
 };

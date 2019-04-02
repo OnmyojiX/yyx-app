@@ -61,10 +61,10 @@ export function getTimestampFromObjectId(id: string) {
   return parseInt(id.substring(0, 8), 16);
 }
 
-export function formatDate(date: string | Date) {
+export function formatDate(date: string | Date, format = DATE_FORMAT) {
   return moment(date)
     .local()
-    .format(DATE_FORMAT);
+    .format(format);
 }
 
 export function parseDate(str: string, locale?: string) {

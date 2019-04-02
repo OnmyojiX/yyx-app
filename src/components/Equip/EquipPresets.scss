@@ -2,7 +2,22 @@
   display: flex;
   flex-wrap: wrap;
   > li {
+    .name {
+      font-size: 1.5em;
+      margin: 0 0 8px 0;
+    }
+
     flex: 0 0 auto;
     margin: 0 8px 8px 0;
+    padding: 8px 16px;
+    background: #f5f8fa;
+
+    .title {
+      justify-content: space-between;
+
+      .right {
+        flex: 0 0 auto;
+      }
+    }
   }
 }

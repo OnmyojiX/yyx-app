@@ -60,10 +60,10 @@
 
     img {
       position: absolute;
-      top: 10.5%;
-      left: 10.5%;
-      width: 79%;
-      height: 79%;
+      top: 11.5%;
+      left: 11.5%;
+      width: 77%;
+      height: 77%;
       z-index: 0;
     }
 
@@ -73,7 +73,7 @@
       top: 0;
       left: 0;
       z-index: 1;
-      background-image: url(/res/equip-border.png);
+      background-image: url(/static/res/equip-border.png);
       background-size: 100% 100%;
       background-position: 50%;
       background-repeat: no-repeat;

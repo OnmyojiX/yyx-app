@@ -1,0 +1,41 @@
+.equip-set-attrs {
+  ul.attr-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+
+    > li {
+      line-height: 1.5em;
+      justify-content: space-between;
+      > .item {
+        width: 47.5%;
+        max-width: 47.5%;
+      }
+      .value {
+        text-align: right;
+      }
+    }
+  }
+
+  ul.suit-effect-list {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0 0;
+    width: 280px;
+
+    > li {
+      align-items: flex-start;
+    }
+
+    .icon {
+      flex: 0 0 auto;
+      margin-right: 8px;
+    }
+
+    .effect-desc {
+      font-size: 0.8em;
+      color: #0a6640;
+    }
+  }
+}

@@ -42,7 +42,7 @@ export const HeroIcon: SFC<{
       key={h.id}
       onClick={() => props.onClickHero && props.onClickHero(h)}
     >
-      <img src={`/res/hero/${h.hero_id}.png`} />
+      <img src={`/static/res/hero/${h.hero_id}.png`} />
       <div className="level">{h.level === HERO_MAX_LEVEL ? "满" : h.level}</div>
       {props.childHeros && (
         <div className="children-count">
@@ -70,7 +70,7 @@ export const HeroDataIcon: SFC<{
       )}
       key={props.data.id}
     >
-      <img src={`/res/hero/${props.data.id}.png`} />
+      <img src={`/static/res/hero/${props.data.id}.png`} />
       <div className="name">{props.data.name}</div>
     </div>
   );

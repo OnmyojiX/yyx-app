@@ -8,7 +8,7 @@ i.rarity {
   @each $rarity in "sp", "ssr", "sr", "r", "n" {
     &.rarity-#{$rarity} {
       background-size: 100% 100%;
-      background-image: url(/res/rarity/#{$rarity}.png);
+      background-image: url(/static/res/rarity/#{$rarity}.png);
     }
   }
 }
