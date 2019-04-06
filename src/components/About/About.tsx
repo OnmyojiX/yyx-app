@@ -19,7 +19,10 @@ export const About: SFC = props => {
             <dd>海外加速区 | AD钙奶猫</dd>
             <dt>NGA</dt>
             <dd>
-              <a target="_blank" href="http://nga.178.com/thread.php?fid=538">
+              <a
+                target="_blank"
+                href="http://nga.178.com/read.php?tid=16557282"
+              >
                 链接 <Icon icon={"link"} />
               </a>
             </dd>
