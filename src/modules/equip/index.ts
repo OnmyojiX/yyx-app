@@ -351,7 +351,9 @@ const selectPresetItems = createSelector(
       return null;
     }
     return presets.map(p => {
-      const equips = p.items.map(id => maps.id.get(id) as IHeroEquip);
+      const equips = p.items
+        .map(id => maps.id.get(id))
+        .filter(v => !!v) as IHeroEquip[];
       return {
         ...p,
         ...computeEquipSetInfo(equips)

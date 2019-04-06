@@ -23,7 +23,9 @@ export const Equips = connect((state: IYyxState, props: EquipsProps) => {
   return {
     equips:
       maps && maps.id
-        ? (props.ids.map(id => maps.id.get(id)) as IHeroEquip[])
+        ? (props.ids
+            .map(id => maps.id.get(id))
+            .filter(v => !!v) as IHeroEquip[])
         : [],
     render: props.render
   };
