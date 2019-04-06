@@ -75,6 +75,8 @@ interface GithubRelease {
   published_at: string;
   body: string;
   assets: Array<GithubAsset>;
+  prerelease: boolean;
+  draft: boolean;
 }
 
 const ReleaseInfo: SFC<{ release: GithubRelease }> = ({ release }) => {
@@ -116,7 +118,11 @@ export const UpdateInfo: SFC = props => {
     ]).then(
       res => {
         if (res.data) {
-          if (res.data.tag_name > pkg.version) {
+          if (
+            res.data.tag_name > pkg.version &&
+            !res.data.draft &&
+            !res.data.prerelease
+          ) {
             setLatest(res.data);
           }
         }
