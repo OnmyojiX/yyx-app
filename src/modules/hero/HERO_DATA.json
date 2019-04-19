@@ -976,6 +976,22 @@
     "awake_skill": null
   },
   {
+    "id": 329,
+    "name": "海忍",
+    "attr_rating": [["s", "c", "b", "b", "a"], ["s", "b", "b", "s", "a"]],
+    "rarity": "SR",
+    "skills": [3291, 3292, 3293],
+    "awake_skill": null
+  },
+  {
+    "id": 330,
+    "name": "不知火",
+    "attr_rating": [["s", "d", "c", "a", "s"], ["s", "c", "b", "s", "s"]],
+    "rarity": "SSR",
+    "skills": [3301, 3302, 3303],
+    "awake_skill": null
+  },
+  {
     "id": 400,
     "name": "盗墓小鬼",
     "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
