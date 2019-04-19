@@ -2,1321 +2,8007 @@
   {
     "id": 200,
     "name": "桃花妖",
-    "attr_rating": [["c", "b", "a", "d", "b"], ["c", "a", "s", "b", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "b",
+        "a",
+        "d",
+        "b"
+      ],
+      [
+        "c",
+        "a",
+        "s",
+        "b",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2001, 2002, 2003],
-    "awake_skill": null
+    "skills": [
+      2001,
+      2002,
+      2003
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 100,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 360.75000000000006,
+        "attack": 1434.68,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 100,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 489.51000000000005,
+        "attack": 2385.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 201,
     "name": "雪女",
-    "attr_rating": [["a", "c", "c", "c", "a"], ["s", "b", "b", "a", "a"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "c",
+        "a"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "a",
+        "a"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2011, 2013],
-    "awake_skill": 2012
+    "skills": [
+      2011,
+      2013
+    ],
+    "awake_skill": 2012,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7475.079999999999,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 305.5,
+        "attack": 1837.6800000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10481.64,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 414.53999999999996,
+        "attack": 3055.2000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 202,
     "name": "三尾狐",
-    "attr_rating": [["b", "c", "b", "d", "s"], ["a", "b", "a", "b", "s"]],
+    "attr_rating": [
+      [
+        "b",
+        "c",
+        "b",
+        "d",
+        "s"
+      ],
+      [
+        "a",
+        "b",
+        "a",
+        "b",
+        "s"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2021, 2022, 2023],
-    "awake_skill": null
+    "skills": [
+      2021,
+      2022,
+      2023
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7393.839999999999,
+        "speed": 102,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 325,
+        "attack": 1757.0800000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10367.72,
+        "speed": 102,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 441,
+        "attack": 2921.2000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 203,
     "name": "灯笼鬼",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [2031, 2032, 2033],
-    "awake_skill": null
+    "skills": [
+      2031,
+      2032,
+      2033
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 205,
     "name": "座敷童子",
-    "attr_rating": [["d", "b", "b", "d", "a"], ["c", "a", "a", "b", "a"]],
+    "attr_rating": [
+      [
+        "d",
+        "b",
+        "b",
+        "d",
+        "a"
+      ],
+      [
+        "c",
+        "a",
+        "a",
+        "b",
+        "a"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2051, 2054],
-    "awake_skill": 2052
+    "skills": [
+      2051,
+      2054
+    ],
+    "awake_skill": 2052,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8856.16,
+        "speed": 102,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 338,
+        "attack": 1402.44,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12418.28,
+        "speed": 102,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 458.64000000000004,
+        "attack": 2331.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 206,
     "name": "鲤鱼精",
-    "attr_rating": [["b", "b", "c", "a", "b"], ["a", "a", "b", "s", "b"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "c",
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2061, 2062, 2063],
-    "awake_skill": null
+    "skills": [
+      2061,
+      2062,
+      2063
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8287.48,
+        "speed": 117,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 312,
+        "attack": 1644.24,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11620.84,
+        "speed": 117,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 423.35999999999996,
+        "attack": 2733.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 207,
     "name": "九命猫",
-    "attr_rating": [["a", "d", "b", "c", "s"], ["s", "c", "a", "a", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "d",
+        "b",
+        "c",
+        "s"
+      ],
+      [
+        "s",
+        "c",
+        "a",
+        "a",
+        "s"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2071, 2073],
-    "awake_skill": 2072
+    "skills": [
+      2071,
+      2073
+    ],
+    "awake_skill": 2072,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 6987.64,
+        "speed": 108,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 334.75,
+        "attack": 1789.3200000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 9798.119999999999,
+        "speed": 108,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 454.23,
+        "attack": 2974.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 208,
     "name": "狸猫",
-    "attr_rating": [["d", "a", "c", "c", "a"], ["c", "s", "b", "a", "a"]],
+    "attr_rating": [
+      [
+        "d",
+        "a",
+        "c",
+        "c",
+        "a"
+      ],
+      [
+        "c",
+        "s",
+        "b",
+        "a",
+        "a"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2081, 2082, 2083],
-    "awake_skill": null
+    "skills": [
+      2081,
+      2082,
+      2083
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9181.12,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 321.75,
+        "attack": 1418.56,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12873.960000000001,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 436.59,
+        "attack": 2358.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 209,
     "name": "河童",
-    "attr_rating": [["a", "c", "c", "b", "b"], ["s", "c", "b", "s", "b"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "b",
+        "b"
+      ],
+      [
+        "s",
+        "c",
+        "b",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2091, 2092, 2093],
-    "awake_skill": null
+    "skills": [
+      2091,
+      2092,
+      2093
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7231.36,
+        "speed": 113,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 318.5,
+        "attack": 1821.5600000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10139.880000000001,
+        "speed": 113,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 432.18,
+        "attack": 3028.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 210,
     "name": "鬼使白",
-    "attr_rating": [["a", "c", "c", "a", "a"], ["s", "b", "b", "s", "a"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "a",
+        "a"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "a"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2101, 2102, 2103],
-    "awake_skill": null
+    "skills": [
+      2101,
+      2102,
+      2103
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7312.6,
+        "speed": 116,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 312,
+        "attack": 1837.6800000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10253.800000000001,
+        "speed": 116,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 423.35999999999996,
+        "attack": 3055.2000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 211,
     "name": "鬼使黑",
-    "attr_rating": [["a", "c", "c", "d", "s"], ["s", "b", "b", "b", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "d",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "b",
+        "s"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2111, 2112, 2113],
-    "awake_skill": null
+    "skills": [
+      2111,
+      2112,
+      2113
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7393.839999999999,
+        "speed": 101,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 302.25,
+        "attack": 1869.9200000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10367.72,
+        "speed": 101,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 410.13,
+        "attack": 3108.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 212,
     "name": "童男",
-    "attr_rating": [["c", "a", "c", "d", "b"], ["b", "s", "b", "b", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "a",
+        "c",
+        "d",
+        "b"
+      ],
+      [
+        "b",
+        "s",
+        "b",
+        "b",
+        "b"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2121, 2122, 2123],
-    "awake_skill": null
+    "skills": [
+      2121,
+      2122,
+      2123
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9099.880000000001,
+        "speed": 103,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 315.25,
+        "attack": 1466.9199999999998,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12760.04,
+        "speed": 103,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 427.77,
+        "attack": 2438.7999999999997,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 213,
     "name": "童女",
-    "attr_rating": [["c", "a", "c", "c", "b"], ["b", "s", "b", "a", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "a",
+        "c",
+        "c",
+        "b"
+      ],
+      [
+        "b",
+        "s",
+        "b",
+        "a",
+        "b"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2131, 2132, 2133],
-    "awake_skill": null
+    "skills": [
+      2131,
+      2132,
+      2133
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9262.36,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 312,
+        "attack": 1450.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12987.880000000001,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 423.35999999999996,
+        "attack": 2412,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 214,
     "name": "饿鬼",
-    "attr_rating": [["b", "b", "c", "c", "a"], ["a", "a", "b", "a", "a"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "c",
+        "c",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2141, 2142, 2143],
-    "awake_skill": null
+    "skills": [
+      2141,
+      2142,
+      2143
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 105,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 305.5,
+        "attack": 1708.72,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 105,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 414.53999999999996,
+        "attack": 2840.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 215,
     "name": "孟婆",
-    "attr_rating": [["b", "c", "c", "a", "a"], ["a", "b", "b", "s", "a"]],
+    "attr_rating": [
+      [
+        "b",
+        "c",
+        "c",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "b",
+        "b",
+        "s",
+        "a"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2151, 2153],
-    "awake_skill": 2152
+    "skills": [
+      2151,
+      2153
+    ],
+    "awake_skill": 2152,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7637.5599999999995,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 315.25,
+        "attack": 1757.0800000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10709.48,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 427.77,
+        "attack": 2921.2000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 216,
     "name": "巫蛊师",
-    "attr_rating": [["a", "c", "c", "c", "a"], ["s", "b", "b", "a", "a"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "c",
+        "a"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "a",
+        "a"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2161, 2162, 2163],
-    "awake_skill": null
+    "skills": [
+      2161,
+      2162,
+      2163
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7637.5599999999995,
+        "speed": 105,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 299,
+        "attack": 1837.6800000000003,
+        "effect_hit_rate": 0.2,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10709.48,
+        "speed": 105,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 405.71999999999997,
+        "attack": 3055.2000000000003,
+        "effect_hit_rate": 0.2,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 217,
     "name": "大天狗",
-    "attr_rating": [["a", "d", "c", "b", "s"], ["s", "c", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "d",
+        "c",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "c",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2171, 2172, 2173],
-    "awake_skill": null
+    "skills": [
+      2171,
+      2172,
+      2173
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7150.12,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 308.75,
+        "attack": 1886.04,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10025.960000000001,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 418.95,
+        "attack": 3135.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 218,
     "name": "鸦天狗",
-    "attr_rating": [["a", "c", "c", "b", "a"], ["s", "b", "b", "s", "a"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "b",
+        "a"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "a"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2181, 2183],
-    "awake_skill": 2182
+    "skills": [
+      2181,
+      2183
+    ],
+    "awake_skill": 2182,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7475.079999999999,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 315.25,
+        "attack": 1789.3200000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10481.64,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 427.77,
+        "attack": 2974.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 219,
     "name": "酒吞童子",
-    "attr_rating": [["a", "c", "d", "b", "s"], ["s", "b", "c", "s", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "d",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "c",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2191, 2192, 2193],
-    "awake_skill": null
+    "skills": [
+      2191,
+      2192,
+      2193
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7962.5199999999995,
+        "speed": 113,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 276.25,
+        "attack": 1886.04,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11165.16,
+        "speed": 113,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 374.84999999999997,
+        "attack": 3135.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 220,
     "name": "犬神",
-    "attr_rating": [["a", "c", "c", "c", "s"], ["s", "b", "b", "a", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "c",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "a",
+        "s"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2201, 2203],
-    "awake_skill": 2202
+    "skills": [
+      2201,
+      2203
+    ],
+    "awake_skill": 2202,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7312.6,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 318.5,
+        "attack": 1805.4400000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10253.800000000001,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 432.18,
+        "attack": 3001.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 221,
     "name": "食发鬼",
-    "attr_rating": [["b", "c", "c", "a", "a"], ["a", "b", "b", "s", "a"]],
+    "attr_rating": [
+      [
+        "b",
+        "c",
+        "c",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "b",
+        "b",
+        "s",
+        "a"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2211, 2212, 2213],
-    "awake_skill": null
+    "skills": [
+      2211,
+      2212,
+      2213
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7637.5599999999995,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 318.5,
+        "attack": 1740.96,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10709.48,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 432.18,
+        "attack": 2894.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 222,
     "name": "武士之灵",
-    "attr_rating": [["a", "c", "c", "b", "a"], ["s", "b", "b", "s", "a"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "b",
+        "a"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "a"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2221, 2223],
-    "awake_skill": 2222
+    "skills": [
+      2221,
+      2223
+    ],
+    "awake_skill": 2222,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7475.079999999999,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 308.75,
+        "attack": 1821.5600000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10481.64,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 418.95,
+        "attack": 3028.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 223,
     "name": "骨女",
-    "attr_rating": [["b", "d", "b", "c", "s"], ["s", "c", "a", "a", "s"]],
+    "attr_rating": [
+      [
+        "b",
+        "d",
+        "b",
+        "c",
+        "s"
+      ],
+      [
+        "s",
+        "c",
+        "a",
+        "a",
+        "s"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2231, 2232, 2233],
-    "awake_skill": null
+    "skills": [
+      2231,
+      2232,
+      2233
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7068.88,
+        "speed": 107,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 334.75,
+        "attack": 1773.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 9912.039999999999,
+        "speed": 107,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 454.23,
+        "attack": 2948.0000000000005,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 224,
     "name": "雨女",
-    "attr_rating": [["d", "b", "b", "d", "b"], ["c", "a", "a", "b", "b"]],
+    "attr_rating": [
+      [
+        "d",
+        "b",
+        "b",
+        "d",
+        "b"
+      ],
+      [
+        "c",
+        "a",
+        "a",
+        "b",
+        "b"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2241, 2243],
-    "awake_skill": 2242
+    "skills": [
+      2241,
+      2243
+    ],
+    "awake_skill": 2242,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8774.92,
+        "speed": 103,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 351,
+        "attack": 1354.08,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12304.36,
+        "speed": 103,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 476.28000000000003,
+        "attack": 2251.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 225,
     "name": "跳跳弟弟",
-    "attr_rating": [["a", "c", "c", "d", "a"], ["s", "b", "b", "b", "a"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "d",
+        "a"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "b",
+        "a"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2251, 2253],
-    "awake_skill": 2252
+    "skills": [
+      2251,
+      2253
+    ],
+    "awake_skill": 2252,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7637.5599999999995,
+        "speed": 104,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 302.25,
+        "attack": 1821.5600000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10709.48,
+        "speed": 104,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 410.13,
+        "attack": 3028.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 226,
     "name": "跳跳妹妹",
-    "attr_rating": [["a", "c", "c", "c", "s"], ["s", "b", "b", "a", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "c",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "a",
+        "s"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2261, 2262, 2263],
-    "awake_skill": null
+    "skills": [
+      2261,
+      2262,
+      2263
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7800.04,
+        "speed": 108,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 292.5,
+        "attack": 1837.6800000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10937.32,
+        "speed": 108,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 396.90000000000003,
+        "attack": 3055.2000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 227,
     "name": "兵俑",
-    "attr_rating": [["c", "a", "c", "a", "b"], ["c", "s", "b", "s", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "a",
+        "c",
+        "a",
+        "b"
+      ],
+      [
+        "c",
+        "s",
+        "b",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2271, 2272, 2273],
-    "awake_skill": null
+    "skills": [
+      2271,
+      2272,
+      2273
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9506.08,
+        "speed": 116,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 305.5,
+        "attack": 1434.68,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 13329.64,
+        "speed": 116,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 414.53999999999996,
+        "attack": 2385.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 228,
     "name": "丑时之女",
-    "attr_rating": [["b", "c", "c", "a", "s"], ["a", "b", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "b",
+        "c",
+        "c",
+        "a",
+        "s"
+      ],
+      [
+        "a",
+        "b",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2281, 2282, 2283],
-    "awake_skill": null
+    "skills": [
+      2281,
+      2282,
+      2283
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7962.5199999999995,
+        "speed": 117,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 305.5,
+        "attack": 1740.96,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11165.16,
+        "speed": 117,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 414.53999999999996,
+        "attack": 2894.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 230,
     "name": "独眼小僧",
-    "attr_rating": [["c", "b", "b", "a", "a"], ["b", "a", "a", "s", "a"]],
+    "attr_rating": [
+      [
+        "c",
+        "b",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "s",
+        "a"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2301, 2303],
-    "awake_skill": 2302
+    "skills": [
+      2301,
+      2303
+    ],
+    "awake_skill": 2302,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8368.72,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 334.75,
+        "attack": 1515.28,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11734.76,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 454.23,
+        "attack": 2519.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 231,
     "name": "鬼女红叶",
-    "attr_rating": [["a", "c", "c", "b", "a"], ["s", "b", "b", "s", "a"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "b",
+        "a"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "a"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2311, 2312, 2313],
-    "awake_skill": null
+    "skills": [
+      2311,
+      2312,
+      2313
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7312.6,
+        "speed": 114,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 321.75,
+        "attack": 1789.3200000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10253.800000000001,
+        "speed": 114,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 436.59,
+        "attack": 2974.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 232,
     "name": "铁鼠",
-    "attr_rating": [["b", "c", "c", "a", "a"], ["a", "b", "b", "s", "a"]],
+    "attr_rating": [
+      [
+        "b",
+        "c",
+        "c",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "b",
+        "b",
+        "s",
+        "a"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2321, 2323],
-    "awake_skill": 2322
+    "skills": [
+      2321,
+      2323
+    ],
+    "awake_skill": 2322,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7637.5599999999995,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 315.25,
+        "attack": 1757.0800000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10709.48,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 427.77,
+        "attack": 2921.2000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 233,
     "name": "跳跳哥哥",
-    "attr_rating": [["a", "c", "c", "a", "b"], ["s", "b", "b", "s", "b"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "a",
+        "b"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2331, 2333],
-    "awake_skill": 2332
+    "skills": [
+      2331,
+      2333
+    ],
+    "awake_skill": 2332,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7637.5599999999995,
+        "speed": 119,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 299,
+        "attack": 1837.6800000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10709.48,
+        "speed": 119,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 405.71999999999997,
+        "attack": 3055.2000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 234,
     "name": "椒图",
-    "attr_rating": [["d", "b", "b", "a", "b"], ["c", "a", "a", "s", "b"]],
+    "attr_rating": [
+      [
+        "d",
+        "b",
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "c",
+        "a",
+        "a",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2341, 2343, 2342],
-    "awake_skill": null
+    "skills": [
+      2341,
+      2343,
+      2342
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8774.92,
+        "speed": 117,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 344.5,
+        "attack": 1386.32,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12304.36,
+        "speed": 117,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 467.46000000000004,
+        "attack": 2304.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 236,
     "name": "管狐",
-    "attr_rating": [["a", "c", "c", "c", "s"], ["s", "b", "b", "a", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "c",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "a",
+        "s"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2361, 2363],
-    "awake_skill": 2362
+    "skills": [
+      2361,
+      2363
+    ],
+    "awake_skill": 2362,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7556.32,
+        "speed": 108,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 308.75,
+        "attack": 1805.4400000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10595.56,
+        "speed": 108,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 418.95,
+        "attack": 3001.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 237,
     "name": "山兔",
-    "attr_rating": [["b", "c", "c", "a", "a"], ["a", "b", "b", "s", "a"]],
+    "attr_rating": [
+      [
+        "b",
+        "c",
+        "c",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "b",
+        "b",
+        "s",
+        "a"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2371, 2373],
-    "awake_skill": 2372
+    "skills": [
+      2371,
+      2373
+    ],
+    "awake_skill": 2372,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7637.5599999999995,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 318.5,
+        "attack": 1740.96,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10709.48,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 432.18,
+        "attack": 2894.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 238,
     "name": "萤草",
-    "attr_rating": [["b", "b", "b", "d", "s"], ["a", "a", "a", "b", "s"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "d",
+        "s"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "b",
+        "s"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2381, 2382, 2383],
-    "awake_skill": null
+    "skills": [
+      2381,
+      2382,
+      2383
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 103,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 103,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 241,
     "name": "蝴蝶精",
-    "attr_rating": [["c", "b", "b", "a", "b"], ["b", "a", "a", "s", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "b",
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2411, 2413],
-    "awake_skill": 2412
+    "skills": [
+      2411,
+      2413
+    ],
+    "awake_skill": 2412,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8612.44,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 334.75,
+        "attack": 1466.9199999999998,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12076.52,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 454.23,
+        "attack": 2438.7999999999997,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 242,
     "name": "傀儡师",
-    "attr_rating": [["b", "b", "c", "c", "b"], ["a", "a", "b", "a", "b"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "c",
+        "c",
+        "b"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2421, 2423],
-    "awake_skill": 2422
+    "skills": [
+      2421,
+      2423
+    ],
+    "awake_skill": 2422,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8368.72,
+        "speed": 108,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 295.75,
+        "attack": 1708.72,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11734.76,
+        "speed": 108,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 401.30999999999995,
+        "attack": 2840.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 243,
     "name": "山童",
-    "attr_rating": [["a", "c", "c", "a", "a"], ["s", "c", "b", "s", "a"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "a",
+        "a"
+      ],
+      [
+        "s",
+        "c",
+        "b",
+        "s",
+        "a"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2431, 2432, 2433],
-    "awake_skill": null
+    "skills": [
+      2431,
+      2432,
+      2433
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7231.36,
+        "speed": 116,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 321.75,
+        "attack": 1805.4400000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10139.880000000001,
+        "speed": 116,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 436.59,
+        "attack": 3001.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 244,
     "name": "首无",
-    "attr_rating": [["b", "c", "c", "b", "s"], ["a", "b", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "b",
+        "c",
+        "c",
+        "b",
+        "s"
+      ],
+      [
+        "a",
+        "b",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2441, 2443],
-    "awake_skill": 2442
+    "skills": [
+      2441,
+      2443
+    ],
+    "awake_skill": 2442,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7800.04,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 312,
+        "attack": 1740.96,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10937.32,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 423.35999999999996,
+        "attack": 2894.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 245,
     "name": "提灯小僧",
-    "attr_rating": [["b", "b", "b", "b", "b"], ["a", "a", "a", "s", "b"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "N",
-    "skills": [2451, 2453],
-    "awake_skill": null
+    "skills": [
+      2451,
+      2453
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 246,
     "name": "赤舌",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [2461, 2462, 2463],
-    "awake_skill": null
+    "skills": [
+      2461,
+      2462,
+      2463
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 247,
     "name": "海坊主",
-    "attr_rating": [["a", "c", "c", "c", "b"], ["s", "c", "b", "a", "b"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "c",
+        "b"
+      ],
+      [
+        "s",
+        "c",
+        "b",
+        "a",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2471, 2472, 2473],
-    "awake_skill": null
+    "skills": [
+      2471,
+      2472,
+      2473
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7231.36,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 315.25,
+        "attack": 1837.6800000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10139.880000000001,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 427.77,
+        "attack": 3055.2000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 248,
     "name": "荒川之主",
-    "attr_rating": [["a", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2481, 2482, 2483],
-    "awake_skill": null
+    "skills": [
+      2481,
+      2482,
+      2483
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7881.28,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 295.75,
+        "attack": 1805.4400000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11051.24,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 401.30999999999995,
+        "attack": 3001.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 249,
     "name": "觉",
-    "attr_rating": [["c", "b", "b", "c", "b"], ["b", "a", "a", "a", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "b",
+        "b",
+        "c",
+        "b"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "a",
+        "b"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2491, 2493],
-    "awake_skill": 2492
+    "skills": [
+      2491,
+      2493
+    ],
+    "awake_skill": 2492,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8287.48,
+        "speed": 108,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 328.25,
+        "attack": 1563.6399999999999,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11620.84,
+        "speed": 108,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 445.41,
+        "attack": 2599.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 250,
     "name": "青蛙瓷器",
-    "attr_rating": [["a", "c", "c", "c", "s"], ["s", "b", "b", "a", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "c",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "a",
+        "s"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2501, 2503],
-    "awake_skill": 2502
+    "skills": [
+      2501,
+      2503
+    ],
+    "awake_skill": 2502,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7556.32,
+        "speed": 107,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 312,
+        "attack": 1789.3200000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10595.56,
+        "speed": 107,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 423.35999999999996,
+        "attack": 2974.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 251,
     "name": "判官",
-    "attr_rating": [["a", "c", "c", "a", "b"], ["s", "b", "b", "s", "b"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "a",
+        "b"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2511, 2513],
-    "awake_skill": 2512
+    "skills": [
+      2511,
+      2513
+    ],
+    "awake_skill": 2512,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7475.079999999999,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 308.75,
+        "attack": 1821.5600000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10481.64,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 418.95,
+        "attack": 3028.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 252,
     "name": "凤凰火",
-    "attr_rating": [["b", "b", "b", "c", "s"], ["a", "a", "a", "a", "s"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "c",
+        "s"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "s"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2521, 2523],
-    "awake_skill": 2522
+    "skills": [
+      2521,
+      2523
+    ],
+    "awake_skill": 2522,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 106,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 106,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 253,
     "name": "吸血姬",
-    "attr_rating": [["a", "c", "c", "a", "s"], ["s", "b", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "a",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2531, 2532, 2533],
-    "awake_skill": null
+    "skills": [
+      2531,
+      2532,
+      2533
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7800.04,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 299,
+        "attack": 1805.4400000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10937.32,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 405.71999999999997,
+        "attack": 3001.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 254,
     "name": "妖狐",
-    "attr_rating": [["a", "c", "c", "a", "s"], ["s", "b", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "a",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2541, 2542, 2543],
-    "awake_skill": null
+    "skills": [
+      2541,
+      2542,
+      2543
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7393.84,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 308.75,
+        "attack": 1837.6800000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10367.720000000001,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 418.95,
+        "attack": 3055.2000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 255,
     "name": "阎魔",
-    "attr_rating": [["c", "b", "b", "a", "b"], ["b", "a", "a", "s", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "b",
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2551, 2552, 2553],
-    "awake_skill": null
+    "skills": [
+      2551,
+      2552,
+      2553
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8531.2,
+        "speed": 117,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 334.75,
+        "attack": 1483.04,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11962.6,
+        "speed": 117,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 454.23,
+        "attack": 2465.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 256,
     "name": "妖琴师",
-    "attr_rating": [["c", "a", "c", "s", "b"], ["b", "s", "b", "s", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "a",
+        "c",
+        "s",
+        "b"
+      ],
+      [
+        "b",
+        "s",
+        "b",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2561, 2562, 2563],
-    "awake_skill": null
+    "skills": [
+      2561,
+      2562,
+      2563
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9018.640000000001,
+        "speed": 120,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 302.25,
+        "attack": 1547.52,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12646.12,
+        "speed": 120,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 410.13,
+        "attack": 2572.7999999999997,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 257,
     "name": "食梦貘",
-    "attr_rating": [["c", "b", "b", "a", "b"], ["b", "a", "a", "s", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "b",
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2571, 2572, 2573],
-    "awake_skill": null
+    "skills": [
+      2571,
+      2572,
+      2573
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8531.2,
+        "speed": 119,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 341.25,
+        "attack": 1450.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11962.6,
+        "speed": 119,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 463.05,
+        "attack": 2412,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 258,
     "name": "两面佛",
-    "attr_rating": [["a", "c", "c", "c", "s"], ["s", "b", "b", "a", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "c",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "a",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2581, 2582, 2583],
-    "awake_skill": null
+    "skills": [
+      2581,
+      2582,
+      2583
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7475.079999999999,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 295.75,
+        "attack": 1886.0400000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10481.64,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 401.31,
+        "attack": 3135.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 259,
     "name": "小鹿男",
-    "attr_rating": [["b", "c", "c", "s", "s"], ["a", "b", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "b",
+        "c",
+        "c",
+        "s",
+        "s"
+      ],
+      [
+        "a",
+        "b",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2591, 2593],
-    "awake_skill": 2592
+    "skills": [
+      2591,
+      2593
+    ],
+    "awake_skill": 2592,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7962.5199999999995,
+        "speed": 120,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 315.25,
+        "attack": 1692.6000000000001,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11165.16,
+        "speed": 120,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 427.77,
+        "attack": 2814,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 260,
     "name": "清姬",
-    "attr_rating": [["c", "b", "b", "c", "b"], ["b", "a", "a", "a", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "b",
+        "b",
+        "c",
+        "b"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "a",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2601, 2602, 2603],
-    "awake_skill": null
+    "skills": [
+      2601,
+      2602,
+      2603
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8449.960000000001,
+        "speed": 105,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 344.5,
+        "attack": 1450.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11848.68,
+        "speed": 105,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 467.46000000000004,
+        "attack": 2412,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 261,
     "name": "镰鼬",
-    "attr_rating": [["b", "b", "c", "a", "b"], ["a", "a", "b", "s", "b"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "c",
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2611, 2613],
-    "awake_skill": 2612
+    "skills": [
+      2611,
+      2613
+    ],
+    "awake_skill": 2612,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8287.48,
+        "speed": 117,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 318.5,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11620.84,
+        "speed": 117,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 432.18,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 262,
     "name": "姑获鸟",
-    "attr_rating": [["a", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2621, 2622, 2623],
-    "awake_skill": null
+    "skills": [
+      2621,
+      2622,
+      2623
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7718.799999999999,
+        "speed": 113,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 292.5,
+        "attack": 1853.8000000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10823.4,
+        "speed": 113,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 396.90000000000003,
+        "attack": 3082.0000000000005,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 263,
     "name": "二口女",
-    "attr_rating": [["c", "b", "b", "a", "b"], ["b", "a", "a", "s", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "b",
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2631, 2632, 2633],
-    "awake_skill": null
+    "skills": [
+      2631,
+      2632,
+      2633
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8206.24,
+        "speed": 116,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 328.25,
+        "attack": 1579.76,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11506.92,
+        "speed": 116,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 445.41,
+        "attack": 2626.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 264,
     "name": "白狼",
-    "attr_rating": [["a", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2641, 2642, 2643],
-    "awake_skill": null
+    "skills": [
+      2641,
+      2642,
+      2643
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7718.799999999999,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 292.5,
+        "attack": 1853.8000000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10823.4,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 396.90000000000003,
+        "attack": 3082.0000000000005,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 265,
     "name": "茨木童子",
-    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "c",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2651, 2652, 2653],
-    "awake_skill": null
+    "skills": [
+      2651,
+      2652,
+      2653
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7312.6,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 292.5,
+        "attack": 1934.4000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10253.800000000001,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 396.90000000000003,
+        "attack": 3216.0000000000005,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 266,
     "name": "青行灯",
-    "attr_rating": [["c", "b", "b", "a", "a"], ["b", "a", "a", "s", "a"]],
+    "attr_rating": [
+      [
+        "c",
+        "b",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "s",
+        "a"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2661, 2662, 2663],
-    "awake_skill": null
+    "skills": [
+      2661,
+      2662,
+      2663
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8287.48,
+        "speed": 119,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 347.75,
+        "attack": 1466.92,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11620.84,
+        "speed": 119,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 471.87,
+        "attack": 2438.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 267,
     "name": "樱花妖",
-    "attr_rating": [["c", "s", "c", "d", "c"], ["c", "s", "b", "c", "c"]],
+    "attr_rating": [
+      [
+        "c",
+        "s",
+        "c",
+        "d",
+        "c"
+      ],
+      [
+        "c",
+        "s",
+        "b",
+        "c",
+        "c"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2671, 2672, 2673],
-    "awake_skill": null
+    "skills": [
+      2671,
+      2672,
+      2673
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9831.04,
+        "speed": 99,
+        "crit_power": 0.5,
+        "crit_rate": 0.03,
+        "defense": 292.49999999999994,
+        "attack": 1434.68,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 13785.320000000002,
+        "speed": 99,
+        "crit_power": 0.5,
+        "crit_rate": 0.03,
+        "defense": 396.9,
+        "attack": 2385.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 268,
     "name": "惠比寿",
-    "attr_rating": [["d", "a", "c", "c", "s"], ["c", "s", "b", "a", "s"]],
+    "attr_rating": [
+      [
+        "d",
+        "a",
+        "c",
+        "c",
+        "s"
+      ],
+      [
+        "c",
+        "s",
+        "b",
+        "a",
+        "s"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2681, 2683],
-    "awake_skill": 2682
+    "skills": [
+      2681,
+      2683
+    ],
+    "awake_skill": 2682,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9181.12,
+        "speed": 107,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 321.75,
+        "attack": 1418.56,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12873.960000000001,
+        "speed": 107,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 436.59,
+        "attack": 2358.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 269,
     "name": "妖刀姬",
-    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "c", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "c",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "c",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2691, 2693],
-    "awake_skill": 2692
+    "skills": [
+      2691,
+      2693
+    ],
+    "awake_skill": 2692,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7150.12,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.12,
+        "defense": 292.49999999999994,
+        "attack": 1966.6400000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10025.960000000001,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.12,
+        "defense": 396.9,
+        "attack": 3269.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 270,
     "name": "络新妇",
-    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "c",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2701, 2702, 2703],
-    "awake_skill": null
+    "skills": [
+      2701,
+      2702,
+      2703
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7312.6,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 292.5,
+        "attack": 1934.4000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10253.800000000001,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 396.90000000000003,
+        "attack": 3216.0000000000005,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 271,
     "name": "般若",
-    "attr_rating": [["a", "c", "c", "b", "s"], ["s", "b", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2711, 2712, 2713],
-    "awake_skill": null
+    "skills": [
+      2711,
+      2712,
+      2713
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7556.32,
+        "speed": 114,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 292.49999999999994,
+        "attack": 1886.0400000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10595.56,
+        "speed": 114,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 396.9,
+        "attack": 3135.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 272,
     "name": "一目连",
-    "attr_rating": [["c", "s", "c", "a", "b"], ["c", "s", "c", "s", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "s",
+        "c",
+        "a",
+        "b"
+      ],
+      [
+        "c",
+        "s",
+        "c",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2721, 2722, 2723],
-    "awake_skill": null
+    "skills": [
+      2721,
+      2722,
+      2723
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9912.28,
+        "speed": 117,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 289.25,
+        "attack": 1434.68,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 13899.24,
+        "speed": 117,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 392.49,
+        "attack": 2385.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 273,
     "name": "青坊主",
-    "attr_rating": [["c", "a", "c", "a", "b"], ["c", "s", "b", "s", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "a",
+        "c",
+        "a",
+        "b"
+      ],
+      [
+        "c",
+        "s",
+        "b",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2731, 2732, 2733],
-    "awake_skill": null
+    "skills": [
+      2731,
+      2732,
+      2733
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9506.080000000002,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 305.5,
+        "attack": 1434.68,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 13329.640000000001,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 414.53999999999996,
+        "attack": 2385.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 274,
     "name": "古笼火",
-    "attr_rating": [["c", "a", "c", "a", "b"], ["b", "s", "b", "s", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "a",
+        "c",
+        "a",
+        "b"
+      ],
+      [
+        "b",
+        "s",
+        "b",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2741, 2742, 2743],
-    "awake_skill": null
+    "skills": [
+      2741,
+      2742,
+      2743
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9424.840000000002,
+        "speed": 117,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 292.49999999999994,
+        "attack": 1515.28,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 13215.720000000001,
+        "speed": 117,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 396.9,
+        "attack": 2519.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 275,
     "name": "万年竹",
-    "attr_rating": [["s", "c", "c", "a", "b"], ["s", "c", "c", "s", "b"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "c",
+        "a",
+        "b"
+      ],
+      [
+        "s",
+        "c",
+        "c",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2751, 2752, 2753],
-    "awake_skill": null
+    "skills": [
+      2751,
+      2752,
+      2753
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7231.36,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 289.25,
+        "attack": 1966.6399999999999,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10139.880000000001,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 392.49,
+        "attack": 3269.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 276,
     "name": "夜叉",
-    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "c", "c", "s", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "c",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "c",
+        "c",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2761, 2763],
-    "awake_skill": 2762
+    "skills": [
+      2761,
+      2763
+    ],
+    "awake_skill": 2762,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7231.359999999999,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0.12,
+        "defense": 289.25,
+        "attack": 1966.6400000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10139.88,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0.12,
+        "defense": 392.49,
+        "attack": 3269.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 277,
     "name": "黑童子",
-    "attr_rating": [["s", "d", "d", "c", "a"], ["s", "c", "c", "a", "a"]],
+    "attr_rating": [
+      [
+        "s",
+        "d",
+        "d",
+        "c",
+        "a"
+      ],
+      [
+        "s",
+        "c",
+        "c",
+        "a",
+        "a"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2771, 2772, 2773],
-    "awake_skill": null
+    "skills": [
+      2771,
+      2772,
+      2773
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7068.88,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.09,
+        "defense": 282.75,
+        "attack": 2031.1200000000001,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 9912.039999999999,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.09,
+        "defense": 383.67,
+        "attack": 3376.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 278,
     "name": "白童子",
-    "attr_rating": [["s", "c", "c", "b", "b"], ["s", "b", "c", "s", "b"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "c",
+        "b",
+        "b"
+      ],
+      [
+        "s",
+        "b",
+        "c",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2781, 2783],
-    "awake_skill": 2782
+    "skills": [
+      2781,
+      2783
+    ],
+    "awake_skill": 2782,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7475.079999999999,
+        "speed": 113,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 289.25,
+        "attack": 1918.2800000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10481.64,
+        "speed": 113,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 392.49,
+        "attack": 3189.2000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 279,
     "name": "花鸟卷",
-    "attr_rating": [["d", "s", "c", "b", "b"], ["c", "s", "b", "s", "b"]],
+    "attr_rating": [
+      [
+        "d",
+        "s",
+        "c",
+        "b",
+        "b"
+      ],
+      [
+        "c",
+        "s",
+        "b",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2791, 2793],
-    "awake_skill": 2792
+    "skills": [
+      2791,
+      2793
+    ],
+    "awake_skill": 2792,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 10074.76,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 292.49999999999994,
+        "attack": 1386.3200000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 14127.08,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 396.9,
+        "attack": 2304.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 280,
     "name": "辉夜姬",
-    "attr_rating": [["c", "s", "c", "c", "b"], ["c", "s", "b", "a", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "s",
+        "c",
+        "c",
+        "b"
+      ],
+      [
+        "c",
+        "s",
+        "b",
+        "a",
+        "b"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2801, 2802, 2803],
-    "awake_skill": null
+    "skills": [
+      2801,
+      2802,
+      2803
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9831.04,
+        "speed": 108,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 299,
+        "attack": 1402.4400000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 13785.320000000002,
+        "speed": 108,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 405.71999999999997,
+        "attack": 2331.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 281,
     "name": "烟烟罗",
-    "attr_rating": [["s", "c", "c", "b", "b"], ["s", "b", "c", "s", "b"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "c",
+        "b",
+        "b"
+      ],
+      [
+        "s",
+        "b",
+        "c",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2811, 2812, 2813],
-    "awake_skill": null
+    "skills": [
+      2811,
+      2812,
+      2813
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7556.32,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 289.25,
+        "attack": 1902.1600000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10595.56,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 392.49,
+        "attack": 3162.4000000000005,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 282,
     "name": "金鱼姬",
-    "attr_rating": [["c", "s", "c", "a", "b"], ["c", "s", "b", "s", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "s",
+        "c",
+        "a",
+        "b"
+      ],
+      [
+        "c",
+        "s",
+        "b",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2821, 2823, 2822],
-    "awake_skill": null
+    "skills": [
+      2821,
+      2823,
+      2822
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9749.800000000001,
+        "speed": 116,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 302.25,
+        "attack": 1402.4400000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 13671.400000000001,
+        "speed": 116,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 410.13,
+        "attack": 2331.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 283,
     "name": "荒",
-    "attr_rating": [["s", "c", "a", "d", "s"], ["s", "b", "s", "b", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "a",
+        "d",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "s",
+        "b",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2831, 2832, 2833],
-    "awake_skill": null
+    "skills": [
+      2831,
+      2832,
+      2833
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7312.6,
+        "speed": 104,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 360.75000000000006,
+        "attack": 1998.8800000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10253.800000000001,
+        "speed": 104,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 489.51000000000005,
+        "attack": 3323.2000000000007,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 285,
     "name": "鸩",
-    "attr_rating": [["a", "b", "d", "a", "b"], ["s", "a", "c", "s", "b"]],
+    "attr_rating": [
+      [
+        "a",
+        "b",
+        "d",
+        "a",
+        "b"
+      ],
+      [
+        "s",
+        "a",
+        "c",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2851, 2852, 2853],
-    "awake_skill": null
+    "skills": [
+      2851,
+      2852,
+      2853
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 119,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 286,
+        "attack": 1805.4400000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 119,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 388.08,
+        "attack": 3001.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 286,
     "name": "以津真天",
-    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "c", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "c",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "c",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2861, 2862, 2863],
-    "awake_skill": null
+    "skills": [
+      2861,
+      2862,
+      2863
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7150.12,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 292.49999999999994,
+        "attack": 1966.6400000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10025.960000000001,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 396.9,
+        "attack": 3269.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 287,
     "name": "匣中少女",
-    "attr_rating": [["c", "s", "c", "a", "c"], ["b", "s", "c", "s", "c"]],
+    "attr_rating": [
+      [
+        "c",
+        "s",
+        "c",
+        "a",
+        "c"
+      ],
+      [
+        "b",
+        "s",
+        "c",
+        "s",
+        "c"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2871, 2872, 2873],
-    "awake_skill": null
+    "skills": [
+      2871,
+      2872,
+      2873
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9749.800000000001,
+        "speed": 119,
+        "crit_power": 0.5,
+        "crit_rate": 0.03,
+        "defense": 289.25,
+        "attack": 1466.9199999999998,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 13671.400000000001,
+        "speed": 119,
+        "crit_power": 0.5,
+        "crit_rate": 0.03,
+        "defense": 392.49,
+        "attack": 2438.7999999999997,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 288,
     "name": "彼岸花",
-    "attr_rating": [["a", "b", "c", "c", "a"], ["s", "a", "c", "a", "a"]],
+    "attr_rating": [
+      [
+        "a",
+        "b",
+        "c",
+        "c",
+        "a"
+      ],
+      [
+        "s",
+        "a",
+        "c",
+        "a",
+        "a"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2881, 2882, 2883],
-    "awake_skill": null
+    "skills": [
+      2881,
+      2882,
+      2883
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 107,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 286,
+        "attack": 1805.4400000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 107,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 388.08,
+        "attack": 3001.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 289,
     "name": "兔丸",
-    "attr_rating": [["c", "a", "c", "a", "c"], ["b", "s", "b", "s", "c"]],
+    "attr_rating": [
+      [
+        "c",
+        "a",
+        "c",
+        "a",
+        "c"
+      ],
+      [
+        "b",
+        "s",
+        "b",
+        "s",
+        "c"
+      ]
+    ],
     "rarity": "R",
-    "skills": [2891, 2892, 2893],
-    "awake_skill": null
+    "skills": [
+      2891,
+      2892,
+      2893
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9424.840000000002,
+        "speed": 116,
+        "crit_power": 0.5,
+        "crit_rate": 0.03,
+        "defense": 305.5,
+        "attack": 1450.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 13215.720000000001,
+        "speed": 116,
+        "crit_power": 0.5,
+        "crit_rate": 0.03,
+        "defense": 414.53999999999996,
+        "attack": 2411.9999999999995,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 290,
     "name": "小松丸",
-    "attr_rating": [["b", "c", "c", "a", "b"], ["a", "b", "b", "s", "b"]],
+    "attr_rating": [
+      [
+        "b",
+        "c",
+        "c",
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "b",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2901, 2902, 2903],
-    "awake_skill": null
+    "skills": [
+      2901,
+      2902,
+      2903
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7718.799999999999,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 312,
+        "attack": 1757.0800000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10823.4,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 423.35999999999996,
+        "attack": 2921.2000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 291,
     "name": "书翁",
-    "attr_rating": [["b", "b", "b", "c", "a"], ["a", "a", "a", "a", "a"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "c",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2911, 2912, 2913],
-    "awake_skill": null
+    "skills": [
+      2911,
+      2912,
+      2913
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 292,
     "name": "雪童子",
-    "attr_rating": [["s", "c", "c", "s", "a"], ["s", "c", "c", "s", "a"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "c",
+        "s",
+        "a"
+      ],
+      [
+        "s",
+        "c",
+        "c",
+        "s",
+        "a"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2921, 2922, 2923],
-    "awake_skill": null
+    "skills": [
+      2921,
+      2922,
+      2923
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7150.12,
+        "speed": 121,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 286,
+        "attack": 1998.8799999999999,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10025.960000000001,
+        "speed": 121,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 388.08,
+        "attack": 3323.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 293,
     "name": "百目鬼",
-    "attr_rating": [["b", "d", "a", "a", "c"], ["a", "c", "s", "s", "c"]],
+    "attr_rating": [
+      [
+        "b",
+        "d",
+        "a",
+        "a",
+        "c"
+      ],
+      [
+        "a",
+        "c",
+        "s",
+        "s",
+        "c"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2931, 2932, 2933],
-    "awake_skill": null
+    "skills": [
+      2931,
+      2932,
+      2933
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 6743.92,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.03,
+        "defense": 373.74999999999994,
+        "attack": 1644.24,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 9456.359999999999,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.03,
+        "defense": 507.15,
+        "attack": 2733.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 294,
     "name": "奴良陆生",
-    "attr_rating": [["a", "b", "d", "b", "s"], ["s", "a", "c", "s", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "b",
+        "d",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "a",
+        "c",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2941, 2942, 2943],
-    "awake_skill": null
+    "skills": [
+      2941,
+      2942,
+      2943
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 113,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 282.75,
+        "attack": 1821.5600000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0.5
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 113,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 383.67,
+        "attack": 3028.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0.5
+      }
+    }
   },
   {
     "id": 295,
     "name": "追月神",
-    "attr_rating": [["d", "a", "b", "c", "b"], ["c", "s", "a", "a", "b"]],
+    "attr_rating": [
+      [
+        "d",
+        "a",
+        "b",
+        "c",
+        "b"
+      ],
+      [
+        "c",
+        "s",
+        "a",
+        "a",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2951, 2953],
-    "awake_skill": 2952
+    "skills": [
+      2951,
+      2953
+    ],
+    "awake_skill": 2952,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9099.880000000001,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 331.5,
+        "attack": 1386.32,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12760.04,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 449.82,
+        "attack": 2304.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 296,
     "name": "山风",
-    "attr_rating": [["s", "b", "c", "a", "d"], ["s", "a", "c", "s", "d"]],
+    "attr_rating": [
+      [
+        "s",
+        "b",
+        "c",
+        "a",
+        "d"
+      ],
+      [
+        "s",
+        "a",
+        "c",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [2961, 2962, 2963],
-    "awake_skill": null
+    "skills": [
+      2961,
+      2962,
+      2963
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.01,
+        "defense": 286,
+        "attack": 2047.24,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.01,
+        "defense": 388.08,
+        "attack": 3403.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 297,
     "name": "日和坊",
-    "attr_rating": [["c", "s", "c", "b", "b"], ["c", "s", "c", "s", "b"]],
+    "attr_rating": [
+      [
+        "c",
+        "s",
+        "c",
+        "b",
+        "b"
+      ],
+      [
+        "c",
+        "s",
+        "c",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2971, 2972, 2973],
-    "awake_skill": null
+    "skills": [
+      2971,
+      2972,
+      2973
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9993.520000000002,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 289.25,
+        "attack": 1418.56,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 14013.160000000002,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 392.49,
+        "attack": 2358.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 298,
     "name": "薰",
-    "attr_rating": [["d", "s", "c", "b", "c"], ["c", "s", "b", "s", "c"]],
+    "attr_rating": [
+      [
+        "d",
+        "s",
+        "c",
+        "b",
+        "c"
+      ],
+      [
+        "c",
+        "s",
+        "b",
+        "s",
+        "c"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [2981, 2983],
-    "awake_skill": 2982
+    "skills": [
+      2981,
+      2983
+    ],
+    "awake_skill": 2982,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9912.280000000002,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.03,
+        "defense": 292.49999999999994,
+        "attack": 1354.08,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 13899.240000000002,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.03,
+        "defense": 396.9,
+        "attack": 2251.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 300,
     "name": "玉藻前",
-    "attr_rating": [["s", "a", "d", "b", "s"], ["s", "s", "c", "s", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "a",
+        "d",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "s",
+        "c",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [3001, 3002, 3003],
-    "awake_skill": null
+    "skills": [
+      3001,
+      3002,
+      3003
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8937.400000000001,
+        "speed": 110,
+        "crit_power": 0.6,
+        "crit_rate": 0.12,
+        "defense": 260,
+        "attack": 2015,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12532.2,
+        "speed": 110,
+        "crit_power": 0.6,
+        "crit_rate": 0.12,
+        "defense": 352.79999999999995,
+        "attack": 3350,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 301,
     "name": "数珠",
-    "attr_rating": [["d", "c", "b", "b", "c"], ["c", "b", "s", "s", "c"]],
+    "attr_rating": [
+      [
+        "d",
+        "c",
+        "b",
+        "b",
+        "c"
+      ],
+      [
+        "c",
+        "b",
+        "s",
+        "s",
+        "c"
+      ]
+    ],
     "rarity": "R",
-    "skills": [3011, 3012, 3013],
-    "awake_skill": null
+    "skills": [
+      3011,
+      3012,
+      3013
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7881.28,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.03,
+        "defense": 357.50000000000006,
+        "attack": 1354.08,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0.25
+      },
+      "40": {
+        "max_hp": 11051.24,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.03,
+        "defense": 485.1,
+        "attack": 2251.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0.25
+      }
+    }
   },
   {
     "id": 302,
     "name": "小袖之手",
-    "attr_rating": [["a", "c", "c", "a", "a"], ["s", "b", "b", "s", "a"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "a",
+        "a"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "a"
+      ]
+    ],
     "rarity": "R",
-    "skills": [3021, 3022, 3023],
-    "awake_skill": null
+    "skills": [
+      3021,
+      3022,
+      3023
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7881.28,
+        "speed": 116,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 295.75,
+        "attack": 1773.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11051.24,
+        "speed": 116,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 401.31,
+        "attack": 2948.0000000000005,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 303,
     "name": "弈",
-    "attr_rating": [["a", "d", "b", "c", "a"], ["s", "c", "a", "a", "a"]],
+    "attr_rating": [
+      [
+        "a",
+        "d",
+        "b",
+        "c",
+        "a"
+      ],
+      [
+        "s",
+        "c",
+        "a",
+        "a",
+        "a"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [3031, 3032, 3033],
-    "awake_skill": null
+    "skills": [
+      3031,
+      3032,
+      3033
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7068.88,
+        "speed": 106,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 328.25,
+        "attack": 1805.4400000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 9912.039999999999,
+        "speed": 106,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 445.41,
+        "attack": 3001.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 304,
     "name": "御馔津",
-    "attr_rating": [["a", "a", "b", "a", "b"], ["s", "s", "a", "s", "b"]],
+    "attr_rating": [
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "b"
+      ],
+      [
+        "s",
+        "s",
+        "a",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [3041, 3042, 3043],
-    "awake_skill": null
+    "skills": [
+      3041,
+      3042,
+      3043
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9018.640000000001,
+        "speed": 119,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 331.5,
+        "attack": 1805.4400000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12646.12,
+        "speed": 119,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 449.82,
+        "attack": 3001.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 305,
     "name": "卖药郎",
-    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "b", "c", "s", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "c",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "c",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [3051, 3052, 3053],
-    "awake_skill": null
+    "skills": [
+      3051,
+      3052,
+      3053
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7312.6,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 289.25,
+        "attack": 2015,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10253.800000000001,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 392.49,
+        "attack": 3350,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 306,
     "name": "虫师",
-    "attr_rating": [["c", "s", "c", "a", "c"], ["c", "s", "c", "s", "c"]],
+    "attr_rating": [
+      [
+        "c",
+        "s",
+        "c",
+        "a",
+        "c"
+      ],
+      [
+        "c",
+        "s",
+        "c",
+        "s",
+        "c"
+      ]
+    ],
     "rarity": "R",
-    "skills": [3061, 3062, 3063],
-    "awake_skill": null
+    "skills": [
+      3061,
+      3062,
+      3063
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9993.52,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.03,
+        "defense": 286,
+        "attack": 1434.6799999999998,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 14013.16,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.03,
+        "defense": 388.08,
+        "attack": 2385.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 307,
     "name": "猫掌柜",
-    "attr_rating": [["a", "c", "c", "a", "s"], ["s", "b", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "a",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [3071, 3072, 3073],
-    "awake_skill": null
+    "skills": [
+      3071,
+      3072,
+      3073
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7637.5599999999995,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 305.5,
+        "attack": 1805.4400000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10709.48,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 414.53999999999996,
+        "attack": 3001.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 308,
     "name": "鬼灯",
-    "attr_rating": [["a", "d", "b", "b", "s"], ["s", "c", "a", "s", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "d",
+        "b",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "c",
+        "a",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [3081, 3082, 3083],
-    "awake_skill": null
+    "skills": [
+      3081,
+      3082,
+      3083
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 6581.4400000000005,
+        "speed": 110,
+        "crit_power": 0.6,
+        "crit_rate": 0.1,
+        "defense": 325,
+        "attack": 1918.2800000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 9228.52,
+        "speed": 110,
+        "crit_power": 0.6,
+        "crit_rate": 0.1,
+        "defense": 441,
+        "attack": 3189.2000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 309,
     "name": "阿香",
-    "attr_rating": [["a", "c", "c", "b", "b"], ["s", "b", "b", "s", "b"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "b",
+        "b"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [3091, 3092, 3093],
-    "awake_skill": null
+    "skills": [
+      3091,
+      3092,
+      3093
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7556.32,
+        "speed": 114,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 295.75,
+        "attack": 1902.1600000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10595.56,
+        "speed": 114,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 401.30999999999995,
+        "attack": 3162.4000000000005,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 310,
     "name": "蜜桃&芥子",
-    "attr_rating": [["d", "a", "a", "a", "b"], ["d", "a", "s", "s", "b"]],
+    "attr_rating": [
+      [
+        "d",
+        "a",
+        "a",
+        "a",
+        "b"
+      ],
+      [
+        "d",
+        "a",
+        "s",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "R",
-    "skills": [3101, 3103],
-    "awake_skill": 3102
+    "skills": [
+      3101,
+      3103
+    ],
+    "awake_skill": 3102,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8856.16,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 357.50000000000006,
+        "attack": 1241.24,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12418.28,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 485.1,
+        "attack": 2063.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 311,
     "name": "面灵气",
-    "attr_rating": [["s", "c", "c", "a", "a"], ["s", "c", "b", "s", "a"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "c",
+        "a",
+        "a"
+      ],
+      [
+        "s",
+        "c",
+        "b",
+        "s",
+        "a"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [3111, 3112, 3113],
-    "awake_skill": null
+    "skills": [
+      3111,
+      3112,
+      3113
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7231.36,
+        "speed": 119,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 292.49999999999994,
+        "attack": 1950.5200000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10139.880000000001,
+        "speed": 119,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 396.9,
+        "attack": 3242.8000000000006,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 312,
     "name": "鬼切",
-    "attr_rating": [["s", "c", "d", "a", "s"], ["s", "b", "c", "s", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "d",
+        "a",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "c",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [3121, 3122, 3123],
-    "awake_skill": null
+    "skills": [
+      3121,
+      3122,
+      3123
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7718.799999999999,
+        "speed": 117,
+        "crit_power": 0.6,
+        "crit_rate": 0.11,
+        "defense": 260,
+        "attack": 2015,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10823.4,
+        "speed": 117,
+        "crit_power": 0.6,
+        "crit_rate": 0.11,
+        "defense": 352.79999999999995,
+        "attack": 3350,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 313,
     "name": "犬夜叉",
-    "attr_rating": [["a", "b", "c", "b", "s"], ["s", "a", "c", "s", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "b",
+        "c",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "a",
+        "c",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [3131, 3132, 3133],
-    "awake_skill": null
+    "skills": [
+      3131,
+      3132,
+      3133
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 114,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 289.25,
+        "attack": 1789.3200000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 114,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 392.49,
+        "attack": 2974.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 314,
     "name": "杀生丸",
-    "attr_rating": [["s", "c", "c", "a", "s"], ["s", "c", "c", "s", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "c",
+        "a",
+        "s"
+      ],
+      [
+        "s",
+        "c",
+        "c",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [3141, 3142, 3143],
-    "awake_skill": null
+    "skills": [
+      3141,
+      3142,
+      3143
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7150.12,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.12,
+        "defense": 286,
+        "attack": 1998.8800000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10025.960000000001,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.12,
+        "defense": 388.08,
+        "attack": 3323.2000000000007,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 315,
     "name": "少羽大天狗",
-    "attr_rating": [["s", "d", "d", "s", "s"], ["s", "c", "c", "s", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "d",
+        "d",
+        "s",
+        "s"
+      ],
+      [
+        "s",
+        "c",
+        "c",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SP",
-    "skills": [3151, 3152, 3153],
-    "awake_skill": null
+    "skills": [
+      3151,
+      3152,
+      3153
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 6906.4,
+        "speed": 122,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 276.25,
+        "attack": 2095.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 9684.199999999999,
+        "speed": 122,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 374.84999999999997,
+        "attack": 3484,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 316,
     "name": "白藏主",
-    "attr_rating": [["d", "s", "b", "b", "b"], ["d", "s", "a", "s", "b"]],
+    "attr_rating": [
+      [
+        "d",
+        "s",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "d",
+        "s",
+        "a",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [3161, 3162, 3163],
-    "awake_skill": null
+    "skills": [
+      3161,
+      3162,
+      3163
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 10156,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 347.75,
+        "attack": 1096.1599999999999,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 14241,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 471.87,
+        "attack": 1822.3999999999999,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 317,
     "name": "人面树",
-    "attr_rating": [["d", "a", "a", "d", "a"], ["d", "s", "s", "c", "a"]],
+    "attr_rating": [
+      [
+        "d",
+        "a",
+        "a",
+        "d",
+        "a"
+      ],
+      [
+        "d",
+        "s",
+        "s",
+        "c",
+        "a"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [3171, 3172, 3173],
-    "awake_skill": null
+    "skills": [
+      3171,
+      3172,
+      3173
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9262.36,
+        "speed": 98,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 377.00000000000006,
+        "attack": 1080.04,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12987.880000000001,
+        "speed": 98,
+        "crit_power": 0.5,
+        "crit_rate": 0.08,
+        "defense": 511.56000000000006,
+        "attack": 1795.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 318,
     "name": "於菊虫",
-    "attr_rating": [["b", "b", "d", "c", "b"], ["s", "a", "c", "a", "b"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "d",
+        "c",
+        "b"
+      ],
+      [
+        "s",
+        "a",
+        "c",
+        "a",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [3181, 3182, 3183],
-    "awake_skill": null
+    "skills": [
+      3181,
+      3182,
+      3183
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8531.2,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 276.25,
+        "attack": 1773.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11962.6,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 374.84999999999997,
+        "attack": 2948.0000000000005,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 319,
     "name": "桔梗",
-    "attr_rating": [["a", "c", "c", "a", "s"], ["s", "b", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "a",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [3191, 3192, 3193],
-    "awake_skill": null
+    "skills": [
+      3191,
+      3192,
+      3193
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7556.32,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 295.75,
+        "attack": 1869.9200000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10595.56,
+        "speed": 115,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 401.31,
+        "attack": 3108.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 320,
     "name": "一反木绵",
-    "attr_rating": [["b", "b", "c", "a", "b"], ["a", "a", "b", "s", "b"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "c",
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [3201, 3202, 3203],
-    "awake_skill": null
+    "skills": [
+      3201,
+      3202,
+      3203
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8368.72,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 308.75,
+        "attack": 1644.24,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11734.76,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 418.95,
+        "attack": 2733.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 321,
     "name": "入殓师",
-    "attr_rating": [["a", "d", "b", "d", "s"], ["s", "c", "a", "b", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "d",
+        "b",
+        "d",
+        "s"
+      ],
+      [
+        "s",
+        "c",
+        "a",
+        "b",
+        "s"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [3211, 3212, 3213],
-    "awake_skill": null
+    "skills": [
+      3211,
+      3212,
+      3213
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 6662.679999999999,
+        "speed": 104,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 341.25,
+        "attack": 1821.5599999999997,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 9342.439999999999,
+        "speed": 104,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 463.05,
+        "attack": 3028.3999999999996,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 322,
     "name": "炼狱茨木童子",
-    "attr_rating": [["s", "c", "d", "b", "s"], ["s", "b", "c", "s", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "d",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "c",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SP",
-    "skills": [3221, 3222, 3223],
-    "awake_skill": null
+    "skills": [
+      3221,
+      3222,
+      3223
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7312.6,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0.15,
+        "defense": 279.5,
+        "attack": 1998.8799999999999,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10253.800000000001,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0.15,
+        "defense": 379.26,
+        "attack": 3323.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 323,
     "name": "天井下",
-    "attr_rating": [["d", "b", "a", "c", "b"], ["c", "a", "s", "a", "b"]],
+    "attr_rating": [
+      [
+        "d",
+        "b",
+        "a",
+        "c",
+        "b"
+      ],
+      [
+        "c",
+        "a",
+        "s",
+        "a",
+        "b"
+      ]
+    ],
     "rarity": "R",
-    "skills": [3231, 3232, 3233],
-    "awake_skill": null
+    "skills": [
+      3231,
+      3232,
+      3233
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8531.2,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 360.75000000000006,
+        "attack": 1354.08,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11962.6,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 489.51000000000005,
+        "attack": 2251.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 324,
     "name": "化鲸",
-    "attr_rating": [["b", "a", "d", "b", "b"], ["a", "s", "c", "s", "b"]],
+    "attr_rating": [
+      [
+        "b",
+        "a",
+        "d",
+        "b",
+        "b"
+      ],
+      [
+        "a",
+        "s",
+        "c",
+        "s",
+        "b"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [3241, 3242, 3243],
-    "awake_skill": null
+    "skills": [
+      3241,
+      3242,
+      3243
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9181.12,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 263.25,
+        "attack": 1708.72,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12873.960000000001,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.05,
+        "defense": 357.21,
+        "attack": 2840.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 325,
     "name": "八岐大蛇",
-    "attr_rating": [["s", "b", "b", "a", "s"], ["ss", "a", "a", "s", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "b",
+        "b",
+        "a",
+        "s"
+      ],
+      [
+        "ss",
+        "a",
+        "a",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [3251, 3252, 3253],
-    "awake_skill": null
+    "skills": [
+      3251,
+      3252,
+      3253
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8856.16,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 354.25,
+        "attack": 2450.2400000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12418.28,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 480.69000000000005,
+        "attack": 4073.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 326,
     "name": "稻荷神御馔津",
-    "attr_rating": [["a", "b", "b", "c", "s"], ["s", "a", "s", "a", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "b",
+        "b",
+        "c",
+        "s"
+      ],
+      [
+        "s",
+        "a",
+        "s",
+        "a",
+        "s"
+      ]
+    ],
     "rarity": "SP",
-    "skills": [3261, 3262, 3263],
-    "awake_skill": null
+    "skills": [
+      3261,
+      3262,
+      3263
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 357.50000000000006,
+        "attack": 1853.8000000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 485.1,
+        "attack": 3082.0000000000005,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 327,
     "name": "苍风一目连",
-    "attr_rating": [["s", "b", "d", "s", "s"], ["s", "a", "d", "s", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "b",
+        "d",
+        "s",
+        "s"
+      ],
+      [
+        "s",
+        "a",
+        "d",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SP",
-    "skills": [3271, 3272, 3273],
-    "awake_skill": null
+    "skills": [
+      3271,
+      3272,
+      3273
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 121,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 250.25,
+        "attack": 1982.76,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 121,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 339.57,
+        "attack": 3296.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 328,
     "name": "赤影妖刀姬",
-    "attr_rating": [["s", "c", "c", "b", "s"], ["s", "c", "c", "s", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "c",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "c",
+        "c",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SP",
-    "skills": [3281, 3282, 3283],
-    "awake_skill": null
+    "skills": [
+      3281,
+      3282,
+      3283
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7068.880000000001,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.12,
+        "defense": 282.75000000000006,
+        "attack": 2031.1200000000001,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 9912.04,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.12,
+        "defense": 383.6700000000001,
+        "attack": 3376.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 329,
     "name": "海忍",
-    "attr_rating": [["s", "c", "b", "b", "a"], ["s", "b", "b", "s", "a"]],
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "b",
+        "b",
+        "a"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "a"
+      ]
+    ],
     "rarity": "SR",
-    "skills": [3291, 3292, 3293],
-    "awake_skill": null
+    "skills": [
+      3291,
+      3292,
+      3293
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7393.84,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.09,
+        "defense": 318.5,
+        "attack": 1934.4000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10367.720000000001,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.09,
+        "defense": 432.18,
+        "attack": 3216.0000000000005,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 330,
     "name": "不知火",
-    "attr_rating": [["s", "d", "c", "a", "s"], ["s", "c", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "d",
+        "c",
+        "a",
+        "s"
+      ],
+      [
+        "s",
+        "c",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "SSR",
-    "skills": [3301, 3302, 3303],
-    "awake_skill": null
+    "skills": [
+      3301,
+      3302,
+      3303
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 6581.4400000000005,
+        "speed": 117,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 292.5,
+        "attack": 2079.48,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 9228.52,
+        "speed": 117,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 396.90000000000003,
+        "attack": 3457.2000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 400,
     "name": "盗墓小鬼",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4001],
-    "awake_skill": null
+    "skills": [
+      4001
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 401,
     "name": "寄生魂",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4011],
-    "awake_skill": null
+    "skills": [
+      4011
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 403,
     "name": "唐纸伞妖",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4031, 4032],
-    "awake_skill": null
+    "skills": [
+      4031,
+      4032
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 404,
     "name": "天邪鬼绿",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4041, 4042],
-    "awake_skill": null
+    "skills": [
+      4041,
+      4042
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 405,
     "name": "天邪鬼赤",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4051, 4052],
-    "awake_skill": null
+    "skills": [
+      4051,
+      4052
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 406,
     "name": "天邪鬼黄",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4061, 4062],
-    "awake_skill": null
+    "skills": [
+      4061,
+      4062
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 407,
     "name": "天邪鬼青",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4071, 4072],
-    "awake_skill": null
+    "skills": [
+      4071,
+      4072
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 408,
     "name": "帚神",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4081, 4082],
-    "awake_skill": null
+    "skills": [
+      4081,
+      4082
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 409,
     "name": "涂壁",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4091, 4092],
-    "awake_skill": null
+    "skills": [
+      4091,
+      4092
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 410,
     "name": "招福达摩",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4101],
-    "awake_skill": null
+    "skills": [
+      4101
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 411,
     "name": "御行达摩",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4101],
-    "awake_skill": null
+    "skills": [
+      4101
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 412,
     "name": "奉为达摩",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4101],
-    "awake_skill": null
+    "skills": [
+      4101
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 413,
     "name": "大吉达摩",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4101],
-    "awake_skill": null
+    "skills": [
+      4101
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 414,
     "name": "大天狗呱",
-    "attr_rating": [["b", "c", "b", "b", "d"], ["a", "b", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "c",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "b",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4141, 4142],
-    "awake_skill": null
+    "skills": [
+      4141,
+      4142
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7962.5199999999995,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1644.24,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11165.16,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2733.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 415,
     "name": "酒吞呱",
-    "attr_rating": [["b", "c", "b", "c", "d"], ["a", "b", "a", "a", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "c",
+        "b",
+        "c",
+        "d"
+      ],
+      [
+        "a",
+        "b",
+        "a",
+        "a",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4151, 4152],
-    "awake_skill": null
+    "skills": [
+      4151,
+      4152
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8043.76,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 328.25,
+        "attack": 1628.1200000000001,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11279.08,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 445.41,
+        "attack": 2706.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 416,
     "name": "荒川呱",
-    "attr_rating": [["b", "b", "c", "b", "d"], ["a", "a", "b", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "c",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4161, 4162],
-    "awake_skill": null
+    "skills": [
+      4161,
+      4162
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 318.5,
+        "attack": 1660.3600000000001,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 432.18,
+        "attack": 2760.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 417,
     "name": "阎魔呱",
-    "attr_rating": [["c", "b", "b", "b", "d"], ["b", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "c",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4171, 4172],
-    "awake_skill": null
+    "skills": [
+      4171,
+      4172
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8287.48,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1531.3999999999999,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11620.84,
+        "speed": 112,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2546,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 418,
     "name": "两面佛呱",
-    "attr_rating": [["b", "b", "c", "b", "d"], ["a", "a", "b", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "c",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4181, 4182],
-    "awake_skill": null
+    "skills": [
+      4181,
+      4182
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 312,
+        "attack": 1628.1200000000001,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 423.35999999999996,
+        "attack": 2706.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 419,
     "name": "小鹿男呱",
-    "attr_rating": [["c", "b", "b", "b", "d"], ["b", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "c",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4191, 4192],
-    "awake_skill": null
+    "skills": [
+      4191,
+      4192
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8368.72,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1563.6399999999999,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11734.76,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2599.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 420,
     "name": "茨木呱",
-    "attr_rating": [["b", "b", "b", "b", "d"], ["a", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4201, 4202],
-    "awake_skill": null
+    "skills": [
+      4201,
+      4202
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0.01,
+        "defense": 325,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0.01,
+        "defense": 441,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 421,
     "name": "青行灯呱",
-    "attr_rating": [["c", "b", "b", "b", "d"], ["b", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "c",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4211, 4212],
-    "awake_skill": null
+    "skills": [
+      4211,
+      4212
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 328.25,
+        "attack": 1595.8799999999999,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 445.41,
+        "attack": 2653.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 422,
     "name": "妖刀姬呱",
-    "attr_rating": [["b", "b", "c", "c", "d"], ["a", "a", "b", "a", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "c",
+        "c",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4221, 4222],
-    "awake_skill": null
+    "skills": [
+      4221,
+      4222
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 312,
+        "attack": 1644.24,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 423.35999999999996,
+        "attack": 2733.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 423,
     "name": "一目连呱",
-    "attr_rating": [["c", "b", "b", "b", "d"], ["b", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "c",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4231, 4232],
-    "awake_skill": null
+    "skills": [
+      4231,
+      4232
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8206.24,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 328.25,
+        "attack": 1579.76,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11506.92,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 445.41,
+        "attack": 2626.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 424,
     "name": "花鸟卷呱",
-    "attr_rating": [["c", "b", "b", "b", "d"], ["b", "a", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "c",
+        "b",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4241, 4242],
-    "awake_skill": null
+    "skills": [
+      4241,
+      4242
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8287.48,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 325,
+        "attack": 1563.6399999999999,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11620.84,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 441,
+        "attack": 2599.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 425,
     "name": "辉夜姬呱",
-    "attr_rating": [["c", "b", "b", "c", "d"], ["b", "a", "a", "a", "d"]],
+    "attr_rating": [
+      [
+        "c",
+        "b",
+        "b",
+        "c",
+        "d"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "a",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4251, 4252],
-    "awake_skill": null
+    "skills": [
+      4251,
+      4252
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 108,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 331.5,
+        "attack": 1547.52,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 108,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 449.82,
+        "attack": 2572.7999999999997,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 426,
     "name": "荒呱",
-    "attr_rating": [["b", "b", "c", "c", "d"], ["a", "a", "b", "a", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "c",
+        "c",
+        "d"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4261, 4262],
-    "awake_skill": null
+    "skills": [
+      4261,
+      4262
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 321.75,
+        "attack": 1628.1200000000001,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 109,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 436.59,
+        "attack": 2706.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 427,
     "name": "彼岸花呱",
-    "attr_rating": [["b", "c", "b", "b", "d"], ["a", "b", "a", "s", "d"]],
+    "attr_rating": [
+      [
+        "b",
+        "c",
+        "b",
+        "b",
+        "d"
+      ],
+      [
+        "a",
+        "b",
+        "a",
+        "s",
+        "d"
+      ]
+    ],
     "rarity": "N",
-    "skills": [4271, 4272],
-    "awake_skill": null
+    "skills": [
+      4271,
+      4272
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8043.76,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 328.25,
+        "attack": 1612,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11279.08,
+        "speed": 110,
+        "crit_power": 0.5,
+        "crit_rate": 0,
+        "defense": 445.41,
+        "attack": 2680,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 514,
     "name": "大天狗呱",
-    "attr_rating": [["a", "b", "b", "c", "s"], ["a", "b", "a", "a", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "b",
+        "b",
+        "c",
+        "s"
+      ],
+      [
+        "a",
+        "b",
+        "a",
+        "a",
+        "s"
+      ]
+    ],
     "rarity": "N",
-    "skills": [5141, 5142],
-    "awake_skill": null
+    "skills": [
+      5141,
+      5142
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7881.28,
+        "speed": 109,
+        "crit_power": 0.7,
+        "crit_rate": 0.18,
+        "defense": 325,
+        "attack": 1708.72,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11051.24,
+        "speed": 109,
+        "crit_power": 0.7,
+        "crit_rate": 0.18,
+        "defense": 441,
+        "attack": 2840.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 515,
     "name": "酒吞呱",
-    "attr_rating": [["s", "b", "b", "b", "s"], ["s", "b", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "s",
+        "b",
+        "b",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "N",
-    "skills": [5151, 5152],
-    "awake_skill": null
+    "skills": [
+      5151,
+      5152
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7962.5199999999995,
+        "speed": 113,
+        "crit_power": 0.7,
+        "crit_rate": 0.15,
+        "defense": 302.25,
+        "attack": 1805.4400000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11165.16,
+        "speed": 113,
+        "crit_power": 0.7,
+        "crit_rate": 0.15,
+        "defense": 410.13,
+        "attack": 3001.6000000000004,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 516,
     "name": "荒川呱",
-    "attr_rating": [["a", "b", "b", "b", "ss"], ["a", "a", "b", "s", "ss"]],
+    "attr_rating": [
+      [
+        "a",
+        "b",
+        "b",
+        "b",
+        "ss"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "s",
+        "ss"
+      ]
+    ],
     "rarity": "N",
-    "skills": [5161, 5162],
-    "awake_skill": null
+    "skills": [
+      5161,
+      5162
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8125,
+        "speed": 114,
+        "crit_power": 0.5,
+        "crit_rate": 0.3,
+        "defense": 321.75,
+        "attack": 1676.48,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11393,
+        "speed": 114,
+        "crit_power": 0.5,
+        "crit_rate": 0.3,
+        "defense": 436.59,
+        "attack": 2787.2000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 517,
     "name": "阎魔呱",
-    "attr_rating": [["b", "a", "a", "s", "s"], ["b", "a", "a", "s", "s"]],
+    "attr_rating": [
+      [
+        "b",
+        "a",
+        "a",
+        "s",
+        "s"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "N",
-    "skills": [5171, 5172],
-    "awake_skill": null
+    "skills": [
+      5171,
+      5172
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8612.44,
+        "speed": 121,
+        "crit_power": 0.6,
+        "crit_rate": 0.14,
+        "defense": 331.5,
+        "attack": 1531.3999999999999,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12076.52,
+        "speed": 121,
+        "crit_power": 0.6,
+        "crit_rate": 0.14,
+        "defense": 449.82,
+        "attack": 2546,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 518,
     "name": "两面佛呱",
-    "attr_rating": [["a", "a", "a", "b", "s"], ["a", "a", "a", "s", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "a",
+        "a",
+        "b",
+        "s"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "N",
-    "skills": [5181, 5182],
-    "awake_skill": null
+    "skills": [
+      5181,
+      5182
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8206.24,
+        "speed": 110,
+        "crit_power": 0.6,
+        "crit_rate": 0.15,
+        "defense": 328.25,
+        "attack": 1628.1200000000001,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11506.92,
+        "speed": 110,
+        "crit_power": 0.6,
+        "crit_rate": 0.15,
+        "defense": 445.41,
+        "attack": 2706.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 519,
     "name": "小鹿男呱",
-    "attr_rating": [["b", "a", "a", "a", "s"], ["b", "a", "a", "s", "s"]],
+    "attr_rating": [
+      [
+        "b",
+        "a",
+        "a",
+        "a",
+        "s"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "N",
-    "skills": [5191, 5192],
-    "awake_skill": null
+    "skills": [
+      5191,
+      5192
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8368.72,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.12,
+        "defense": 334.75,
+        "attack": 1563.6399999999999,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11734.76,
+        "speed": 118,
+        "crit_power": 0.5,
+        "crit_rate": 0.12,
+        "defense": 454.23,
+        "attack": 2599.6,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 520,
     "name": "茨木呱",
-    "attr_rating": [["a", "b", "b", "b", "ss"], ["a", "b", "b", "s", "ss"]],
+    "attr_rating": [
+      [
+        "a",
+        "b",
+        "b",
+        "b",
+        "ss"
+      ],
+      [
+        "a",
+        "b",
+        "b",
+        "s",
+        "ss"
+      ]
+    ],
     "rarity": "N",
-    "skills": [5201, 5202],
-    "awake_skill": null
+    "skills": [
+      5201,
+      5202
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8043.76,
+        "speed": 112,
+        "crit_power": 0.6,
+        "crit_rate": 0.24,
+        "defense": 308.75,
+        "attack": 1757.0800000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11279.08,
+        "speed": 112,
+        "crit_power": 0.6,
+        "crit_rate": 0.24,
+        "defense": 418.95,
+        "attack": 2921.2000000000003,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 521,
     "name": "青行灯呱",
-    "attr_rating": [["b", "a", "a", "a", "s"], ["b", "a", "a", "s", "s"]],
+    "attr_rating": [
+      [
+        "b",
+        "a",
+        "a",
+        "a",
+        "s"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "N",
-    "skills": [5211, 5212],
-    "awake_skill": null
+    "skills": [
+      5211,
+      5212
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8531.2,
+        "speed": 116,
+        "crit_power": 0.5,
+        "crit_rate": 0.12,
+        "defense": 341.25,
+        "attack": 1499.16,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 11962.6,
+        "speed": 116,
+        "crit_power": 0.5,
+        "crit_rate": 0.12,
+        "defense": 463.05,
+        "attack": 2492.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 522,
     "name": "妖刀姬呱",
-    "attr_rating": [["s", "b", "b", "c", "ss"], ["s", "b", "b", "a", "ss"]],
+    "attr_rating": [
+      [
+        "s",
+        "b",
+        "b",
+        "c",
+        "ss"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "a",
+        "ss"
+      ]
+    ],
     "rarity": "N",
-    "skills": [5221, 5222],
-    "awake_skill": null
+    "skills": [
+      5221,
+      5222
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7637.56,
+        "speed": 108,
+        "crit_power": 0.6,
+        "crit_rate": 0.28,
+        "defense": 312,
+        "attack": 1821.5600000000002,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10709.480000000001,
+        "speed": 108,
+        "crit_power": 0.6,
+        "crit_rate": 0.28,
+        "defense": 423.35999999999996,
+        "attack": 3028.4,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 523,
     "name": "一目连呱",
-    "attr_rating": [["b", "s", "b", "a", "s"], ["b", "s", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "b",
+        "s",
+        "b",
+        "a",
+        "s"
+      ],
+      [
+        "b",
+        "s",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "N",
-    "skills": [5231, 5232],
-    "awake_skill": null
+    "skills": [
+      5231,
+      5232
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9587.32,
+        "speed": 115,
+        "crit_power": 0.6,
+        "crit_rate": 0.1,
+        "defense": 305.5,
+        "attack": 1466.92,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 13443.56,
+        "speed": 115,
+        "crit_power": 0.6,
+        "crit_rate": 0.1,
+        "defense": 414.54,
+        "attack": 2438.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 524,
     "name": "花鸟卷呱",
-    "attr_rating": [["c", "s", "b", "b", "s"], ["c", "s", "b", "s", "s"]],
+    "attr_rating": [
+      [
+        "c",
+        "s",
+        "b",
+        "b",
+        "s"
+      ],
+      [
+        "c",
+        "s",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
     "rarity": "N",
-    "skills": [5241, 5242],
-    "awake_skill": null
+    "skills": [
+      5241,
+      5242
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9831.039999999999,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.15,
+        "defense": 315.25,
+        "attack": 1370.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 13785.32,
+        "speed": 111,
+        "crit_power": 0.5,
+        "crit_rate": 0.15,
+        "defense": 427.77,
+        "attack": 2278,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 525,
     "name": "辉夜姬呱",
-    "attr_rating": [["c", "s", "b", "c", "s"], ["c", "s", "b", "a", "s"]],
+    "attr_rating": [
+      [
+        "c",
+        "s",
+        "b",
+        "c",
+        "s"
+      ],
+      [
+        "c",
+        "s",
+        "b",
+        "a",
+        "s"
+      ]
+    ],
     "rarity": "N",
-    "skills": [5251, 5252],
-    "awake_skill": null
+    "skills": [
+      5251,
+      5252
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 9424.84,
+        "speed": 107,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 318.5,
+        "attack": 1434.68,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 13215.72,
+        "speed": 107,
+        "crit_power": 0.5,
+        "crit_rate": 0.1,
+        "defense": 432.18,
+        "attack": 2385.2,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 526,
     "name": "荒呱",
-    "attr_rating": [["s", "b", "a", "c", "ss"], ["s", "b", "a", "a", "ss"]],
+    "attr_rating": [
+      [
+        "s",
+        "b",
+        "a",
+        "c",
+        "ss"
+      ],
+      [
+        "s",
+        "b",
+        "a",
+        "a",
+        "ss"
+      ]
+    ],
     "rarity": "N",
-    "skills": [5261, 5262],
-    "awake_skill": null
+    "skills": [
+      5261,
+      5262
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 7718.799999999999,
+        "speed": 105,
+        "crit_power": 0.8,
+        "crit_rate": 0.2,
+        "defense": 351,
+        "attack": 1853.8,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 10823.4,
+        "speed": 105,
+        "crit_power": 0.8,
+        "crit_rate": 0.2,
+        "defense": 476.28000000000003,
+        "attack": 3081.9999999999995,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   },
   {
     "id": 527,
     "name": "彼岸花呱",
-    "attr_rating": [["a", "a", "b", "c", "s"], ["a", "a", "b", "a", "s"]],
+    "attr_rating": [
+      [
+        "a",
+        "a",
+        "b",
+        "c",
+        "s"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "s"
+      ]
+    ],
     "rarity": "N",
-    "skills": [5271, 5272],
-    "awake_skill": null
+    "skills": [
+      5271,
+      5272
+    ],
+    "awake_skill": null,
+    "awake_base_attrs": {
+      "35": {
+        "max_hp": 8693.68,
+        "speed": 106,
+        "crit_power": 0.7,
+        "crit_rate": 0.18,
+        "defense": 295.75,
+        "attack": 1692.6000000000001,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      },
+      "40": {
+        "max_hp": 12190.44,
+        "speed": 106,
+        "crit_power": 0.7,
+        "crit_rate": 0.18,
+        "defense": 401.31,
+        "attack": 2814,
+        "effect_hit_rate": 0,
+        "effect_resist_rate": 0
+      }
+    }
   }
 ]
