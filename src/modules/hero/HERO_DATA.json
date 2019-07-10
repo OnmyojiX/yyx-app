@@ -3343,6 +3343,59 @@
     "awake_skill": null
   },
   {
+    "id": 332,
+    "name": "久次良",
+    "attr_rating": [
+      [
+        "a",
+        "d",
+        "a",
+        "c",
+        "a"
+      ],
+      [
+        "s",
+        "c",
+        "s",
+        "a",
+        "a"
+      ]
+    ],
+    "rarity": "SR",
+    "skills": [
+      3321,
+      3323
+    ],
+    "awake_skill": 3322
+  },
+  {
+    "id": 333,
+    "name": "大岳丸",
+    "attr_rating": [
+      [
+        "s",
+        "a",
+        "c",
+        "d",
+        "s"
+      ],
+      [
+        "s",
+        "s",
+        "b",
+        "b",
+        "s"
+      ]
+    ],
+    "rarity": "SSR",
+    "skills": [
+      3331,
+      3332,
+      3333
+    ],
+    "awake_skill": null
+  },
+  {
     "id": 400,
     "name": "盗墓小鬼",
     "attr_rating": [
