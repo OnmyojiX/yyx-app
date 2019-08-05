@@ -3396,6 +3396,60 @@
     "awake_skill": null
   },
   {
+    "id": 334,
+    "name": "骁浪荒川之主",
+    "attr_rating": [
+      [
+        "s",
+        "b",
+        "c",
+        "b",
+        "ss"
+      ],
+      [
+        "s",
+        "b",
+        "c",
+        "s",
+        "ss"
+      ]
+    ],
+    "rarity": "SP",
+    "skills": [
+      3341,
+      3342,
+      3343
+    ],
+    "awake_skill": null
+  },
+  {
+    "id": 335,
+    "name": "蟹姬",
+    "attr_rating": [
+      [
+        "s",
+        "b",
+        "d",
+        "c",
+        "a"
+      ],
+      [
+        "s",
+        "b",
+        "c",
+        "a",
+        "a"
+      ]
+    ],
+    "rarity": "SR",
+    "skills": [
+      3351,
+      3352,
+      3353
+    ],
+    "awake_skill": null
+  },
+  {
     "id": 400,
     "name": "盗墓小鬼",
     "attr_rating": [
