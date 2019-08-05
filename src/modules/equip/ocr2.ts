@@ -1,5 +1,12 @@
-import { IHeroEquip, HeroEquipAttrType, ISnapshot } from "../../interfaces";
+import {
+  IHeroEquip,
+  HeroEquipAttrType,
+  ISnapshot,
+  IHeroEquipSuitData
+} from "../../interfaces";
+const DATA = require("./EQUIP_SUIT_DATA.json");
 
+export const ALL_SUIT_DATA: IHeroEquipSuitData[] = DATA;
 export interface Ocr2Item {
   御魂ID: string;
   御魂等级: number;
@@ -33,50 +40,13 @@ const AttrNameMap = {
   EffectResistRate: "效果抵抗"
 };
 
-const SuitMap: { [id: string]: string } = {
-  "300002": "雪幽魂",
-  "300003": "地藏像",
-  "300004": "蝠翼",
-  "300006": "涅槃之火",
-  "300007": "三味",
-  "300008": "魍魉之匣",
-  "300009": "被服",
-  "300010": "招财猫",
-  "300011": "反枕",
-  "300012": "轮入道",
-  "300013": "日女巳时",
-  "300014": "镜姬",
-  "300015": "钟灵",
-  "300018": "狰",
-  "300019": "火灵",
-  "300020": "鸣屋",
-  "300021": "薙魂",
-  "300022": "心眼",
-  "300023": "木魅",
-  "300024": "树妖",
-  "300026": "网切",
-  "300027": "阴摩罗",
-  "300029": "伤魂鸟",
-  "300030": "破势",
-  "300031": "镇墓兽",
-  "300032": "珍珠",
-  "300033": "骰子鬼",
-  "300034": "蚌精",
-  "300035": "魅妖",
-  "300036": "针女",
-  "300039": "返魂香",
-  "300048": "狂骨",
-  "300049": "幽谷响",
-  "300050": "土蜘蛛",
-  "300051": "胧车",
-  "300052": "荒骷髅",
-  "300053": "地震鲶",
-  "300054": "蜃气楼",
-  "300073": "飞缘魔",
-  "300074": "兵主部",
-  "300075": "青女房",
-  "300076": "涂佛"
-};
+const SuitMap: { [id: string]: string } = ALL_SUIT_DATA.reduce(
+  (map, i) => {
+    map[String(i.id)] = i.name;
+    return map;
+  },
+  {} as { [id: string]: string }
+);
 
 export function equipsToOcr2(
   equips: IHeroEquip[]
