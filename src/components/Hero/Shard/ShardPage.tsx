@@ -37,7 +37,7 @@ const Render: SFC<{
                     />
                     {i.hero_data.name}
                   </td>
-                  <td>{i.shards}</td>
+                  <td>{i.shards + i.books * i.book_max_shards}</td>
                   <td>{i.book_max_shards}</td>
                 </tr>
               )
