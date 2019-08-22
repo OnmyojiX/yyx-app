@@ -3450,6 +3450,58 @@
     "awake_skill": null
   },
   {
+    "id": 336,
+    "name": "朽木露琪亚",
+    "attr_rating": [
+      [
+        "a",
+        "c",
+        "c",
+        "b",
+        "b"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "b"
+      ]
+    ],
+    "rarity": "SR",
+    "skills": [
+      3361,
+      3363
+    ],
+    "awake_skill": 3362
+  },
+  {
+    "id": 337,
+    "name": "黑崎一护",
+    "attr_rating": [
+      [
+        "a",
+        "d",
+        "c",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "c",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
+    "rarity": "SSR",
+    "skills": [
+      3371,
+      3373
+    ],
+    "awake_skill": 3372
+  },
+  {
     "id": 400,
     "name": "盗墓小鬼",
     "attr_rating": [
