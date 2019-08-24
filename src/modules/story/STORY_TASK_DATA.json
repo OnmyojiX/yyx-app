@@ -1,0 +1,3479 @@
+[
+  {
+    "hero_id": 200,
+    "tasks": [
+      {
+        "id": 1000,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将桃花妖进行觉醒"
+      },
+      {
+        "id": 1001,
+        "achieve_type": 4010,
+        "cond_val": 60,
+        "content": "桃花妖参与60次结界突破进攻"
+      },
+      {
+        "id": 1002,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "桃花妖出战下通关御魂副本第7层"
+      }
+    ]
+  },
+  {
+    "hero_id": 201,
+    "tasks": [
+      {
+        "id": 1003,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将雪女进行觉醒"
+      },
+      {
+        "id": 1004,
+        "achieve_type": 4010,
+        "cond_val": 60,
+        "content": "雪女参与60次结界突破进攻"
+      },
+      {
+        "id": 1005,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "雪女出战下通关单人觉醒副本第7层"
+      }
+    ]
+  },
+  {
+    "hero_id": 202,
+    "tasks": [
+      {
+        "id": 1006,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将三尾狐进行觉醒"
+      },
+      {
+        "id": 1007,
+        "achieve_type": 4010,
+        "cond_val": 60,
+        "content": "三尾狐参与60次结界突破进攻"
+      },
+      {
+        "id": 1008,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "三尾狐出战下通关御魂副本第5层"
+      }
+    ]
+  },
+  {
+    "hero_id": 203,
+    "tasks": [
+      {
+        "id": 1195,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "灯笼鬼通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1196,
+        "achieve_type": 4011,
+        "cond_val": 40,
+        "content": "灯笼鬼在40场斗技或练习中取胜"
+      },
+      {
+        "id": 1197,
+        "achieve_type": 4016,
+        "cond_val": 40,
+        "content": "在百鬼夜行中获得40个灯笼鬼碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 205,
+    "tasks": [
+      {
+        "id": 1009,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "座敷童子出战下通关单人觉醒副本第5层"
+      },
+      {
+        "id": 1010,
+        "achieve_type": 4011,
+        "cond_val": 40,
+        "content": "座敷童子在40场斗技或练习中取胜"
+      },
+      {
+        "id": 1011,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次座敷童子碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 206,
+    "tasks": [
+      {
+        "id": 1012,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "鲤鱼精通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1013,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "鲤鱼精与携带河童的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1014,
+        "achieve_type": 4016,
+        "cond_val": 40,
+        "content": "在百鬼夜行中获得40个鲤鱼精碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 207,
+    "tasks": [
+      {
+        "id": 1015,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "九命猫参与30次结界突破进攻"
+      },
+      {
+        "id": 1016,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将九命猫进行觉醒"
+      },
+      {
+        "id": 1017,
+        "achieve_type": 4007,
+        "cond_val": 5,
+        "content": "九命猫在斗技、练习或切磋中取得5次对抗犬神的胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 208,
+    "tasks": [
+      {
+        "id": 1018,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "狸猫通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1019,
+        "achieve_type": 4011,
+        "cond_val": 40,
+        "content": "狸猫在40场斗技或练习中取胜"
+      },
+      {
+        "id": 1020,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次狸猫碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 209,
+    "tasks": [
+      {
+        "id": 1021,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "河童参与30次结界突破进攻"
+      },
+      {
+        "id": 1022,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "河童与携带鲤鱼精的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1023,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将河童升至30级"
+      }
+    ]
+  },
+  {
+    "hero_id": 210,
+    "tasks": [
+      {
+        "id": 1024,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "鬼使白出战下通关单人觉醒副本第5层"
+      },
+      {
+        "id": 1025,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "鬼使白与携带鬼使黑的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1026,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将鬼使白升至30级"
+      }
+    ]
+  },
+  {
+    "hero_id": 211,
+    "tasks": [
+      {
+        "id": 1027,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "鬼使黑通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1028,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "鬼使黑与携带鬼使白的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1029,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将鬼使黑技能升级8次"
+      }
+    ]
+  },
+  {
+    "hero_id": 212,
+    "tasks": [
+      {
+        "id": 1030,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "童男在30场斗技或练习中取胜"
+      },
+      {
+        "id": 1031,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "童男与携带童女的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1032,
+        "achieve_type": 4016,
+        "cond_val": 40,
+        "content": "在百鬼夜行中获得40个童男碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 213,
+    "tasks": [
+      {
+        "id": 1033,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "童女通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1034,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "童女与携带童男的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1035,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次童女碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 214,
+    "tasks": [
+      {
+        "id": 1036,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "饿鬼参与30次结界突破进攻"
+      },
+      {
+        "id": 1037,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将饿鬼进行觉醒"
+      },
+      {
+        "id": 1038,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将饿鬼技能升级8次"
+      }
+    ]
+  },
+  {
+    "hero_id": 215,
+    "tasks": [
+      {
+        "id": 1039,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "孟婆在30场斗技或练习中取胜"
+      },
+      {
+        "id": 1040,
+        "achieve_type": 4012,
+        "cond_val": 6,
+        "content": "将孟婆技能升级6次"
+      },
+      {
+        "id": 1041,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "孟婆与携带山兔的其他玩家取得10次协战胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 216,
+    "tasks": [
+      {
+        "id": 1042,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "巫蛊师通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1043,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将巫蛊师进行觉醒"
+      },
+      {
+        "id": 1044,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次巫蛊师碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 217,
+    "tasks": [
+      {
+        "id": 1045,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将大天狗进行觉醒"
+      },
+      {
+        "id": 1046,
+        "achieve_type": 4007,
+        "cond_val": 5,
+        "content": "大天狗在斗技、练习或切磋中取得5次对抗荒川之主的胜利"
+      },
+      {
+        "id": 1047,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "大天狗出战下通关御魂副本第9层"
+      },
+      {
+        "id": 121701,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1000"
+      },
+      {
+        "id": 121703,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记五亲密度达到1200"
+      }
+    ]
+  },
+  {
+    "hero_id": 218,
+    "tasks": [
+      {
+        "id": 1048,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "鸦天狗参与30次结界突破进攻"
+      },
+      {
+        "id": 1049,
+        "achieve_type": 4012,
+        "cond_val": 6,
+        "content": "将鸦天狗技能升级6次"
+      },
+      {
+        "id": 1050,
+        "achieve_type": 4016,
+        "cond_val": 40,
+        "content": "在百鬼夜行中获得40个鸦天狗碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 219,
+    "tasks": [
+      {
+        "id": 1051,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "酒吞童子与携带鬼女红叶的玩家取得10次协战胜利"
+      },
+      {
+        "id": 1052,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将酒吞童子升至30级"
+      },
+      {
+        "id": 1053,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将酒吞童子技能升级8次"
+      }
+    ]
+  },
+  {
+    "hero_id": 220,
+    "tasks": [
+      {
+        "id": 1054,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将犬神进行觉醒"
+      },
+      {
+        "id": 1055,
+        "achieve_type": 4007,
+        "cond_val": 5,
+        "content": "犬神在斗技、练习或切磋中取得5次对抗九命猫的胜利"
+      },
+      {
+        "id": 1056,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次犬神碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 221,
+    "tasks": [
+      {
+        "id": 1057,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "食发鬼通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1058,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将食发鬼进行觉醒"
+      },
+      {
+        "id": 1059,
+        "achieve_type": 4016,
+        "cond_val": 40,
+        "content": "在百鬼夜行中获得40个食发鬼碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 222,
+    "tasks": [
+      {
+        "id": 1060,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "武士之灵在30场斗技或练习中取胜"
+      },
+      {
+        "id": 1061,
+        "achieve_type": 4001,
+        "cond_val": 50,
+        "content": "武士之灵参战取得50场胜利"
+      },
+      {
+        "id": 1062,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将武士之灵升至30级"
+      }
+    ]
+  },
+  {
+    "hero_id": 223,
+    "tasks": [
+      {
+        "id": 1063,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "骨女出战下通关单人觉醒副本第5层"
+      },
+      {
+        "id": 1064,
+        "achieve_type": 4016,
+        "cond_val": 30,
+        "content": "在百鬼夜行中获得30个骨女碎片"
+      },
+      {
+        "id": 1065,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次骨女碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 224,
+    "tasks": [
+      {
+        "id": 1066,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "雨女通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1067,
+        "achieve_type": 4012,
+        "cond_val": 6,
+        "content": "将雨女技能升级6次"
+      },
+      {
+        "id": 1068,
+        "achieve_type": 4001,
+        "cond_val": 50,
+        "content": "雨女出战中取得50场胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 225,
+    "tasks": [
+      {
+        "id": 1069,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "跳跳弟弟在30场斗技或练习中取胜"
+      },
+      {
+        "id": 1070,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "跳跳弟弟与携带跳跳妹妹的玩家取得10次协战胜利"
+      },
+      {
+        "id": 1071,
+        "achieve_type": 4016,
+        "cond_val": 40,
+        "content": "在百鬼夜行中获得40个跳跳弟弟碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 226,
+    "tasks": [
+      {
+        "id": 1072,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "跳跳妹妹出战下通关御魂副本第5层"
+      },
+      {
+        "id": 1073,
+        "achieve_type": 4012,
+        "cond_val": 6,
+        "content": "将跳跳妹妹技能升级6次"
+      },
+      {
+        "id": 1074,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "跳跳妹妹与携带跳跳哥哥的玩家取得10次协战胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 227,
+    "tasks": [
+      {
+        "id": 1075,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将兵俑进行觉醒"
+      },
+      {
+        "id": 1076,
+        "achieve_type": 4016,
+        "cond_val": 30,
+        "content": "在百鬼夜行中获得30个兵俑碎片"
+      },
+      {
+        "id": 1077,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次兵俑碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 228,
+    "tasks": [
+      {
+        "id": 1078,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "丑时之女参与30次结界突破进攻"
+      },
+      {
+        "id": 1079,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将丑时之女进行觉醒"
+      },
+      {
+        "id": 1080,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将丑时之女技能升级8次"
+      }
+    ]
+  },
+  {
+    "hero_id": 230,
+    "tasks": [
+      {
+        "id": 1081,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "独眼小僧通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1082,
+        "achieve_type": 4011,
+        "cond_val": 40,
+        "content": "独眼小僧在40场斗技或练习中取胜"
+      },
+      {
+        "id": 1083,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次独眼小僧碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 231,
+    "tasks": [
+      {
+        "id": 1084,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "鬼女红叶参与30次结界突破进攻"
+      },
+      {
+        "id": 1085,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将鬼女红叶进行觉醒"
+      },
+      {
+        "id": 1086,
+        "achieve_type": 4016,
+        "cond_val": 40,
+        "content": "在百鬼夜行中获得40个鬼女红叶碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 232,
+    "tasks": [
+      {
+        "id": 1087,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "铁鼠出战下通关御魂副本第5层"
+      },
+      {
+        "id": 1088,
+        "achieve_type": 4013,
+        "cond_val": 15,
+        "content": "铁鼠在阴阳寮进行15次碎片祈愿"
+      },
+      {
+        "id": 1089,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次铁鼠碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 233,
+    "tasks": [
+      {
+        "id": 1090,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "跳跳哥哥通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1091,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "跳跳哥哥与携带跳跳弟弟的玩家取得10次协战胜利"
+      },
+      {
+        "id": 1092,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将跳跳哥哥技能升级8次"
+      }
+    ]
+  },
+  {
+    "hero_id": 234,
+    "tasks": [
+      {
+        "id": 1093,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "椒图出战下通关御魂副本第5层"
+      },
+      {
+        "id": 1094,
+        "achieve_type": 4016,
+        "cond_val": 30,
+        "content": "在百鬼夜行中获得30个椒图碎片"
+      },
+      {
+        "id": 1095,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次椒图碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 236,
+    "tasks": [
+      {
+        "id": 1096,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "管狐通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1097,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将管狐进行觉醒"
+      },
+      {
+        "id": 1098,
+        "achieve_type": 4016,
+        "cond_val": 40,
+        "content": "在百鬼夜行中获得40个管狐碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 237,
+    "tasks": [
+      {
+        "id": 1099,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "山兔在30场斗技或练习中取胜"
+      },
+      {
+        "id": 1100,
+        "achieve_type": 4013,
+        "cond_val": 15,
+        "content": "山兔在阴阳寮进行15次碎片祈愿"
+      },
+      {
+        "id": 1101,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "山兔与携带孟婆的其他玩家取得10次协战胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 238,
+    "tasks": [
+      {
+        "id": 1102,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "萤草通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1103,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将萤草进行觉醒"
+      },
+      {
+        "id": 1104,
+        "achieve_type": 4014,
+        "cond_val": 10,
+        "content": "在阴阳寮中捐赠10次萤草碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 241,
+    "tasks": [
+      {
+        "id": 1105,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "蝴蝶精参与30次结界突破进攻"
+      },
+      {
+        "id": 1106,
+        "achieve_type": 4012,
+        "cond_val": 6,
+        "content": "将蝴蝶精技能升级6次"
+      },
+      {
+        "id": 1107,
+        "achieve_type": 4007,
+        "cond_val": 5,
+        "content": "蝴蝶精在斗技、练习或切磋中取得5次对抗巫蛊师的胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 242,
+    "tasks": [
+      {
+        "id": 1108,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "傀儡师通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1109,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将傀儡师进行觉醒"
+      },
+      {
+        "id": 1110,
+        "achieve_type": 4016,
+        "cond_val": 40,
+        "content": "在百鬼夜行中获得40个傀儡师碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 243,
+    "tasks": [
+      {
+        "id": 1111,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "山童在30场斗技或练习中取胜"
+      },
+      {
+        "id": 1112,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将山童进行觉醒"
+      },
+      {
+        "id": 1113,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次山童碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 244,
+    "tasks": [
+      {
+        "id": 1114,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "首无出战下通关单人觉醒副本第5层"
+      },
+      {
+        "id": 1115,
+        "achieve_type": 4016,
+        "cond_val": 30,
+        "content": "在百鬼夜行中获得30个首无碎片"
+      },
+      {
+        "id": 1116,
+        "achieve_type": 4007,
+        "cond_val": 5,
+        "content": "首无在斗技、练习或切磋中取得5次对抗白狼的胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 245,
+    "tasks": [
+      {
+        "id": 1117,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "提灯小僧通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1118,
+        "achieve_type": 4001,
+        "cond_val": 50,
+        "content": "提灯小僧参战取得50场胜利"
+      },
+      {
+        "id": 1119,
+        "achieve_type": 4016,
+        "cond_val": 40,
+        "content": "在百鬼夜行中获得40个提灯小僧碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 246,
+    "tasks": [
+      {
+        "id": 1120,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "赤舌出战下通关单人觉醒副本第5层"
+      },
+      {
+        "id": 1121,
+        "achieve_type": 4016,
+        "cond_val": 30,
+        "content": "在百鬼夜行中获得30个赤舌碎片"
+      },
+      {
+        "id": 1122,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将赤舌技能升级8次"
+      }
+    ]
+  },
+  {
+    "hero_id": 247,
+    "tasks": [
+      {
+        "id": 1123,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "海坊主参与30次结界突破进攻"
+      },
+      {
+        "id": 1124,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将海坊主进行觉醒"
+      },
+      {
+        "id": 1125,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次海坊主碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 248,
+    "tasks": [
+      {
+        "id": 1126,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将荒川之主进行觉醒"
+      },
+      {
+        "id": 1127,
+        "achieve_type": 4012,
+        "cond_val": 6,
+        "content": "将荒川之主技能升级6次"
+      },
+      {
+        "id": 1128,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将荒川之主技能升级8次"
+      }
+    ]
+  },
+  {
+    "hero_id": 249,
+    "tasks": [
+      {
+        "id": 1129,
+        "achieve_type": 4013,
+        "cond_val": 10,
+        "content": "觉在阴阳寮进行10次碎片祈愿"
+      },
+      {
+        "id": 1130,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将觉进行觉醒"
+      },
+      {
+        "id": 1131,
+        "achieve_type": 4016,
+        "cond_val": 40,
+        "content": "在百鬼夜行中获得40个觉碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 250,
+    "tasks": [
+      {
+        "id": 1132,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "青蛙瓷器通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1133,
+        "achieve_type": 4016,
+        "cond_val": 30,
+        "content": "在百鬼夜行中获得30个青蛙瓷器碎片"
+      },
+      {
+        "id": 1134,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "青蛙瓷器与携带雨女的其他玩家取得10次协战胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 251,
+    "tasks": [
+      {
+        "id": 1135,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "判官在30场斗技或练习中取胜"
+      },
+      {
+        "id": 1136,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将判官进行觉醒"
+      },
+      {
+        "id": 1137,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次判官碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 252,
+    "tasks": [
+      {
+        "id": 1138,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将凤凰火进行觉醒"
+      },
+      {
+        "id": 1139,
+        "achieve_type": 4007,
+        "cond_val": 5,
+        "content": "凤凰火在斗技、练习或切磋中取得5次对抗雪女的胜利"
+      },
+      {
+        "id": 1140,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将凤凰火技能升级8次"
+      }
+    ]
+  },
+  {
+    "hero_id": 253,
+    "tasks": [
+      {
+        "id": 1141,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "吸血姬参与30次结界突破进攻"
+      },
+      {
+        "id": 1142,
+        "achieve_type": 4013,
+        "cond_val": 15,
+        "content": "吸血姬在阴阳寮进行15次碎片祈愿"
+      },
+      {
+        "id": 1143,
+        "achieve_type": 4001,
+        "cond_val": 50,
+        "content": "吸血姬出战中取得50场胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 254,
+    "tasks": [
+      {
+        "id": 1144,
+        "achieve_type": 4007,
+        "cond_val": 5,
+        "content": "妖狐在斗技、练习或切磋中取得5次对抗河童的胜利"
+      },
+      {
+        "id": 1145,
+        "achieve_type": 4011,
+        "cond_val": 40,
+        "content": "妖狐在40场斗技或练习中取胜"
+      },
+      {
+        "id": 1146,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次妖狐碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 255,
+    "tasks": [
+      {
+        "id": 1147,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将阎魔进行觉醒"
+      },
+      {
+        "id": 1148,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "阎魔与携带判官的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1149,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "阎魔出战下通关御魂副本第9层"
+      },
+      {
+        "id": 125501,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1000"
+      },
+      {
+        "id": 125502,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1000"
+      },
+      {
+        "id": 125503,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1000"
+      }
+    ]
+  },
+  {
+    "hero_id": 256,
+    "tasks": [
+      {
+        "id": 1150,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将妖琴师进行觉醒"
+      },
+      {
+        "id": 1151,
+        "achieve_type": 4011,
+        "cond_val": 40,
+        "content": "妖琴师在40场斗技或练习中取胜"
+      },
+      {
+        "id": 1152,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次妖琴师碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 257,
+    "tasks": [
+      {
+        "id": 1153,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "食梦貘出战下通关单人觉醒副本第5层"
+      },
+      {
+        "id": 1154,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "食梦貘与携带蝴蝶精的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1155,
+        "achieve_type": 4016,
+        "cond_val": 40,
+        "content": "在百鬼夜行中获得40个食梦貘碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 258,
+    "tasks": [
+      {
+        "id": 1156,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "两面佛参与30次结界突破进攻"
+      },
+      {
+        "id": 1157,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将两面佛升至30级"
+      },
+      {
+        "id": 1158,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将两面佛技能升级8次"
+      },
+      {
+        "id": 125801,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1200"
+      }
+    ]
+  },
+  {
+    "hero_id": 259,
+    "tasks": [
+      {
+        "id": 1159,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "小鹿男通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1160,
+        "achieve_type": 4013,
+        "cond_val": 10,
+        "content": "小鹿男在阴阳寮进行10次碎片祈愿"
+      },
+      {
+        "id": 1161,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将小鹿男技能升级8次"
+      }
+    ]
+  },
+  {
+    "hero_id": 260,
+    "tasks": [
+      {
+        "id": 1162,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将清姬进行觉醒"
+      },
+      {
+        "id": 1163,
+        "achieve_type": 4013,
+        "cond_val": 15,
+        "content": "清姬在阴阳寮进行15次碎片祈愿"
+      },
+      {
+        "id": 1164,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将清姬技能升级8次"
+      }
+    ]
+  },
+  {
+    "hero_id": 261,
+    "tasks": [
+      {
+        "id": 1165,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "镰鼬出战下通关单人觉醒副本第5层"
+      },
+      {
+        "id": 1166,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将镰鼬进行觉醒"
+      },
+      {
+        "id": 1167,
+        "achieve_type": 4016,
+        "cond_val": 40,
+        "content": "在百鬼夜行中获得40个镰鼬碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 262,
+    "tasks": [
+      {
+        "id": 1168,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将姑获鸟进行觉醒"
+      },
+      {
+        "id": 1169,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "姑获鸟出战下通关御魂副本第5层"
+      },
+      {
+        "id": 1170,
+        "achieve_type": 4014,
+        "cond_val": 10,
+        "content": "在阴阳寮中捐赠10次姑获鸟碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 263,
+    "tasks": [
+      {
+        "id": 1171,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将二口女进行觉醒"
+      },
+      {
+        "id": 1172,
+        "achieve_type": 4010,
+        "cond_val": 60,
+        "content": "二口女参与60次结界突破进攻"
+      },
+      {
+        "id": 1173,
+        "achieve_type": 4001,
+        "cond_val": 50,
+        "content": "二口女出战中取得50场胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 264,
+    "tasks": [
+      {
+        "id": 1174,
+        "achieve_type": 4007,
+        "cond_val": 5,
+        "content": "白狼在斗技、练习或切磋中取得5次对抗首无的胜利"
+      },
+      {
+        "id": 1175,
+        "achieve_type": 4013,
+        "cond_val": 15,
+        "content": "白狼在阴阳寮进行15次碎片祈愿"
+      },
+      {
+        "id": 1176,
+        "achieve_type": 4014,
+        "cond_val": 10,
+        "content": "在阴阳寮中捐赠10次白狼碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 265,
+    "tasks": [
+      {
+        "id": 1177,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将茨木童子进行觉醒"
+      },
+      {
+        "id": 1178,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "茨木童子与携带酒吞童子的玩家取得10次协战胜利"
+      },
+      {
+        "id": 1179,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "茨木童子出战下通关单人觉醒副本第9层"
+      }
+    ]
+  },
+  {
+    "hero_id": 266,
+    "tasks": [
+      {
+        "id": 1180,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "青行灯在30场斗技或练习中取胜"
+      },
+      {
+        "id": 1181,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将青行灯升至30级"
+      },
+      {
+        "id": 1182,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将青行灯技能升级8次"
+      }
+    ]
+  },
+  {
+    "hero_id": 267,
+    "tasks": [
+      {
+        "id": 1183,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "樱花妖通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1184,
+        "achieve_type": 4010,
+        "cond_val": 60,
+        "content": "樱花妖参与60次结界突破进攻"
+      },
+      {
+        "id": 1185,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "樱花妖与携带桃花妖的玩家取得10次协战胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 268,
+    "tasks": [
+      {
+        "id": 1186,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "惠比寿出战下通关单人觉醒副本第5层"
+      },
+      {
+        "id": 1187,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将惠比寿进行觉醒"
+      },
+      {
+        "id": 1188,
+        "achieve_type": 4014,
+        "cond_val": 10,
+        "content": "在阴阳寮中捐赠10次惠比寿碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 269,
+    "tasks": [
+      {
+        "id": 1201,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "妖刀姬在30场斗技或练习中取胜"
+      },
+      {
+        "id": 1202,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将妖刀姬升至30级"
+      },
+      {
+        "id": 1203,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将妖刀姬技能升级8次"
+      },
+      {
+        "id": 126901,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1000"
+      },
+      {
+        "id": 126902,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1000"
+      }
+    ]
+  },
+  {
+    "hero_id": 270,
+    "tasks": [
+      {
+        "id": 1198,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将络新妇进行觉醒"
+      },
+      {
+        "id": 1199,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "络新妇出战下通关御魂副本第5层"
+      },
+      {
+        "id": 1200,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "络新妇出战下通关御魂副本第8层"
+      }
+    ]
+  },
+  {
+    "hero_id": 271,
+    "tasks": [
+      {
+        "id": 1204,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "般若出战下通关单人觉醒副本第5层"
+      },
+      {
+        "id": 1205,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将般若进行觉醒"
+      },
+      {
+        "id": 1206,
+        "achieve_type": 4016,
+        "cond_val": 40,
+        "content": "在百鬼夜行中获得40个般若碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 272,
+    "tasks": [
+      {
+        "id": 1207,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将一目连进行觉醒"
+      },
+      {
+        "id": 1208,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将一目连升至30级"
+      },
+      {
+        "id": 1209,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "一目连出战下通关单人觉醒副本第9层"
+      },
+      {
+        "id": 127201,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1000"
+      }
+    ]
+  },
+  {
+    "hero_id": 273,
+    "tasks": [
+      {
+        "id": 1210,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将青坊主进行觉醒"
+      },
+      {
+        "id": 1211,
+        "achieve_type": 4012,
+        "cond_val": 5,
+        "content": "将青坊主技能升级5次"
+      },
+      {
+        "id": 1212,
+        "achieve_type": 4012,
+        "cond_val": 7,
+        "content": "将青坊主技能升级7次"
+      }
+    ]
+  },
+  {
+    "hero_id": 274,
+    "tasks": [
+      {
+        "id": 1213,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "古笼火出战下通关御魂副本第5层"
+      },
+      {
+        "id": 1214,
+        "achieve_type": 4010,
+        "cond_val": 60,
+        "content": "古笼火参与60次结界突破进攻"
+      },
+      {
+        "id": 1215,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将古笼火升至30级"
+      }
+    ]
+  },
+  {
+    "hero_id": 275,
+    "tasks": [
+      {
+        "id": 1237,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "万年竹与携带辉夜姬的玩家取得10次协战胜利"
+      },
+      {
+        "id": 1238,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将万年竹升至30级"
+      },
+      {
+        "id": 1239,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "万年竹出战下通关御魂副本第9层"
+      }
+    ]
+  },
+  {
+    "hero_id": 276,
+    "tasks": [
+      {
+        "id": 1216,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "夜叉出战下通关单人觉醒副本第5层"
+      },
+      {
+        "id": 1217,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将夜叉进行觉醒"
+      },
+      {
+        "id": 1218,
+        "achieve_type": 4016,
+        "cond_val": 30,
+        "content": "在百鬼夜行中获得30个夜叉碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 277,
+    "tasks": [
+      {
+        "id": 1222,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将黑童子进行觉醒"
+      },
+      {
+        "id": 1223,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "黑童子与携带白童子的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1224,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次黑童子碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 278,
+    "tasks": [
+      {
+        "id": 1225,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "白童子在30场斗技或练习中取胜"
+      },
+      {
+        "id": 1226,
+        "achieve_type": 4012,
+        "cond_val": 6,
+        "content": "将白童子技能升级6次"
+      },
+      {
+        "id": 1227,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "白童子与携带黑童子的其他玩家取得10次协战胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 279,
+    "tasks": [
+      {
+        "id": 1219,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "花鸟卷在30场斗技或练习中取胜"
+      },
+      {
+        "id": 1220,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将花鸟卷升至30级"
+      },
+      {
+        "id": 1221,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将花鸟卷技能升级8次"
+      }
+    ]
+  },
+  {
+    "hero_id": 280,
+    "tasks": [
+      {
+        "id": 1228,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "辉夜姬在30场斗技或练习中取胜"
+      },
+      {
+        "id": 1229,
+        "achieve_type": 4010,
+        "cond_val": 60,
+        "content": "辉夜姬参与60次结界突破进攻"
+      },
+      {
+        "id": 1230,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将辉夜姬技能升级8次"
+      }
+    ]
+  },
+  {
+    "hero_id": 281,
+    "tasks": [
+      {
+        "id": 1231,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将烟烟罗进行觉醒"
+      },
+      {
+        "id": 1232,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "烟烟罗与携带食发鬼的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1233,
+        "achieve_type": 4001,
+        "cond_val": 40,
+        "content": "烟烟罗出战中取得40场胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 282,
+    "tasks": [
+      {
+        "id": 1240,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将金鱼姬进行觉醒"
+      },
+      {
+        "id": 1241,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "金鱼姬通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1242,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将金鱼姬升至30级"
+      }
+    ]
+  },
+  {
+    "hero_id": 283,
+    "tasks": [
+      {
+        "id": 1234,
+        "achieve_type": 4011,
+        "cond_val": 50,
+        "content": "荒在50场斗技或练习中取胜"
+      },
+      {
+        "id": 1235,
+        "achieve_type": 4002,
+        "cond_val": 40,
+        "content": "将荒升至40级"
+      },
+      {
+        "id": 1236,
+        "achieve_type": 4012,
+        "cond_val": 10,
+        "content": "将荒技能升级10次"
+      },
+      {
+        "id": 128301,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1200"
+      }
+    ]
+  },
+  {
+    "hero_id": 285,
+    "tasks": [
+      {
+        "id": 1246,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将鸩进行觉醒"
+      },
+      {
+        "id": 1247,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将鸩升至30级"
+      },
+      {
+        "id": 1248,
+        "achieve_type": 4001,
+        "cond_val": 40,
+        "content": "鸩出战中取得40场胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 286,
+    "tasks": [
+      {
+        "id": 1249,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将以津真天进行觉醒"
+      },
+      {
+        "id": 1250,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "以津真天在30场斗技或练习中取胜"
+      },
+      {
+        "id": 1251,
+        "achieve_type": 4001,
+        "cond_val": 40,
+        "content": "以津真天出战中取得40场胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 287,
+    "tasks": [
+      {
+        "id": 1252,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "匣中少女出战下通关单人觉醒副本第7层"
+      },
+      {
+        "id": 1253,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将匣中少女升至30级"
+      },
+      {
+        "id": 1254,
+        "achieve_type": 4014,
+        "cond_val": 15,
+        "content": "在阴阳寮中捐赠15次匣中少女碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 288,
+    "tasks": [
+      {
+        "id": 1255,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将彼岸花技能升级8次"
+      },
+      {
+        "id": 1256,
+        "achieve_type": 4002,
+        "cond_val": 40,
+        "content": "将彼岸花升至40级"
+      },
+      {
+        "id": 1257,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "彼岸花在30场斗技或练习中取胜"
+      },
+      {
+        "id": 128801,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1000"
+      }
+    ]
+  },
+  {
+    "hero_id": 289,
+    "tasks": [
+      {
+        "id": 1264,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将兔丸进行觉醒"
+      },
+      {
+        "id": 1265,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将兔丸升至30级"
+      },
+      {
+        "id": 1266,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "兔丸在30场斗技或练习中取胜"
+      }
+    ]
+  },
+  {
+    "hero_id": 290,
+    "tasks": [
+      {
+        "id": 1258,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将小松丸进行觉醒"
+      },
+      {
+        "id": 1259,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "小松丸在30场斗技或练习中取胜"
+      },
+      {
+        "id": 1260,
+        "achieve_type": 4014,
+        "cond_val": 15,
+        "content": "在阴阳寮中捐赠15次小松丸碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 291,
+    "tasks": [
+      {
+        "id": 1261,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "书翁出战下通关御魂副本第9层"
+      },
+      {
+        "id": 1262,
+        "achieve_type": 4008,
+        "cond_val": 200000,
+        "content": "书翁通过结界育成和好友寄养获得200000点经验"
+      },
+      {
+        "id": 1263,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "书翁在30场斗技或练习中取胜"
+      }
+    ]
+  },
+  {
+    "hero_id": 292,
+    "tasks": [
+      {
+        "id": 1267,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将雪童子升至30级"
+      },
+      {
+        "id": 1268,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将雪童子技能升级8次"
+      },
+      {
+        "id": 1269,
+        "achieve_type": 4011,
+        "cond_val": 40,
+        "content": "雪童子在40场斗技或练习中取胜"
+      }
+    ]
+  },
+  {
+    "hero_id": 293,
+    "tasks": [
+      {
+        "id": 1273,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将百目鬼进行觉醒"
+      },
+      {
+        "id": 1274,
+        "achieve_type": 4016,
+        "cond_val": 30,
+        "content": "在百鬼夜行中获得30个百目鬼碎片"
+      },
+      {
+        "id": 1275,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "百目鬼参与30次结界突破进攻"
+      }
+    ]
+  },
+  {
+    "hero_id": 294,
+    "tasks": [
+      {
+        "id": 1279,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将奴良陆生进行觉醒"
+      },
+      {
+        "id": 1280,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将奴良陆生升至30级"
+      },
+      {
+        "id": 1281,
+        "achieve_type": 4011,
+        "cond_val": 40,
+        "content": "奴良陆生在40场斗技或练习中取胜"
+      }
+    ]
+  },
+  {
+    "hero_id": 295,
+    "tasks": [
+      {
+        "id": 1282,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "追月神与携带山兔的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1283,
+        "achieve_type": 4006,
+        "cond_val": 20,
+        "content": "追月神与携带兔丸的其他玩家取得20次协战胜利"
+      },
+      {
+        "id": 1284,
+        "achieve_type": 4007,
+        "cond_val": 30,
+        "content": "追月神在斗技、练习或切磋中取得30次对抗辉夜姬的胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 296,
+    "tasks": [
+      {
+        "id": 1285,
+        "achieve_type": 4014,
+        "cond_val": 5,
+        "content": "在阴阳寮中捐赠5次山风碎片"
+      },
+      {
+        "id": 1286,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将山风进行觉醒"
+      },
+      {
+        "id": 1287,
+        "achieve_type": 4012,
+        "cond_val": 7,
+        "content": "将山风技能升级7次"
+      },
+      {
+        "id": 129601,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1000"
+      }
+    ]
+  },
+  {
+    "hero_id": 297,
+    "tasks": [
+      {
+        "id": 1288,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将日和坊进行觉醒"
+      },
+      {
+        "id": 1289,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将日和坊升至30级"
+      },
+      {
+        "id": 1290,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将日和坊技能升级8次"
+      }
+    ]
+  },
+  {
+    "hero_id": 298,
+    "tasks": [
+      {
+        "id": 1306,
+        "achieve_type": 4001,
+        "cond_val": 40,
+        "content": "薰参战取得40场胜利"
+      },
+      {
+        "id": 1307,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将薰升至30级"
+      },
+      {
+        "id": 1308,
+        "achieve_type": 4012,
+        "cond_val": 6,
+        "content": "将薰技能升级6次"
+      }
+    ]
+  },
+  {
+    "hero_id": 300,
+    "tasks": [
+      {
+        "id": 1270,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将玉藻前技能升级8次"
+      },
+      {
+        "id": 1271,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "玉藻前出战下通关御魂副本第9层"
+      },
+      {
+        "id": 1272,
+        "achieve_type": 4011,
+        "cond_val": 40,
+        "content": "玉藻前在40场斗技或练习中取胜"
+      },
+      {
+        "id": 130001,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1200"
+      }
+    ]
+  },
+  {
+    "hero_id": 301,
+    "tasks": [
+      {
+        "id": 1276,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将数珠进行觉醒"
+      },
+      {
+        "id": 1277,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将数珠升至30级"
+      },
+      {
+        "id": 1278,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "数珠出战中取得30场胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 302,
+    "tasks": [
+      {
+        "id": 1291,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将小袖之手进行觉醒"
+      },
+      {
+        "id": 1292,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "小袖之手出战下通关御魂副本第9层"
+      },
+      {
+        "id": 1293,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将小袖之手升至30级"
+      }
+    ]
+  },
+  {
+    "hero_id": 303,
+    "tasks": [
+      {
+        "id": 1294,
+        "achieve_type": 4001,
+        "cond_val": 40,
+        "content": "弈参战取得40场胜利"
+      },
+      {
+        "id": 1295,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将弈升至30级"
+      },
+      {
+        "id": 1296,
+        "achieve_type": 4012,
+        "cond_val": 6,
+        "content": "将弈技能升级6次"
+      }
+    ]
+  },
+  {
+    "hero_id": 304,
+    "tasks": [
+      {
+        "id": 1297,
+        "achieve_type": 4001,
+        "cond_val": 40,
+        "content": "御馔津参战取得40场胜利"
+      },
+      {
+        "id": 1298,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将御馔津技能升级8次"
+      },
+      {
+        "id": 1299,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将御馔津升至30级"
+      },
+      {
+        "id": 130401,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1000"
+      }
+    ]
+  },
+  {
+    "hero_id": 305,
+    "tasks": [
+      {
+        "id": 1300,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将卖药郎升至30级"
+      },
+      {
+        "id": 1301,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将卖药郎技能升级8次"
+      },
+      {
+        "id": 1302,
+        "achieve_type": 4011,
+        "cond_val": 40,
+        "content": "卖药郎在40场斗技或练习中取胜"
+      }
+    ]
+  },
+  {
+    "hero_id": 306,
+    "tasks": [
+      {
+        "id": 1303,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将虫师进行觉醒"
+      },
+      {
+        "id": 1304,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "虫师通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1305,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将虫师升至30级"
+      }
+    ]
+  },
+  {
+    "hero_id": 307,
+    "tasks": [
+      {
+        "id": 1318,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将猫掌柜升至30级"
+      },
+      {
+        "id": 1319,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "猫掌柜出战下通关御魂副本第9层"
+      },
+      {
+        "id": 1320,
+        "achieve_type": 4007,
+        "cond_val": 30,
+        "content": "猫掌柜在斗技、练习或切磋中取得30次对抗追月神的胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 308,
+    "tasks": [
+      {
+        "id": 1309,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将鬼灯进行觉醒"
+      },
+      {
+        "id": 1310,
+        "achieve_type": 4014,
+        "cond_val": 1,
+        "content": "在阴阳寮中捐赠1次鬼灯碎片"
+      },
+      {
+        "id": 1311,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "鬼灯与携带阿香的其他玩家取得10次协战胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 309,
+    "tasks": [
+      {
+        "id": 1312,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将阿香进行觉醒"
+      },
+      {
+        "id": 1313,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "阿香出战下通关御魂副本第9层"
+      },
+      {
+        "id": 1314,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "阿香与携带鬼灯的其他玩家取得10次协战胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 310,
+    "tasks": [
+      {
+        "id": 1315,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将蜜桃&芥子进行觉醒"
+      },
+      {
+        "id": 1316,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "蜜桃&芥子出战中取得30场胜利"
+      },
+      {
+        "id": 1317,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将蜜桃&芥子升至30级"
+      }
+    ]
+  },
+  {
+    "hero_id": 311,
+    "tasks": [
+      {
+        "id": 1321,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将面灵气进行觉醒"
+      },
+      {
+        "id": 1322,
+        "achieve_type": 4001,
+        "cond_val": 40,
+        "content": "面灵气参战取得40场胜利"
+      },
+      {
+        "id": 1323,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "面灵气参与30次结界突破进攻"
+      },
+      {
+        "id": 131101,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1000"
+      },
+      {
+        "id": 131102,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记五亲密度达到1000"
+      }
+    ]
+  },
+  {
+    "hero_id": 312,
+    "tasks": [
+      {
+        "id": 1324,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将鬼切进行觉醒"
+      },
+      {
+        "id": 1325,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将鬼切技能升级8次"
+      },
+      {
+        "id": 1326,
+        "achieve_type": 4007,
+        "cond_val": 30,
+        "content": "鬼切在斗技、练习或切磋中取得30次对抗茨木童子的胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 313,
+    "tasks": [
+      {
+        "id": 1372,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将犬夜叉进行觉醒"
+      },
+      {
+        "id": 1373,
+        "achieve_type": 4007,
+        "cond_val": 10,
+        "content": "犬夜叉在斗技、练习或切磋中取得10次对抗杀生丸的胜利"
+      },
+      {
+        "id": 1374,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "犬夜叉与携带杀生丸的其他玩家取得10次协战胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 314,
+    "tasks": [
+      {
+        "id": 1369,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将杀生丸进行觉醒"
+      },
+      {
+        "id": 1370,
+        "achieve_type": 4007,
+        "cond_val": 10,
+        "content": "杀生丸在斗技、练习或切磋中取得10次对抗犬夜叉的胜利"
+      },
+      {
+        "id": 1371,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "杀生丸与携带犬夜叉的其他玩家取得10次协战胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 315,
+    "tasks": [
+      {
+        "id": 1381,
+        "achieve_type": 4001,
+        "cond_val": 40,
+        "content": "少羽大天狗参战取得40场胜利"
+      },
+      {
+        "id": 1382,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将少羽大天狗技能升级8次"
+      },
+      {
+        "id": 1383,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将少羽大天狗升至30级"
+      }
+    ]
+  },
+  {
+    "hero_id": 316,
+    "tasks": [
+      {
+        "id": 1378,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "白藏主与携带晴明的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1379,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "白藏主与携带神乐的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1380,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "白藏主与携带源博雅的其他玩家取得10次协战胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 317,
+    "tasks": [
+      {
+        "id": 1375,
+        "achieve_type": 4001,
+        "cond_val": 40,
+        "content": "人面树参战取得40场胜利"
+      },
+      {
+        "id": 1376,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将人面树升至30级"
+      },
+      {
+        "id": 1377,
+        "achieve_type": 4012,
+        "cond_val": 6,
+        "content": "将人面树技能升级6次"
+      }
+    ]
+  },
+  {
+    "hero_id": 318,
+    "tasks": [
+      {
+        "id": 1384,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将於菊虫进行觉醒"
+      },
+      {
+        "id": 1385,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将於菊虫升至30级"
+      },
+      {
+        "id": 1386,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "於菊虫出战中取得30场胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 319,
+    "tasks": [
+      {
+        "id": 1387,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将桔梗进行觉醒"
+      },
+      {
+        "id": 1388,
+        "achieve_type": 4007,
+        "cond_val": 10,
+        "content": "桔梗在斗技、练习或切磋中取得10次对抗犬夜叉的胜利"
+      },
+      {
+        "id": 1389,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "桔梗与携带犬夜叉的其他玩家取得10次协战胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 320,
+    "tasks": [
+      {
+        "id": 1390,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将一反木绵进行觉醒"
+      },
+      {
+        "id": 1391,
+        "achieve_type": 4012,
+        "cond_val": 6,
+        "content": "将一反木绵技能升级6次"
+      },
+      {
+        "id": 1392,
+        "achieve_type": 4007,
+        "cond_val": 30,
+        "content": "一反木绵在斗技、练习或切磋中取得30次对抗入殓师的胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 321,
+    "tasks": [
+      {
+        "id": 1393,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将入殓师进行觉醒"
+      },
+      {
+        "id": 1394,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将入殓师升至30级"
+      },
+      {
+        "id": 1395,
+        "achieve_type": 4001,
+        "cond_val": 40,
+        "content": "入殓师出战中取得40场胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 322,
+    "tasks": [
+      {
+        "id": 1396,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将炼狱茨木童子技能升级8次"
+      },
+      {
+        "id": 1397,
+        "achieve_type": 4007,
+        "cond_val": 10,
+        "content": "炼狱茨木童子在斗技、练习或切磋中取得10次对抗酒吞童子的胜利"
+      },
+      {
+        "id": 1398,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "炼狱茨木童子与携带酒吞童子的其他玩家取得10次协战胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 323,
+    "tasks": [
+      {
+        "id": 1399,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将天井下进行觉醒"
+      },
+      {
+        "id": 1400,
+        "achieve_type": 4012,
+        "cond_val": 10,
+        "content": "将天井下技能升级10次"
+      },
+      {
+        "id": 1401,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将天井下升至30级"
+      }
+    ]
+  },
+  {
+    "hero_id": 324,
+    "tasks": [
+      {
+        "id": 1402,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将化鲸进行觉醒"
+      },
+      {
+        "id": 1403,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将化鲸升至30级"
+      },
+      {
+        "id": 1404,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "化鲸与携带金鱼姬的其他玩家取得10次协战胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 325,
+    "tasks": [
+      {
+        "id": 1405,
+        "achieve_type": 4099,
+        "cond_val": 1,
+        "content": "斗技或切磋中，达成5个蛇魔同时在场，并取得胜利"
+      },
+      {
+        "id": 1406,
+        "achieve_type": 4002,
+        "cond_val": 40,
+        "content": "将八岐大蛇升至40级"
+      },
+      {
+        "id": 1407,
+        "achieve_type": 4012,
+        "cond_val": 10,
+        "content": "将八岐大蛇技能升级10次"
+      }
+    ]
+  },
+  {
+    "hero_id": 326,
+    "tasks": [
+      {
+        "id": 1408,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "稻荷神御馔津参战取得30场胜利"
+      },
+      {
+        "id": 1409,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将稻荷神御馔津技能升级8次"
+      },
+      {
+        "id": 1410,
+        "achieve_type": 4002,
+        "cond_val": 35,
+        "content": "将稻荷神御馔津升至35级"
+      }
+    ]
+  },
+  {
+    "hero_id": 327,
+    "tasks": [
+      {
+        "id": 1411,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "苍风一目连参战取得30场胜利"
+      },
+      {
+        "id": 1412,
+        "achieve_type": 4002,
+        "cond_val": 40,
+        "content": "将苍风一目连升至40级"
+      },
+      {
+        "id": 1413,
+        "achieve_type": 4014,
+        "cond_val": 1,
+        "content": "在阴阳寮中捐赠1次苍风一目连碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 328,
+    "tasks": [
+      {
+        "id": 1414,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "赤影妖刀姬参战取得30场胜利"
+      },
+      {
+        "id": 1415,
+        "achieve_type": 4002,
+        "cond_val": 40,
+        "content": "将赤影妖刀姬升至40级"
+      },
+      {
+        "id": 1416,
+        "achieve_type": 4012,
+        "cond_val": 6,
+        "content": "将赤影妖刀姬技能升级6次"
+      }
+    ]
+  },
+  {
+    "hero_id": 329,
+    "tasks": [
+      {
+        "id": 1417,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "海忍与携带椒图的玩家取得10次协战胜利"
+      },
+      {
+        "id": 1418,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将海忍升至30级"
+      },
+      {
+        "id": 1419,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "海忍出战下通关御魂副本第9层"
+      }
+    ]
+  },
+  {
+    "hero_id": 330,
+    "tasks": [
+      {
+        "id": 1420,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将不知火进行觉醒"
+      },
+      {
+        "id": 1421,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将不知火技能升级8次"
+      },
+      {
+        "id": 1422,
+        "achieve_type": 4014,
+        "cond_val": 1,
+        "content": "在阴阳寮中捐赠1次不知火碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 331,
+    "tasks": [
+      {
+        "id": 1423,
+        "achieve_type": 4002,
+        "cond_val": 40,
+        "content": "将御怨般若升至40级"
+      },
+      {
+        "id": 1424,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "御怨般若参战取得30场胜利"
+      },
+      {
+        "id": 1425,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "御怨般若参与30次结界突破进攻"
+      }
+    ]
+  },
+  {
+    "hero_id": 332,
+    "tasks": [
+      {
+        "id": 1426,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将久次良进行觉醒"
+      },
+      {
+        "id": 1427,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "久次良与携带大岳丸的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1428,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将久次良升至30级"
+      }
+    ]
+  },
+  {
+    "hero_id": 333,
+    "tasks": [
+      {
+        "id": 1429,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将大岳丸进行觉醒"
+      },
+      {
+        "id": 1430,
+        "achieve_type": 4012,
+        "cond_val": 12,
+        "content": "将大岳丸技能升级12次"
+      },
+      {
+        "id": 1431,
+        "achieve_type": 4011,
+        "cond_val": 50,
+        "content": "大岳丸在50场斗技或练习中取胜"
+      }
+    ]
+  },
+  {
+    "hero_id": 334,
+    "tasks": [
+      {
+        "id": 1432,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "骁浪荒川之主参战取得40场胜利"
+      },
+      {
+        "id": 1433,
+        "achieve_type": 4002,
+        "cond_val": 40,
+        "content": "将骁浪荒川之主升至40级"
+      },
+      {
+        "id": 1434,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将骁浪荒川之主技能升级8次"
+      }
+    ]
+  },
+  {
+    "hero_id": 335,
+    "tasks": [
+      {
+        "id": 1435,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将蟹姬进行觉醒"
+      },
+      {
+        "id": 1436,
+        "achieve_type": 4002,
+        "cond_val": 35,
+        "content": "将蟹姬升至35级"
+      },
+      {
+        "id": 1437,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "蟹姬参战取得30场胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 336,
+    "tasks": [
+      {
+        "id": 1444,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将朽木露琪亚进行觉醒"
+      },
+      {
+        "id": 1445,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "朽木露琪亚与携带黑崎一护的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1446,
+        "achieve_type": 4007,
+        "cond_val": 10,
+        "content": "朽木露琪亚在斗技、练习或切磋中取得10次对抗黑崎一护的胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 337,
+    "tasks": [
+      {
+        "id": 1441,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将黑崎一护进行觉醒"
+      },
+      {
+        "id": 1442,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "黑崎一护与携带朽木露琪亚的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1443,
+        "achieve_type": 4017,
+        "cond_val": 10,
+        "content": "黑崎一护在斗技、练习或切磋中对抗朽木露琪亚失败10次"
+      }
+    ]
+  },
+  {
+    "hero_id": 400,
+    "tasks": [
+      {
+        "id": 1189,
+        "achieve_type": 4013,
+        "cond_val": 10,
+        "content": "盗墓小鬼在阴阳寮进行10次碎片祈愿"
+      },
+      {
+        "id": 1190,
+        "achieve_type": 4011,
+        "cond_val": 40,
+        "content": "盗墓小鬼在40场斗技或练习中取胜"
+      },
+      {
+        "id": 1191,
+        "achieve_type": 4016,
+        "cond_val": 40,
+        "content": "在百鬼夜行中获得40个盗墓小鬼碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 403,
+    "tasks": [
+      {
+        "id": 1192,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "唐纸伞妖出战下通关御魂副本第5层"
+      },
+      {
+        "id": 1193,
+        "achieve_type": 4010,
+        "cond_val": 60,
+        "content": "唐纸伞妖参与60次结界突破进攻"
+      },
+      {
+        "id": 1194,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将唐纸伞妖升至30级"
+      }
+    ]
+  },
+  {
+    "hero_id": 414,
+    "tasks": [
+      {
+        "id": 1327,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "大天狗呱参战取得30场胜利"
+      },
+      {
+        "id": 1328,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "大天狗呱与携带大天狗的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1329,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "大天狗呱出战下通关御魂副本第10层"
+      }
+    ]
+  },
+  {
+    "hero_id": 415,
+    "tasks": [
+      {
+        "id": 1330,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "酒吞呱参战取得30场胜利"
+      },
+      {
+        "id": 1331,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "酒吞呱与携带酒吞童子的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1332,
+        "achieve_type": 4013,
+        "cond_val": 5,
+        "content": "酒吞呱在阴阳寮进行5次碎片祈愿"
+      }
+    ]
+  },
+  {
+    "hero_id": 416,
+    "tasks": [
+      {
+        "id": 1333,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "荒川呱参战取得30场胜利"
+      },
+      {
+        "id": 1334,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "荒川呱与携带荒川之主的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1335,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "荒川呱出战下通关单人觉醒副本第10层"
+      }
+    ]
+  },
+  {
+    "hero_id": 417,
+    "tasks": [
+      {
+        "id": 1336,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "阎魔呱参战取得30场胜利"
+      },
+      {
+        "id": 1337,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "阎魔呱与携带阎魔的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1338,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将阎魔呱升至30级"
+      }
+    ]
+  },
+  {
+    "hero_id": 418,
+    "tasks": [
+      {
+        "id": 1339,
+        "achieve_type": 4008,
+        "cond_val": 50000,
+        "content": "两面佛呱通过结界育成和好友寄养获得50000点经验"
+      },
+      {
+        "id": 1340,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "两面佛呱与携带两面佛的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1341,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "两面佛呱出战下通关御魂副本第10层"
+      }
+    ]
+  },
+  {
+    "hero_id": 419,
+    "tasks": [
+      {
+        "id": 1342,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "小鹿男呱参战取得30场胜利"
+      },
+      {
+        "id": 1343,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "小鹿男呱与携带小鹿男的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1344,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "小鹿男呱参与30次结界突破进攻"
+      }
+    ]
+  },
+  {
+    "hero_id": 420,
+    "tasks": [
+      {
+        "id": 1345,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "茨木呱参战取得30场胜利"
+      },
+      {
+        "id": 1346,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "茨木呱与携带茨木童子的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1347,
+        "achieve_type": 4004,
+        "cond_val": 1,
+        "content": "茨木呱出战下通关御魂副本第10层"
+      }
+    ]
+  },
+  {
+    "hero_id": 421,
+    "tasks": [
+      {
+        "id": 1348,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "青行灯呱参战取得30场胜利"
+      },
+      {
+        "id": 1349,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "青行灯呱与携带青行灯的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1350,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "青行灯呱出战下通关单人觉醒副本第10层"
+      }
+    ]
+  },
+  {
+    "hero_id": 422,
+    "tasks": [
+      {
+        "id": 1351,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "妖刀姬呱参战取得30场胜利"
+      },
+      {
+        "id": 1352,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "妖刀姬呱与携带妖刀姬的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1353,
+        "achieve_type": 4005,
+        "cond_val": 1,
+        "content": "妖刀姬呱出战下通关单人觉醒副本第10层"
+      }
+    ]
+  },
+  {
+    "hero_id": 423,
+    "tasks": [
+      {
+        "id": 1354,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将一目连呱升至30级"
+      },
+      {
+        "id": 1355,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "一目连呱与携带一目连的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1356,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "一目连呱参与30次结界突破进攻"
+      }
+    ]
+  },
+  {
+    "hero_id": 424,
+    "tasks": [
+      {
+        "id": 1357,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "花鸟卷呱参战取得30场胜利"
+      },
+      {
+        "id": 1358,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "花鸟卷呱与携带花鸟卷的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1359,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将花鸟卷呱升至30级"
+      }
+    ]
+  },
+  {
+    "hero_id": 425,
+    "tasks": [
+      {
+        "id": 1360,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "辉夜姬呱参战取得30场胜利"
+      },
+      {
+        "id": 1361,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "辉夜姬呱与携带辉夜姬的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1362,
+        "achieve_type": 4013,
+        "cond_val": 5,
+        "content": "辉夜姬呱在阴阳寮进行5次碎片祈愿"
+      }
+    ]
+  },
+  {
+    "hero_id": 426,
+    "tasks": [
+      {
+        "id": 1363,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "荒呱参与30次结界突破进攻"
+      },
+      {
+        "id": 1364,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "荒呱与携带荒的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1365,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将荒呱升至30级"
+      }
+    ]
+  },
+  {
+    "hero_id": 427,
+    "tasks": [
+      {
+        "id": 1366,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "彼岸花呱参战取得30场胜利"
+      },
+      {
+        "id": 1367,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "彼岸花呱与携带彼岸花的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1368,
+        "achieve_type": 4010,
+        "cond_val": 30,
+        "content": "彼岸花呱参与30次结界突破进攻"
+      }
+    ]
+  }
+]
