@@ -91,7 +91,17 @@ const Render: SFC<RouteComponentProps> = props => {
             render={info =>
               info && (
                 <>
-                  <span>{info.data.player.name}</span>
+                  <span>
+                    {info.data.player.name}
+                    {info.cbg_url && (
+                      <>
+                        &nbsp;
+                        <a href={info.cbg_url} target="_blank">
+                          [藏宝阁]
+                        </a>
+                      </>
+                    )}
+                  </span>
                   <NavbarDivider />
                   <ButtonGroup large>
                     {routes.map((r, i) =>
@@ -125,7 +135,7 @@ const Render: SFC<RouteComponentProps> = props => {
           {exportUrl && (
             <>
               <a href={exportUrl} target="_blank">
-                下载当前快照
+                导出当前快照
               </a>
               <NavbarDivider />
             </>

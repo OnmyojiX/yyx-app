@@ -4,6 +4,7 @@ import { HeroList } from "./HeroList";
 import { Route } from "react-router";
 import { ShardPage } from "./Shard/ShardPage";
 import { SkillPage } from "./Skill/SkillPage";
+import { StoryPage } from "./Story/StoryPage";
 
 const SubPages: (SubNavLink & { component: any })[] = [
   {
@@ -20,6 +21,11 @@ const SubPages: (SubNavLink & { component: any })[] = [
     label: "技能升级",
     to: "/hero/skill",
     component: SkillPage
+  },
+  {
+    label: "传记解锁",
+    to: "/hero/story",
+    component: StoryPage
   }
 ];
 

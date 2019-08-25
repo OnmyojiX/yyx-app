@@ -1,0 +1,21 @@
+.story-table {
+  tbody {
+    td {
+      vertical-align: middle;
+    }
+  }
+
+  .big {
+    font-size: 24px;
+  }
+
+  ul.task-list {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0 0;
+
+    > li {
+      align-items: flex-start;
+    }
+  }
+}

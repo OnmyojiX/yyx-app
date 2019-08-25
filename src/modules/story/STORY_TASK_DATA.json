@@ -1192,13 +1192,13 @@
         "id": 125502,
         "achieve_type": 10009,
         "cond_val": 0,
-        "content": "传记四亲密度达到1000"
+        "content": "传记五亲密度达到1000"
       },
       {
         "id": 125503,
         "achieve_type": 10009,
         "cond_val": 0,
-        "content": "传记四亲密度达到1000"
+        "content": "传记六亲密度达到1000"
       }
     ]
   },

@@ -32,7 +32,7 @@ export const About: SFC = props => {
                 链接 <Icon icon={"link"} />
               </a>
             </dd>
-            <dt>QQ群</dt>
+            {/* <dt>QQ群</dt>
             <dd>496107455</dd>
             <dt>微博</dt>
             <dd>
@@ -42,7 +42,7 @@ export const About: SFC = props => {
               >
                 链接 <Icon icon={"link"} />
               </a>
-            </dd>
+            </dd> */}
           </dl>
 
           <h2 className="important">求赞</h2>

@@ -196,6 +196,18 @@ export interface IStoryTask {
   progress: { value: number; max_value: number };
 }
 
+export interface IHeroStoryTaskData {
+  hero_id: number;
+  tasks: IStoryTaskData[];
+}
+
+export interface IStoryTaskData {
+  id: number;
+  achieve_type: number;
+  cond_var: number;
+  content: string;
+}
+
 export interface ISnapshot {
   version: string;
   timestamp: string;
