@@ -1,7 +1,9 @@
 import { number } from "prop-types";
+import { NonIdealState } from "@blueprintjs/core";
 
 export interface IPlayer {
   id: number;
+  server_id: number;
   name: string;
   level: string;
 }
@@ -10,6 +12,14 @@ export interface IPlayerCurrency {
   coin: number;
   jade: number;
   action_point: number;
+  auto_point: number;
+  honor: number;
+  medal: number;
+  contrib: number;
+  totem_pass: number;
+  s_jade: number;
+  skin_token: number;
+  realm_raid_pass: number;
 }
 
 export interface IHero {
@@ -59,7 +69,7 @@ export interface IHeroData {
   rarity: HeroRarity;
   skills: number[];
   awake_skill: number | null;
-  awake_base_attrs: { [level: string]: IHeroAttrs }
+  awake_base_attrs: { [level: string]: IHeroAttrs };
 }
 
 export enum Ratings {
@@ -102,7 +112,8 @@ export interface IHeroEquip {
   born: number;
   lock: boolean;
   garbage: boolean;
-  attrs: IHeroEquipAttr[];
+  // deprecated: 0.9.0
+  // attrs: IHeroEquipAttr[];
   base_attr: IHeroEquipAttr;
   random_attrs: IHeroEquipAttr[];
   random_attr_rates: IHeroEquipAttr[];
@@ -180,6 +191,11 @@ export interface IRealmCardData {
   star: number;
 }
 
+export interface IStoryTask {
+  id: number;
+  progress: { value: number; max_value: number };
+}
+
 export interface ISnapshot {
   version: string;
   timestamp: string;
@@ -191,5 +207,18 @@ export interface ISnapshot {
     hero_equip_presets: IHeroEquipPreset[];
     hero_book_shards: IHeroBookShard[];
     realm_cards: IRealmCard[];
+    story_tasks: IStoryTask[];
   };
+  cbg_url: string | null;
+}
+
+export interface ICbgSnapshot {
+  listing_info: {
+    server_name: string;
+    player_name: string;
+    player_level: number;
+    price: string;
+    create_time: string;
+  };
+  snapshot: ISnapshot;
 }

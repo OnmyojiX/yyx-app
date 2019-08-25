@@ -80,3 +80,10 @@ export function computeOnce<T>(f: () => T): () => T {
     return value;
   };
 }
+
+export function formatCurrency(v: number | string, sign = "¥") {
+  if (typeof v === "string") {
+    v = parseFloat(v);
+  }
+  return sign + v.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, `$&,`);
+}

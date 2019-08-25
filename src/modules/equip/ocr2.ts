@@ -60,7 +60,11 @@ export function equipsToOcr2(
       位置: equip.pos + 1
     };
     const attrMap: { [key: string]: number } = {};
-    for (let attr of [equip.base_attr, ...equip.attrs, ...equip.single_attrs]) {
+    for (let attr of [
+      equip.base_attr,
+      ...equip.random_attrs,
+      ...equip.single_attrs
+    ]) {
       const v = attrMap[attr.type] || 0;
       attrMap[attr.type] = v + attr.value;
     }

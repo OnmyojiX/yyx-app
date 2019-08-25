@@ -297,7 +297,7 @@ export const computeEquipSetInfo = (equips: IHeroEquip[]) => {
   const suits = [];
   suitCount.clear();
   for (const equip of equips) {
-    for (const attr of equip.attrs) {
+    for (const attr of equip.random_attrs) {
       const v = attrMap.get(attr.type) || 0;
       attrMap.set(attr.type, v + attr.value);
     }

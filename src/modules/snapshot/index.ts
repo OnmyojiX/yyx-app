@@ -33,15 +33,24 @@ export function reducer(state = initialState, action: IAction<ActionType>) {
 const selectCurrentSnapshot = (state: IYyxState) =>
   state.snapshot && state.snapshot.current;
 
+export const $isCbgSnapshot = (state: IYyxState) =>
+  state.snapshot && state.snapshot.current && !!state.snapshot.current.cbg_url;
+
 export const SnapshotSelectors = {
   selectCurrentSnapshot
 };
 
+export const SnapshotService = {
+  select: async (snapshot: ISnapshot | File) => {
+    return HttpClient.put("/api/snapshot", snapshot);
+  }
+};
+
 export const SnapshotActions = {
-  select(file: File) {
+  select(file: File | ISnapshot) {
     return async (dispatch: IDispatch<ActionType>) => {
-      await HttpClient.put("/api/snapshot", file);
-      dispatch(SnapshotActions.loadCurrent());
+      await SnapshotService.select(file);
+      return dispatch(SnapshotActions.loadCurrent());
     };
   },
   resetCurrent() {

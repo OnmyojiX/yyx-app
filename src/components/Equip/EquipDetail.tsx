@@ -72,7 +72,7 @@ export const EquipDetail: SFC<{
           <div className="name">ID</div>
           <div className="value id">{equip.id}</div>
         </div>
-        <div className="yyx-layout row">
+        {/* <div className="yyx-layout row">
           <a
             href="http://nga.178.com/read.php?tid=15853326"
             target="_blank"
@@ -81,7 +81,7 @@ export const EquipDetail: SFC<{
             副属性评分
           </a>
           <div className="value">{scoreData ? scoreData.score : "无"}</div>
-        </div>
+        </div> */}
         <div className="yyx-layout row">
           <div className="name">获取时间</div>
           <div className="value">
