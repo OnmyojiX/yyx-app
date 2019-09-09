@@ -2,11 +2,11 @@ import { IAction, IDispatch, IYyxState } from "../../store";
 import { createSelector } from "reselect";
 import { IRealmCard, IRealmCardData } from "../../interfaces";
 import { getRealmCardData, RealmCardNames } from "./data";
-import { SnapshotSelectors } from "../snapshot";
 import { sortDesc } from "../../utils";
+import { SnapshotSelectors } from "../snapshot/selectors";
 
 const selectAll = createSelector(
-  SnapshotSelectors.selectCurrentSnapshot,
+  SnapshotSelectors.currentSnapshot,
   snapshot => {
     if (!snapshot) {
       return null;

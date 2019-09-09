@@ -67,6 +67,13 @@ export function formatDate(date: string | Date, format = DATE_FORMAT) {
     .format(format);
 }
 
+export function formatUtcDate(date: string, format = DATE_FORMAT) {
+  return moment
+    .utc(date)
+    .local()
+    .format(format);
+}
+
 export function parseDate(str: string, locale?: string) {
   return moment(str, DATE_FORMAT).toDate();
 }

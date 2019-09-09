@@ -7,31 +7,23 @@ import {
 } from "redux";
 import thunk, { ThunkDispatch, ThunkAction } from "redux-thunk";
 
-import * as error from "./modules/error";
-import * as snapshot from "./modules/snapshot";
-import * as hero from "./modules/hero";
-import * as equip from "./modules/equip";
+import * as error from "../modules/error";
+import * as hero from "../modules/hero";
+import * as equip from "../modules/equip";
+import { IAccountState, accountReducer } from "../modules/account/reducer";
+import { ISnapshotState, snapshotReducer } from "../modules/snapshot/reducer";
 
-type ActionType =
-  | error.ActionType
-  | snapshot.ActionType
-  | hero.ActionType
-  | equip.ActionType;
-
-export interface IAction<T = ActionType> {
+export interface IAction<T = string> {
   type: T;
   payload?: any;
 }
 
-export type IDispatch<T = ActionType> = ThunkDispatch<
-  IYyxState,
-  void,
-  IAction<T>
->;
+export type IDispatch<T = string, S = any> = ThunkDispatch<S, void, IAction<T>>;
 
 export interface IYyxState {
   error: error.IState;
-  snapshot: snapshot.IState;
+  account: IAccountState;
+  snapshot: ISnapshotState;
   hero: hero.IState;
   equip: equip.IState;
 }
@@ -41,7 +33,8 @@ const composeEnhancers =
 export const YyxStore = createStore<IYyxState, any, {}, {}>(
   combineReducers({
     error: error.reducer,
-    snapshot: snapshot.reducer,
+    account: accountReducer,
+    snapshot: snapshotReducer,
     hero: hero.reducer,
     equip: equip.reducer
   }),

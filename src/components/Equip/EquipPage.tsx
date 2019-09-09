@@ -4,6 +4,7 @@ import { SubNavLink, SubNav } from "../Common/SubNav";
 import { EquipList } from "./EquipList";
 import { Route } from "react-router";
 import { EquipPresets } from "./EquipPresets";
+import { useAccountPath } from "../../modules/account/hooks";
 
 const SubPages: (SubNavLink & { component: any })[] = [
   {
@@ -19,6 +20,7 @@ const SubPages: (SubNavLink & { component: any })[] = [
 ];
 
 export const EquipPage: SFC = props => {
+  const accountPath = useAccountPath();
   return (
     <div className="yyx-full-height yyx-layout row">
       <div className="item yyx-nav-left">
@@ -28,7 +30,7 @@ export const EquipPage: SFC = props => {
         {SubPages.map(page => (
           <Route
             key={page.to}
-            path={page.to}
+            path={`${accountPath}${page.to}`}
             exact={page.to === "/equip"}
             component={page.component}
           />

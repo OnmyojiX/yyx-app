@@ -5,6 +5,7 @@ import { Route } from "react-router";
 import { ShardPage } from "./Shard/ShardPage";
 import { SkillPage } from "./Skill/SkillPage";
 import { StoryPage } from "./Story/StoryPage";
+import { useAccountPath } from "../../modules/account/hooks";
 
 const SubPages: (SubNavLink & { component: any })[] = [
   {
@@ -30,6 +31,7 @@ const SubPages: (SubNavLink & { component: any })[] = [
 ];
 
 export const HeroPage: SFC = props => {
+  const accountPath = useAccountPath();
   return (
     <div className="yyx-full-height yyx-layout row">
       <div className="item yyx-nav-left">
@@ -40,7 +42,7 @@ export const HeroPage: SFC = props => {
           {SubPages.map(page => (
             <Route
               key={page.to}
-              path={page.to}
+              path={`${accountPath}${page.to}`}
               exact={page.to === "/hero"}
               component={page.component}
             />

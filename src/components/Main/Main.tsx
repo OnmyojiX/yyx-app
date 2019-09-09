@@ -1,4 +1,4 @@
-import React, { SFC, ComponentClass } from "react";
+import React, { SFC, ComponentClass, useEffect } from "react";
 import "./Main.scss";
 import logo from "../../assets/logo.svg";
 
@@ -10,7 +10,9 @@ import {
   NavbarDivider,
   NavbarGroup,
   ButtonGroup,
-  Popover
+  Popover,
+  Callout,
+  Spinner
 } from "@blueprintjs/core";
 
 import {
@@ -18,10 +20,10 @@ import {
   Route,
   Link,
   RouteComponentProps,
-  withRouter
+  withRouter,
+  Redirect
 } from "react-router-dom";
 import { YyxStore } from "../../store";
-import { SnapshotActions, SnapshotSelectors } from "../../modules/snapshot";
 import { OverviewPage } from "../Overview/OverviewPage";
 import { SnapshotInfo } from "../Snapshot/SnapshotInfo";
 import { ISnapshot } from "../../interfaces";
@@ -31,7 +33,17 @@ import { EquipPage } from "../Equip/EquipPage";
 import { RealmCardPage } from "../RealmCard/RealmCardPage";
 import { UpdateInfo } from "../Update/UpdateInfo";
 import { About } from "../About/About";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
+import { SnapshotSelectors } from "../../modules/snapshot/selectors";
+import { SnapshotActions } from "../../modules/snapshot/actions";
+import {
+  YyxAccountId,
+  CbgAccountId,
+  AccountId
+} from "../../modules/account/types";
+import { AccountActions } from "../../modules/account/actions";
+import { AccountSelectors } from "../../modules/account/selectors";
+import { AccountService } from "../../modules/account/service";
 
 const routes = [
   {
@@ -63,8 +75,26 @@ const routes = [
   }
 ];
 
-const Render: SFC<RouteComponentProps> = props => {
-  const current = useSelector(SnapshotSelectors.selectCurrentSnapshot);
+const Main: SFC<{
+  id: AccountId;
+  route: RouteComponentProps;
+}> = ({ id, route }) => {
+  const accountPath = AccountService.getAccountPath(id);
+
+  const dispach = useDispatch();
+  const account = useSelector(AccountSelectors.current);
+  const notFound = useSelector(AccountSelectors.currentNotFound);
+  useEffect(() => {
+    dispach(AccountActions.loadAndSelectId(id));
+  }, [accountPath]);
+  useEffect(() => {
+    if (account && AccountService.getAccountPath(account.id) === accountPath) {
+      dispach(SnapshotActions.load(account));
+    } else {
+      dispach(SnapshotActions.reset());
+    }
+  }, [account]);
+  const current = useSelector(SnapshotSelectors.currentSnapshot);
   const exportUrl = React.useMemo(() => {
     if (!current) {
       return null;
@@ -72,13 +102,32 @@ const Render: SFC<RouteComponentProps> = props => {
     const ts = Math.floor(new Date(current.timestamp).getTime() / 1000);
     if (current.cbg_url) {
       const name = `yyx_snapshot_cbg_${current.data.player.name}.json`;
-      return `/api/snapshot-export/${encodeURIComponent(name)}`;
+      return `/api${accountPath}/snapshot-export/${encodeURIComponent(name)}`;
     } else {
-      return `/api/snapshot-export/yyx_snapshot_${ts}_${current.data.player.server_id}_${current.data.player.id}.json`;
+      return `/api${accountPath}/snapshot-export/yyx_snapshot_${ts}_${current.data.player.server_id}_${current.data.player.id}.json`;
     }
   }, [current]);
 
-  const path = props.location.pathname;
+  if (notFound) {
+    return (
+      <Callout intent="warning">
+        账号快照不存在。
+        <Link to="/">
+          <Button>重新选择</Button>
+        </Link>
+      </Callout>
+    );
+  }
+
+  if (!current) {
+    return (
+      <div style={{ marginTop: "20%" }}>
+        <Spinner />
+      </div>
+    );
+  }
+
+  const path = route.location.pathname;
   return (
     <main>
       <Navbar>
@@ -104,20 +153,21 @@ const Render: SFC<RouteComponentProps> = props => {
                   </span>
                   <NavbarDivider />
                   <ButtonGroup large>
-                    {routes.map((r, i) =>
-                      r.show(info) ? (
+                    {routes.map((r, i) => {
+                      const rpath = accountPath + r.path;
+                      return r.show(info) ? (
                         <Button
                           key={i}
-                          onClick={() => props.history.push(r.path)}
+                          onClick={() => route.history.push(rpath)}
                           active={
                             r.path === "/"
-                              ? path === "/"
-                              : path.startsWith(r.path)
+                              ? path === rpath
+                              : path.startsWith(rpath)
                           }
                           text={r.renderLabel(info)}
                         />
-                      ) : null
-                    )}
+                      ) : null;
+                    })}
                   </ButtonGroup>
                 </>
               )
@@ -143,7 +193,7 @@ const Render: SFC<RouteComponentProps> = props => {
           <Button
             icon="folder-open"
             onClick={() => {
-              YyxStore.dispatch(SnapshotActions.resetCurrent());
+              route.history.push("/");
             }}
           >
             打开其他快照
@@ -151,12 +201,12 @@ const Render: SFC<RouteComponentProps> = props => {
         </NavbarGroup>
       </Navbar>
       <div className="yyx-container">
-        {routes.map((route, i) => (
+        {routes.map((r, i) => (
           <Route
             key={i}
-            path={route.path}
-            exact={route.path === "/"}
-            component={route.component}
+            path={route.match.path + r.path}
+            component={r.component}
+            exact={r.path === "/"}
           />
         ))}
       </div>
@@ -164,12 +214,19 @@ const Render: SFC<RouteComponentProps> = props => {
   );
 };
 
-const LayoutImpl = withRouter(Render);
-
-export const Main: SFC = props => {
-  return (
-    <Router>
-      <LayoutImpl {...props} />
-    </Router>
-  );
-};
+export const YyxMain = withRouter(props => {
+  const id = {
+    type: "Yyx",
+    server_id: Number(props.match.params["serverId"]),
+    player_id: Number(props.match.params["playerId"])
+  } as YyxAccountId;
+  return <Main id={id} route={props} />;
+});
+export const CbgMain = withRouter(props => {
+  const id = {
+    type: "Cbg",
+    server_id: props.match.params["serverId"],
+    order_sn: props.match.params["orderSn"]
+  } as CbgAccountId;
+  return <Main id={id} route={props} />;
+});

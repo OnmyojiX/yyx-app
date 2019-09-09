@@ -1,0 +1,19 @@
+.account-selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .name {
+    font-weight: bold;
+  }
+
+  table {
+    td {
+      vertical-align: middle;
+    }
+  }
+
+  .inactive {
+    color: #ebf1f5;
+  }
+}

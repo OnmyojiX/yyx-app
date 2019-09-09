@@ -1,8 +1,8 @@
 import { createSelector } from "reselect";
-import { SnapshotSelectors } from "../snapshot";
+import { SnapshotSelectors } from "../snapshot/selectors";
 
 const selectProgressMap = createSelector(
-  SnapshotSelectors.selectCurrentSnapshot,
+  SnapshotSelectors.currentSnapshot,
   s => {
     if (!s) {
       return null;

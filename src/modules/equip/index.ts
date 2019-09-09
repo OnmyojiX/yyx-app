@@ -10,9 +10,9 @@ import {
 import { defaultSorter } from "./sorters";
 import { getEquipSuiteData } from "./data";
 import { HeroSelectors } from "../hero";
-import { SnapshotSelectors } from "../snapshot";
 import { getTimestampFromObjectId, Filter, combineFilters } from "../../utils";
 import { getEquipScoreData } from "./score";
+import { SnapshotSelectors } from "../snapshot/selectors";
 
 export interface IState {
   listOptions: IEquipListOptions | null;
@@ -64,7 +64,7 @@ const selectEquippedByMap = createSelector(
 );
 
 const selectPresets = createSelector(
-  SnapshotSelectors.selectCurrentSnapshot,
+  SnapshotSelectors.currentSnapshot,
   snapshot => {
     if (!snapshot) {
       return null;

@@ -1,11 +1,11 @@
 import { createSelector } from "reselect";
 import { IHeroBookShard } from "../../interfaces";
-import { SnapshotSelectors } from "../snapshot";
 import { sortDesc, combineSorters } from "../../utils";
 import { getHeroData, RarityRank } from "../hero/data";
+import { SnapshotSelectors } from "../snapshot/selectors";
 
 const selectAll = createSelector(
-  SnapshotSelectors.selectCurrentSnapshot,
+  SnapshotSelectors.currentSnapshot,
   snapshot => {
     if (!snapshot) {
       return null;

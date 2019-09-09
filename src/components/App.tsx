@@ -1,56 +1,19 @@
 import React, { SFC, useEffect } from "react";
 import "./App.scss";
-import { connect } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
-import { IYyxState } from "../store";
-
-import { Main } from "./Main/Main";
 import { SnapshotSelectScreen } from "./Snapshot/SnapshotSelectScreen";
+import { BrowserRouter, Route } from "react-router-dom";
+import { CbgMain, YyxMain } from "./Main/Main";
 
-import { SnapshotActions } from "../modules/snapshot";
-import { ISnapshot } from "../interfaces";
-import { Spinner } from "@blueprintjs/core";
-
-const AppRender: SFC<{
-  snapshot: ISnapshot | null;
-  notSelected: boolean;
-  load: () => void;
-}> = props => {
-  useEffect(() => {
-    props.load();
-  }, []);
-
-  let main;
-
-  if (props.snapshot) {
-    main = <Main />;
-  } else {
-    if (props.notSelected) {
-      main = <SnapshotSelectScreen />;
-    } else {
-      main = (
-        <div style={{ marginTop: "20%" }}>
-          <Spinner />
-        </div>
-      );
-    }
-  }
-
-  return <>{main}</>;
+const App: SFC = props => {
+  return (
+    <BrowserRouter>
+      <Route path="/" exact={true} component={SnapshotSelectScreen} />
+      <Route path="/yyx/:serverId/:playerId" component={YyxMain} />
+      <Route path="/cbg/:serverId/:orderSn" component={CbgMain} />
+    </BrowserRouter>
+  );
 };
-
-const App = connect(
-  (state: IYyxState) => {
-    return {
-      snapshot: state.snapshot.current,
-      notSelected: state.snapshot.currentNotSelected
-    };
-  },
-  dispatch => {
-    return {
-      load: () => dispatch(SnapshotActions.loadCurrent() as any)
-    };
-  }
-)(AppRender);
 
 export default App;

@@ -14,8 +14,8 @@ import classNames from "classnames";
 import { ICbgSnapshot } from "../../interfaces";
 import { pullCbg } from "../../modules/cbg";
 import { formatCurrency } from "../../utils";
-import { SnapshotActions } from "../../modules/snapshot";
 import { useDispatch } from "react-redux";
+import { SnapshotActions } from "../../modules/snapshot/actions";
 
 export interface Props {
   open: boolean;
@@ -69,7 +69,7 @@ const OpenCbgUrl: React.SFC<Props> = props => {
     setLoading(true);
     setError(null);
     try {
-      await dispatch(SnapshotActions.select(snapshot.snapshot));
+      await dispatch(SnapshotActions.import(snapshot.snapshot));
     } catch (e) {
       setError(e);
     }
