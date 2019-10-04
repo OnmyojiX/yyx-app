@@ -33,7 +33,7 @@ export const SnapshotActions = {
         type: ACTION_SNAPSHOT_SET_CURRENT,
         payload: snapshot
       });
-      return snapshot;
+      return account;
     };
   }
 };
