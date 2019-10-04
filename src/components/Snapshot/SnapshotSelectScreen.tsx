@@ -24,8 +24,12 @@ import { version } from "../../../package.json";
 import { AccountSelector } from "../Account/AccountSelector";
 import { AccountSelectors } from "../../modules/account/selectors";
 import { AccountActions } from "../../modules/account/actions";
+import { AccountService } from "../../modules/account/service";
+import { withRouter, RouteComponentProps } from "react-router-dom";
 
-export const SnapshotSelectScreen: SFC = () => {
+const SnapshotSelectScreenImpl: React.SFC<RouteComponentProps> = ({
+  history
+}) => {
   const dispatch = useDispatch<IDispatch>();
   const loadingAccounts = useSelector(AccountSelectors.loading);
   const loadAccountsError = useSelector(AccountSelectors.error);
@@ -39,13 +43,20 @@ export const SnapshotSelectScreen: SFC = () => {
     dispatch(AccountActions.load());
   }, []);
 
+  const handleAccountOpen = (account: IAccount) => {
+    const path = AccountService.getAccountPath(account.id);
+    history.push(path);
+  };
+
   const handleSelectFile: FormEventHandler<HTMLInputElement> = e => {
     const { files } = e.target as any;
     if (files.length) {
       setError(null);
       setLoading(true);
       dispatch(SnapshotActions.import(files[0]))
-        // .finally(() => setLoading(false))
+        .then(account => {
+          handleAccountOpen(account);
+        })
         .catch((err: Error) => {
           setLoading(false);
           setError(err);
@@ -98,7 +109,13 @@ export const SnapshotSelectScreen: SFC = () => {
           <AccountSelector accounts={accounts} />
         </div>
       </div>
-      <OpenCbgUrl open={openCbg} onClose={() => setOpenCbg(false)} />
+      <OpenCbgUrl
+        open={openCbg}
+        onClose={() => setOpenCbg(false)}
+        onOpenAccount={handleAccountOpen}
+      />
     </>
   );
 };
+
+export const SnapshotSelectScreen = withRouter(SnapshotSelectScreenImpl);

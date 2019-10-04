@@ -16,10 +16,13 @@ import { pullCbg } from "../../modules/cbg";
 import { formatCurrency } from "../../utils";
 import { useDispatch } from "react-redux";
 import { SnapshotActions } from "../../modules/snapshot/actions";
+import { IAccount } from "../../modules/account/types";
+import { IDispatch } from "../../store";
 
 export interface Props {
   open: boolean;
   onClose: () => void;
+  onOpenAccount: (account: IAccount) => void;
 }
 
 const SnapshopPreview: React.SFC<{
@@ -46,8 +49,8 @@ const SnapshopPreview: React.SFC<{
 };
 
 const OpenCbgUrl: React.SFC<Props> = props => {
-  const { open, onClose } = props;
-  const dispatch = useDispatch();
+  const { open, onClose, onOpenAccount } = props;
+  const dispatch = useDispatch<IDispatch>();
   const [url, setUrl] = React.useState("");
   const [snapshot, setSnapshot] = React.useState<ICbgSnapshot | null>(null);
   const [loading, setLoading] = React.useState(false);
@@ -68,14 +71,18 @@ const OpenCbgUrl: React.SFC<Props> = props => {
   const onOpen = async (snapshot: ICbgSnapshot) => {
     setLoading(true);
     setError(null);
+    let account: IAccount | null = null;
     try {
-      await dispatch(SnapshotActions.import(snapshot.snapshot));
+      account = await dispatch(SnapshotActions.import(snapshot.snapshot));
     } catch (e) {
       setError(e);
     }
     setSnapshot(null);
     setLoading(false);
     onClose();
+    if (account) {
+      onOpenAccount(account);
+    }
   };
 
   const load = (
