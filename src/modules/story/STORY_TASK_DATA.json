@@ -2236,6 +2236,12 @@
         "achieve_type": 10009,
         "cond_val": 0,
         "content": "传记四亲密度达到1200"
+      },
+      {
+        "id": 130010,
+        "achieve_type": 10010,
+        "cond_val": 1,
+        "content": "获得典藏皮肤「青莲蜕梦」"
       }
     ]
   },
@@ -3105,6 +3111,52 @@
         "achieve_type": 4017,
         "cond_val": 10,
         "content": "黑崎一护在斗技、练习或切磋中对抗朽木露琪亚失败10次"
+      }
+    ]
+  },
+  {
+    "hero_id": 338,
+    "tasks": [
+      {
+        "id": 1450,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将泷夜叉姬进行觉醒"
+      },
+      {
+        "id": 1451,
+        "achieve_type": 4098,
+        "cond_val": 8,
+        "content": "使用所有月之奥义在斗技或切磋中达成击杀并取得胜利"
+      },
+      {
+        "id": 1452,
+        "achieve_type": 4014,
+        "cond_val": 1,
+        "content": "在阴阳寮中捐赠1次泷夜叉姬碎片"
+      }
+    ]
+  },
+  {
+    "hero_id": 339,
+    "tasks": [
+      {
+        "id": 1447,
+        "achieve_type": 4001,
+        "cond_val": 30,
+        "content": "烬天玉藻前参战取得30场胜利"
+      },
+      {
+        "id": 1448,
+        "achieve_type": 4002,
+        "cond_val": 40,
+        "content": "将烬天玉藻前升至40级"
+      },
+      {
+        "id": 1449,
+        "achieve_type": 4012,
+        "cond_val": 6,
+        "content": "将烬天玉藻前技能升级6次"
       }
     ]
   },
