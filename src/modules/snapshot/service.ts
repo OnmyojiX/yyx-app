@@ -4,8 +4,10 @@ import { IAccount } from "../account/types";
 
 export const SnapshotService = {
   select: async (snapshot: ISnapshot | File) => {
-    return HttpClient.post<IAccount>("/api/import", snapshot).then(
-      res => res.data
-    );
+    return HttpClient.post<IAccount>("/api/import", snapshot, {
+      headers: {
+        "content-type": "application/json"
+      }
+    }).then(res => res.data);
   }
 };
