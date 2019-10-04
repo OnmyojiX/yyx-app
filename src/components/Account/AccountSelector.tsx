@@ -12,7 +12,8 @@ import {
   Dialog,
   Alert,
   Intent,
-  Card
+  Card,
+  Callout
 } from "@blueprintjs/core";
 import { withRouter, RouteComponentProps } from "react-router-dom";
 import { useDispatch } from "react-redux";
@@ -54,6 +55,11 @@ export const AccountSelectorImpl: React.SFC<Props & RouteComponentProps> = ({
           </tr>
         </thead>
         <tbody>
+          {accounts.length === 0 && (
+            <tr>
+              <td colSpan={5}>没有已保存的账户。</td>
+            </tr>
+          )}
           {accounts.map((a, i) => {
             const serverName =
               a.id.type === "Yyx" ? getServerName(a.id.server_id) : "藏宝阁";
