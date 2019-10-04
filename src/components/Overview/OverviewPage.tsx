@@ -49,11 +49,21 @@ const render = (info: ISnapshot | null) => {
               <li>樱饼: {currency.auto_point}</li>
               <li>荣誉: {currency.honor}</li>
               <li>勋章: {currency.medal}</li>
-              {!info.cbg_url && <li>功勋: {currency.contrib}</li>}
+              <li>功勋: {currency.contrib}</li>
               <li>御灵境之钥: {currency.totem_pass}</li>
               <li>魂玉: {currency.s_jade}</li>
               <li>皮肤券: {currency.skin_token}</li>
-              {!info.cbg_url && <li>突破券: {currency.realm_raid_pass}</li>}
+              <li>突破券: {currency.realm_raid_pass}</li>
+              <li>破碎的符咒: {currency.broken_amulet}</li>
+              <li>神秘的符咒: {currency.mystery_amulet}</li>
+              <li>现世符咒: {currency.ar_amulet}</li>
+              <li>御札: {currency.ofuda}</li>
+              <li>金御札: {currency.gold_ofuda}</li>
+              <li>八岐大蛇鳞片: {currency.scale}</li>
+              <li>大蛇的逆鳞: {currency.reverse_scale}</li>
+              <li>逢魔之魂: {currency.demon_soul}</li>
+              <li>痴念之卷: {currency.foolery_pass}</li>
+              <li>SP皮肤券: {currency.sp_skin_token}</li>
             </ul>
           </td>
         </tr>

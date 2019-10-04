@@ -20,6 +20,16 @@ export interface IPlayerCurrency {
   s_jade: number;
   skin_token: number;
   realm_raid_pass: number;
+  broken_amulet: number;
+  mystery_amulet: number;
+  ar_amulet: number;
+  ofuda: number;
+  gold_ofuda: number;
+  scale: number;
+  reverse_scale: number;
+  demon_soul: number;
+  foolery_pass: number;
+  sp_skin_token: number;
 }
 
 export interface IHero {
