@@ -97,6 +97,30 @@ const ReleaseInfo: SFC<{ release: GithubRelease }> = ({ release }) => {
   );
 };
 
+const R_VERSION = /^(\d+)\.(\d+)\.(\d+)$/;
+
+const isLargerVersion = (l: string, r: string) => {
+  const ver1 = l.match(R_VERSION);
+  const ver2 = r.match(R_VERSION);
+
+  if (!ver1 || !ver2) {
+    console.warn(`Cannot compare version: '${l}', '${r}'`);
+    return false;
+  }
+
+  for (let i = 0; i < 3; i++) {
+    const l = parseInt(ver1[i]);
+    const r = parseInt(ver2[i]);
+    if (l < r) {
+      return false;
+    } else if (l > r) {
+      return true;
+    }
+  }
+
+  return false;
+};
+
 export const UpdateInfo: SFC = props => {
   const [loading, setLoading] = useState<boolean>(true);
   const [latest, setLatest] = useState<GithubRelease | null>(null);
@@ -119,7 +143,7 @@ export const UpdateInfo: SFC = props => {
       res => {
         if (res.data) {
           if (
-            res.data.tag_name > pkg.version &&
+            isLargerVersion(res.data.tag_name, pkg.version) &&
             !res.data.draft &&
             !res.data.prerelease
           ) {
