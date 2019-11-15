@@ -441,7 +441,7 @@ const Render: SFC<{
           {exported && (
             <Callout intent={"success"}>
               导出成功: <br />
-              <a href={`/export-files/${exported}`} target="_blank">
+              <a href={`/api/export-files/${exported}`} target="_blank">
                 {exported}
               </a>
             </Callout>
