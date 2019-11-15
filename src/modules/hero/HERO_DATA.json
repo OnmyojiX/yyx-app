@@ -5684,6 +5684,135 @@
     }
   },
   {
+    "id": 340,
+    "name": "纸舞",
+    "attr_rating": [
+      [
+        "c",
+        "b",
+        "b",
+        "c",
+        "b"
+      ],
+      [
+        "b",
+        "a",
+        "a",
+        "a",
+        "b"
+      ]
+    ],
+    "rarity": "SR",
+    "skills": [
+      3401,
+      3402,
+      3403
+    ],
+    "awake_skill": null,
+    "base_attrs": {
+      "crit_power": 0.5,
+      "crit_rate": 0.06,
+      "speed": 99,
+      "defense": 0.93,
+      "attack": 0.85,
+      "hp": 0.92
+    },
+    "awake_attrs": {
+      "attack": 0.1,
+      "crit_power": 0,
+      "crit_rate": 0,
+      "speed": 10,
+      "defense": 0.1,
+      "hp": 0.1
+    }
+  },
+  {
+    "id": 341,
+    "name": "鬼王酒吞童子",
+    "attr_rating": [
+      [
+        "a",
+        "b",
+        "b",
+        "c",
+        "s"
+      ],
+      [
+        "s",
+        "a",
+        "a",
+        "a",
+        "s"
+      ]
+    ],
+    "rarity": "SP",
+    "skills": [
+      3411,
+      3412,
+      3413
+    ],
+    "awake_skill": null,
+    "base_attrs": {
+      "crit_power": 0.5,
+      "crit_rate": 0.1,
+      "speed": 99,
+      "defense": 0.92,
+      "attack": 1.07,
+      "hp": 0.96
+    },
+    "awake_attrs": {
+      "attack": 0.12,
+      "crit_power": 0,
+      "crit_rate": 0,
+      "speed": 10,
+      "defense": 0.09,
+      "hp": 0.09
+    }
+  },
+  {
+    "id": 342,
+    "name": "星熊童子",
+    "attr_rating": [
+      [
+        "d",
+        "s",
+        "a",
+        "a",
+        "c"
+      ],
+      [
+        "c",
+        "s",
+        "a",
+        "s",
+        "c"
+      ]
+    ],
+    "rarity": "SR",
+    "skills": [
+      3421,
+      3422,
+      3423
+    ],
+    "awake_skill": null,
+    "base_attrs": {
+      "crit_power": 0.5,
+      "crit_rate": 0.03,
+      "speed": 105,
+      "defense": 1,
+      "attack": 0.76,
+      "hp": 1.1
+    },
+    "awake_attrs": {
+      "attack": 0.12,
+      "crit_power": 0,
+      "crit_rate": 0,
+      "speed": 10,
+      "defense": 0.09,
+      "hp": 0.09
+    }
+  },
+  {
     "id": 400,
     "name": "盗墓小鬼",
     "attr_rating": [

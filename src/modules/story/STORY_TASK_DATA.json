@@ -445,6 +445,24 @@
         "achieve_type": 4012,
         "cond_val": 8,
         "content": "将酒吞童子技能升级8次"
+      },
+      {
+        "id": 121901,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1200"
+      },
+      {
+        "id": 121902,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记五亲密度达到1200"
+      },
+      {
+        "id": 121903,
+        "achieve_type": 10010,
+        "cond_val": 0,
+        "content": "购买酒吞童子手办「酒迸狂歌」解锁"
       }
     ]
   },
@@ -1192,13 +1210,13 @@
         "id": 125502,
         "achieve_type": 10009,
         "cond_val": 0,
-        "content": "传记五亲密度达到1000"
+        "content": "传记四亲密度达到1000"
       },
       {
         "id": 125503,
         "achieve_type": 10009,
         "cond_val": 0,
-        "content": "传记六亲密度达到1000"
+        "content": "传记四亲密度达到1000"
       }
     ]
   },
@@ -1435,6 +1453,24 @@
         "achieve_type": 4005,
         "cond_val": 1,
         "content": "茨木童子出战下通关单人觉醒副本第9层"
+      },
+      {
+        "id": 126501,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1000"
+      },
+      {
+        "id": 126502,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记五亲密度达到1200"
+      },
+      {
+        "id": 126503,
+        "achieve_type": 10010,
+        "cond_val": 0,
+        "content": "购买茨木童子手办「地狱之握」解锁"
       }
     ]
   },
@@ -1538,7 +1574,13 @@
         "id": 126902,
         "achieve_type": 10009,
         "cond_val": 0,
-        "content": "传记四亲密度达到1000"
+        "content": "传记五亲密度达到1000"
+      },
+      {
+        "id": 126903,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记六亲密度达到1200"
       }
     ]
   },
@@ -1614,6 +1656,18 @@
         "achieve_type": 10009,
         "cond_val": 0,
         "content": "传记四亲密度达到1000"
+      },
+      {
+        "id": 127202,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记五亲密度达到1200"
+      },
+      {
+        "id": 127203,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记六亲密度达到1200"
       }
     ]
   },
@@ -2063,6 +2117,12 @@
         "achieve_type": 4011,
         "cond_val": 40,
         "content": "雪童子在40场斗技或练习中取胜"
+      },
+      {
+        "id": 129201,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1000"
       }
     ]
   },
@@ -2161,6 +2221,12 @@
         "achieve_type": 10009,
         "cond_val": 0,
         "content": "传记四亲密度达到1000"
+      },
+      {
+        "id": 129602,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记五亲密度达到1000"
       }
     ]
   },
@@ -2536,6 +2602,12 @@
         "achieve_type": 4007,
         "cond_val": 30,
         "content": "鬼切在斗技、练习或切磋中取得30次对抗茨木童子的胜利"
+      },
+      {
+        "id": 131201,
+        "achieve_type": 10009,
+        "cond_val": 0,
+        "content": "传记四亲密度达到1000"
       }
     ]
   },
@@ -3157,6 +3229,75 @@
         "achieve_type": 4012,
         "cond_val": 6,
         "content": "将烬天玉藻前技能升级6次"
+      }
+    ]
+  },
+  {
+    "hero_id": 340,
+    "tasks": [
+      {
+        "id": 1462,
+        "achieve_type": 4002,
+        "cond_val": 40,
+        "content": "将纸舞升至40级"
+      },
+      {
+        "id": 1463,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将纸舞进行觉醒"
+      },
+      {
+        "id": 1464,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将纸舞技能升级8次"
+      }
+    ]
+  },
+  {
+    "hero_id": 341,
+    "tasks": [
+      {
+        "id": 1453,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "鬼王酒吞童子与携带炼狱茨木童子的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1454,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将鬼王酒吞童子技能升级8次"
+      },
+      {
+        "id": 1455,
+        "achieve_type": 4007,
+        "cond_val": 10,
+        "content": "鬼王酒吞童子在斗技、练习或切磋中取得10次对抗大岳丸的胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 342,
+    "tasks": [
+      {
+        "id": 1459,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "星熊童子与携带酒吞童子的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1460,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将星熊童子技能升级8次"
+      },
+      {
+        "id": 1461,
+        "achieve_type": 4018,
+        "cond_val": 1,
+        "content": "在斗技或切磋中，星熊童子的酒鬼触发任意特殊表情"
       }
     ]
   },
