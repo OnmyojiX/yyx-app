@@ -3302,6 +3302,29 @@
     ]
   },
   {
+    "hero_id": 343,
+    "tasks": [
+      {
+        "id": 1465,
+        "achieve_type": 4002,
+        "cond_val": 40,
+        "content": "将天剑韧心鬼切升至40级"
+      },
+      {
+        "id": 1466,
+        "achieve_type": 4012,
+        "cond_val": 10,
+        "content": "将天剑韧心鬼切技能升级10次"
+      },
+      {
+        "id": 1467,
+        "achieve_type": 4097,
+        "cond_val": 1,
+        "content": "一场斗技或切磋中，天剑韧心鬼切触发10次格挡效果"
+      }
+    ]
+  },
+  {
     "hero_id": 400,
     "tasks": [
       {

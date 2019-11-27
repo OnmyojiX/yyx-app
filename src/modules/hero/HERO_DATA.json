@@ -5813,6 +5813,49 @@
     }
   },
   {
+    "id": 343,
+    "name": "天剑韧心鬼切",
+    "attr_rating": [
+      [
+        "s",
+        "c",
+        "d",
+        "a",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "d",
+        "s",
+        "s"
+      ]
+    ],
+    "rarity": "SP",
+    "skills": [
+      3431,
+      3432,
+      3433
+    ],
+    "awake_skill": null,
+    "base_attrs": {
+      "crit_power": 0.6,
+      "crit_rate": 0.12,
+      "speed": 109,
+      "defense": 0.67,
+      "attack": 1.15,
+      "hp": 0.86
+    },
+    "awake_attrs": {
+      "attack": 0.12,
+      "crit_power": 0,
+      "crit_rate": 0,
+      "speed": 10,
+      "defense": 0.1,
+      "hp": 0.1
+    }
+  },
+  {
     "id": 400,
     "name": "盗墓小鬼",
     "attr_rating": [
