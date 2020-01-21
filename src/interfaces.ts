@@ -214,7 +214,7 @@ export interface IHeroStoryTaskData {
 export interface IStoryTaskData {
   id: number;
   achieve_type: number;
-  cond_var: number;
+  cond_val: number;
   content: string;
 }
 

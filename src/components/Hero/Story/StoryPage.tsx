@@ -54,7 +54,7 @@ export const StoryPage = () => {
     }
     return getDataList().map(item => {
       const taskStatus = item.tasks.map(t => {
-        const [v, max_v] = progressMap.get(t.id) || [0, t.cond_var];
+        const [v, max_v] = progressMap.get(t.id) || [0, t.cond_val];
         return {
           id: t.id,
           v,
@@ -95,7 +95,7 @@ export const StoryPage = () => {
                 <td>
                   <ul className="task-list">
                     {i.tasks.map((t, i) => {
-                      const [v, max] = progressMap.get(t.id);
+                      const [v, max] = progressMap.get(t.id) || [0, t.cond_val];
                       return (
                         <li key={i}>
                           {t.content} ({formatProgress(v, max)})
