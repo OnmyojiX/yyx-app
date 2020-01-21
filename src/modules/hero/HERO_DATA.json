@@ -626,7 +626,7 @@
     "base_attrs": {
       "crit_power": 0.5,
       "crit_rate": 0.08,
-      "speed": 105,
+      "speed": 108,
       "defense": 0.87,
       "attack": 0.98,
       "hp": 0.85
@@ -5853,6 +5853,135 @@
       "speed": 10,
       "defense": 0.1,
       "hp": 0.1
+    }
+  },
+  {
+    "id": 344,
+    "name": "云外镜",
+    "attr_rating": [
+      [
+        "a",
+        "d",
+        "a",
+        "c",
+        "s"
+      ],
+      [
+        "s",
+        "d",
+        "s",
+        "a",
+        "s"
+      ]
+    ],
+    "rarity": "SSR",
+    "skills": [
+      3444,
+      3445,
+      3446
+    ],
+    "awake_skill": null,
+    "base_attrs": {
+      "crit_power": 0.5,
+      "crit_rate": 0.1,
+      "speed": 99,
+      "defense": 1.03,
+      "attack": 1.03,
+      "hp": 0.66
+    },
+    "awake_attrs": {
+      "attack": 0.1,
+      "crit_power": 0,
+      "crit_rate": 0,
+      "speed": 10,
+      "defense": 0.1,
+      "hp": 0.07
+    }
+  },
+  {
+    "id": 345,
+    "name": "鬼童丸",
+    "attr_rating": [
+      [
+        "s",
+        "d",
+        "d",
+        "a",
+        "s"
+      ],
+      [
+        "s",
+        "c",
+        "c",
+        "s",
+        "s"
+      ]
+    ],
+    "rarity": "SSR",
+    "skills": [
+      3451,
+      3452,
+      3453
+    ],
+    "awake_skill": null,
+    "base_attrs": {
+      "crit_power": 0.5,
+      "crit_rate": 0.11,
+      "speed": 108,
+      "defense": 0.79,
+      "attack": 1.167,
+      "hp": 0.79
+    },
+    "awake_attrs": {
+      "attack": 0.1,
+      "crit_power": 0,
+      "crit_rate": 0,
+      "speed": 10,
+      "defense": 0.1,
+      "hp": 0.1
+    }
+  },
+  {
+    "id": 346,
+    "name": "聆海金鱼姬",
+    "attr_rating": [
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "s"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
+    "rarity": "SP",
+    "skills": [
+      3461,
+      3462,
+      3463
+    ],
+    "awake_skill": null,
+    "base_attrs": {
+      "crit_power": 0.5,
+      "crit_rate": 0.1,
+      "speed": 111,
+      "defense": 0.91,
+      "attack": 1.12,
+      "hp": 0.97
+    },
+    "awake_attrs": {
+      "attack": 0,
+      "crit_power": 0,
+      "crit_rate": 0,
+      "speed": 0,
+      "defense": 0,
+      "hp": 0
     }
   },
   {
