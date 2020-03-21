@@ -3406,6 +3406,29 @@
     ]
   },
   {
+    "hero_id": 347,
+    "tasks": [
+      {
+        "id": 1477,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将缘结神升至30级"
+      },
+      {
+        "id": 1478,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将缘结神技能升级8次"
+      },
+      {
+        "id": 1479,
+        "achieve_type": 4100,
+        "cond_val": 99,
+        "content": "斗技或切磋中，缘达成99次"
+      }
+    ]
+  },
+  {
     "hero_id": 400,
     "tasks": [
       {

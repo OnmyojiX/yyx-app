@@ -5985,6 +5985,49 @@
     }
   },
   {
+    "id": 347,
+    "name": "缘结神",
+    "attr_rating": [
+      [
+        "d",
+        "a",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "c",
+        "s",
+        "a",
+        "s",
+        "b"
+      ]
+    ],
+    "rarity": "SSR",
+    "skills": [
+      3471,
+      3472,
+      3473
+    ],
+    "awake_skill": null,
+    "base_attrs": {
+      "crit_power": 0.5,
+      "crit_rate": 0.05,
+      "speed": 100,
+      "defense": 0.91,
+      "attack": 0.75,
+      "hp": 1.07
+    },
+    "awake_attrs": {
+      "attack": 0.07,
+      "crit_power": 0,
+      "crit_rate": 0,
+      "speed": 10,
+      "defense": 0.09,
+      "hp": 0.11
+    }
+  },
+  {
     "id": 400,
     "name": "盗墓小鬼",
     "attr_rating": [
