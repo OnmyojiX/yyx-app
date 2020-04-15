@@ -6028,6 +6028,49 @@
     }
   },
   {
+    "id": 348,
+    "name": "浮世青行灯",
+    "attr_rating": [
+      [
+        "b",
+        "b",
+        "c",
+        "a",
+        "s"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "s",
+        "s"
+      ]
+    ],
+    "rarity": "SP",
+    "skills": [
+      3481,
+      3482,
+      3483
+    ],
+    "awake_skill": null,
+    "base_attrs": {
+      "crit_power": 0.5,
+      "crit_rate": 0.1,
+      "speed": 109,
+      "defense": 0.89,
+      "attack": 0.93,
+      "hp": 0.92
+    },
+    "awake_attrs": {
+      "attack": 0.09,
+      "crit_power": 0,
+      "crit_rate": 0,
+      "speed": 10,
+      "defense": 0.08,
+      "hp": 0.09
+    }
+  },
+  {
     "id": 400,
     "name": "盗墓小鬼",
     "attr_rating": [

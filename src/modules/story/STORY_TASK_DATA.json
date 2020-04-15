@@ -3429,6 +3429,29 @@
     ]
   },
   {
+    "hero_id": 348,
+    "tasks": [
+      {
+        "id": 1480,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "浮世青行灯与携带青行灯的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1481,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将浮世青行灯技能升级8次"
+      },
+      {
+        "id": 1482,
+        "achieve_type": 4100,
+        "cond_val": 1,
+        "content": "斗技或切磋中，施放技能「浮世终话」并取得胜利"
+      }
+    ]
+  },
+  {
     "hero_id": 400,
     "tasks": [
       {
