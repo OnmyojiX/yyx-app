@@ -1933,6 +1933,12 @@
         "achieve_type": 10009,
         "cond_val": 0,
         "content": "传记四亲密度达到1200"
+      },
+      {
+        "id": 128310,
+        "achieve_type": 10010,
+        "cond_val": 1,
+        "content": "获得传说皮肤「神宫金社」"
       }
     ]
   },
@@ -3448,6 +3454,52 @@
         "achieve_type": 4100,
         "cond_val": 1,
         "content": "斗技或切磋中，施放技能「浮世终话」并取得胜利"
+      }
+    ]
+  },
+  {
+    "hero_id": 349,
+    "tasks": [
+      {
+        "id": 1483,
+        "achieve_type": 4001,
+        "cond_val": 40,
+        "content": "风狸参战取得40场胜利"
+      },
+      {
+        "id": 1484,
+        "achieve_type": 4002,
+        "cond_val": 30,
+        "content": "将风狸升至30级"
+      },
+      {
+        "id": 1485,
+        "achieve_type": 4012,
+        "cond_val": 6,
+        "content": "将风狸技能升级6次"
+      }
+    ]
+  },
+  {
+    "hero_id": 351,
+    "tasks": [
+      {
+        "id": 1489,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "铃鹿御前与携带大岳丸的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1490,
+        "achieve_type": 4012,
+        "cond_val": 12,
+        "content": "将铃鹿御前技能升级12次"
+      },
+      {
+        "id": 1491,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "铃鹿御前在30场斗技或练习中取胜"
       }
     ]
   },

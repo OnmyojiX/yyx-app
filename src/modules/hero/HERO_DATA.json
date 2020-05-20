@@ -6071,6 +6071,92 @@
     }
   },
   {
+    "id": 349,
+    "name": "风狸",
+    "attr_rating": [
+      [
+        "a",
+        "b",
+        "d",
+        "c",
+        "c"
+      ],
+      [
+        "s",
+        "a",
+        "c",
+        "a",
+        "c"
+      ]
+    ],
+    "rarity": "SR",
+    "skills": [
+      3491,
+      3492,
+      3493
+    ],
+    "awake_skill": null,
+    "base_attrs": {
+      "crit_power": 0.5,
+      "crit_rate": 0.03,
+      "speed": 99,
+      "defense": 0.79,
+      "attack": 1.01,
+      "hp": 0.9
+    },
+    "awake_attrs": {
+      "attack": 0.11,
+      "crit_power": 0,
+      "crit_rate": 0,
+      "speed": 10,
+      "defense": 0.09,
+      "hp": 0.1
+    }
+  },
+  {
+    "id": 351,
+    "name": "铃鹿御前",
+    "attr_rating": [
+      [
+        "s",
+        "a",
+        "c",
+        "b",
+        "s"
+      ],
+      [
+        "s",
+        "s",
+        "c",
+        "s",
+        "s"
+      ]
+    ],
+    "rarity": "SSR",
+    "skills": [
+      3511,
+      3512,
+      3513
+    ],
+    "awake_skill": null,
+    "base_attrs": {
+      "crit_power": 0.5,
+      "crit_rate": 0.1,
+      "speed": 100,
+      "defense": 0.8,
+      "attack": 1.11,
+      "hp": 1.06
+    },
+    "awake_attrs": {
+      "attack": 0.11,
+      "crit_power": 0,
+      "crit_rate": 0,
+      "speed": 10,
+      "defense": 0.07,
+      "hp": 0.1
+    }
+  },
+  {
     "id": 400,
     "name": "盗墓小鬼",
     "attr_rating": [
