@@ -6114,6 +6114,49 @@
     }
   },
   {
+    "id": 350,
+    "name": "蝎女",
+    "attr_rating": [
+      [
+        "a",
+        "b",
+        "c",
+        "c",
+        "b"
+      ],
+      [
+        "s",
+        "b",
+        "b",
+        "a",
+        "b"
+      ]
+    ],
+    "rarity": "SR",
+    "skills": [
+      3501,
+      3502,
+      3503
+    ],
+    "awake_skill": null,
+    "base_attrs": {
+      "crit_power": 0.5,
+      "crit_rate": 0.05,
+      "speed": 97,
+      "defense": 0.81,
+      "attack": 1.01,
+      "hp": 0.9
+    },
+    "awake_attrs": {
+      "attack": 0.1,
+      "crit_power": 0,
+      "crit_rate": 0,
+      "speed": 10,
+      "defense": 0.09,
+      "hp": 0.09
+    }
+  },
+  {
     "id": 351,
     "name": "铃鹿御前",
     "attr_rating": [
@@ -6154,6 +6197,49 @@
       "speed": 10,
       "defense": 0.07,
       "hp": 0.1
+    }
+  },
+  {
+    "id": 352,
+    "name": "缚骨清姬",
+    "attr_rating": [
+      [
+        "s",
+        "a",
+        "b",
+        "s",
+        "c"
+      ],
+      [
+        "s",
+        "a",
+        "b",
+        "s",
+        "c"
+      ]
+    ],
+    "rarity": "SP",
+    "skills": [
+      3521,
+      3522,
+      3523
+    ],
+    "awake_skill": null,
+    "base_attrs": {
+      "crit_power": 0.5,
+      "crit_rate": 0.03,
+      "speed": 118,
+      "defense": 0.903,
+      "attack": 1.13,
+      "hp": 1.057
+    },
+    "awake_attrs": {
+      "attack": 0,
+      "crit_power": 0,
+      "crit_rate": 0,
+      "speed": 0,
+      "defense": 0,
+      "hp": 0
     }
   },
   {

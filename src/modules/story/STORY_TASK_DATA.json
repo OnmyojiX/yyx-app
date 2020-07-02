@@ -1344,6 +1344,12 @@
         "achieve_type": 4012,
         "cond_val": 8,
         "content": "将清姬技能升级8次"
+      },
+      {
+        "id": 126010,
+        "achieve_type": 10010,
+        "cond_val": 1,
+        "content": "获得典藏皮肤「化烟」"
       }
     ]
   },
@@ -3481,6 +3487,29 @@
     ]
   },
   {
+    "hero_id": 350,
+    "tasks": [
+      {
+        "id": 1486,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "蝎女与携带铃鹿御前的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1487,
+        "achieve_type": 4003,
+        "cond_val": 1,
+        "content": "将蝎女进行觉醒"
+      },
+      {
+        "id": 1488,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将蝎女技能升级8次"
+      }
+    ]
+  },
+  {
     "hero_id": 351,
     "tasks": [
       {
@@ -3500,6 +3529,29 @@
         "achieve_type": 4011,
         "cond_val": 30,
         "content": "铃鹿御前在30场斗技或练习中取胜"
+      }
+    ]
+  },
+  {
+    "hero_id": 352,
+    "tasks": [
+      {
+        "id": 1492,
+        "achieve_type": 4006,
+        "cond_val": 10,
+        "content": "缚骨清姬与携带清姬的其他玩家取得10次协战胜利"
+      },
+      {
+        "id": 1493,
+        "achieve_type": 4012,
+        "cond_val": 8,
+        "content": "将缚骨清姬技能升级8次"
+      },
+      {
+        "id": 1494,
+        "achieve_type": 4011,
+        "cond_val": 30,
+        "content": "缚骨清姬在30场斗技或练习中取胜"
       }
     ]
   },
